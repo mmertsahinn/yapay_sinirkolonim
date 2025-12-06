@@ -1,0 +1,44 @@
+2025-11-30 02:06:22,253 - INFO - ====== WebDriver manager ======
+2025-11-30 02:06:23,125 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 02:06:23,802 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 02:06:24,464 - INFO - There is no [win64] chromedriver "142.0.7444.175" for browser google-chrome "142.0.7444" in cache
+2025-11-30 02:06:24,465 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 02:06:26,016 - INFO - WebDriver version 142.0.7444.175 selected
+2025-11-30 02:06:26,021 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-30 02:06:26,026 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-30 02:06:26,683 - INFO - Driver downloading response is 200
+2025-11-30 02:06:41,862 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 02:06:43,540 - INFO - Driver has been saved in cache [C:\Users\muham\.wdm\drivers\chromedriver\win64\142.0.7444.175]
+2025-11-30 02:06:45,373 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2020-2021/results/
+2025-11-30 02:06:57,199 - WARNING - Maç satırları bulunamadi
+2025-11-30 02:06:57,199 - INFO - Premier League 2020-2021: 0 mac bulundu
+2025-11-30 02:07:00,201 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2021-2022/results/
+2025-11-30 02:07:06,806 - WARNING - Maç satırları bulunamadi
+2025-11-30 02:07:06,806 - INFO - Premier League 2021-2022: 0 mac bulundu
+2025-11-30 02:07:09,806 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2022-2023/results/
+2025-11-30 02:07:16,342 - WARNING - Maç satırları bulunamadi
+2025-11-30 02:07:16,342 - INFO - Premier League 2022-2023: 0 mac bulundu
+2025-11-30 02:07:19,343 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2023-2024/results/
+2025-11-30 02:07:25,403 - WARNING - Maç satırları bulunamadi
+2025-11-30 02:07:25,403 - INFO - Premier League 2023-2024: 0 mac bulundu
+2025-11-30 02:07:28,404 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2024-2025/results/
+2025-11-30 02:07:34,702 - WARNING - Maç satırları bulunamadi
+2025-11-30 02:07:34,703 - INFO - Premier League 2024-2025: 0 mac bulundu
+2025-11-30 02:07:37,704 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/spain/laliga-2020-2021/results/
+2025-11-30 02:08:02,153 - INFO - ====== WebDriver manager ======
+2025-11-30 02:08:02,816 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 02:08:03,631 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-30 02:08:04,242 - INFO - Driver [C:\Users\muham\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-30 02:08:05,880 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2020-2021/results/
+2025-11-30 02:08:25,252 - INFO - ✅ 5 element bulundu (selector: div[class*='eventRow'])
+2025-11-30 02:08:25,329 - INFO - 0 mac verisi cikarildi
+2025-11-30 02:08:25,329 - INFO - Premier League 2020-2021: 0 mac bulundu
+2025-11-30 02:08:28,330 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2021-2022/results/
+2025-11-30 02:08:43,107 - INFO - ✅ 5 element bulundu (selector: div[class*='eventRow'])
+2025-11-30 02:08:43,324 - INFO - 0 mac verisi cikarildi
+2025-11-30 02:08:43,324 - INFO - Premier League 2021-2022: 0 mac bulundu
+2025-11-30 02:08:46,324 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2022-2023/results/
+2025-11-30 02:09:00,295 - INFO - ✅ 5 element bulundu (selector: div[class*='eventRow'])
+2025-11-30 02:09:00,466 - INFO - 0 mac verisi cikarildi
+2025-11-30 02:09:00,467 - INFO - Premier League 2022-2023: 0 mac bulundu
+2025-11-30 02:09:03,468 - INFO - Sayfa yukleniyor: https://www.oddsportal.com/football/england/premier-league-2023-2024/results/

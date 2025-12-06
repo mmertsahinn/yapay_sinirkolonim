@@ -1,0 +1,298 @@
+================================================================================
+🎒 LoRA KİŞİSEL CÜZDANI (KİMLİK BELGESİ)
+================================================================================
+İsim: LoRA_Gen5_57bc9528
+ID: 57bc9528
+Doğum Maçı: #16
+Generasyon: 5
+🎭 Duygu Arketipi: Dengeli
+Oluşturulma: 2025-12-04 05:15:03
+================================================================================
+
+🌳 SOYAĞACI:
+────────────────────────────────────────────────────────────────────────────────
+  👨 Anne: eb3feaa7
+  👩 Baba: 5381adc7
+────────────────────────────────────────────────────────────────────────────────
+
+🎭 MİZAÇ PROFİLİ:
+────────────────────────────────────────────────────────────────────────────────
+  Independence             : [███░░░░░░░] 0.37
+  Social Intelligence      : [████████░░] 0.81
+  Herd Tendency            : [███████░░░] 0.75
+  Contrarian Score         : [█████████░] 0.93
+  Emotional Depth          : [███████░░░] 0.77
+  Empathy                  : [█████░░░░░] 0.57
+  Anger Tendency           : [████████░░] 0.88
+  Ambition                 : [██████████] 1.00
+  Competitiveness          : [█████░░░░░] 0.60
+  Resilience               : [█████████░] 0.95
+  Will To Live             : [███████░░░] 0.70
+  Patience                 : [████████░░] 0.85
+  Impulsiveness            : [██████░░░░] 0.69
+  Stress Tolerance         : [████████░░] 0.82
+  Risk Appetite            : [███░░░░░░░] 0.33
+────────────────────────────────────────────────────────────────────────────────
+
+🔗 SOSYAL BAĞLAR:
+────────────────────────────────────────────────────────────────────────────────
+  Henüz sosyal bağ yok (yeni doğdu)
+────────────────────────────────────────────────────────────────────────────────
+
+Maç #16 [2025-12-04 05:15:03] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: away_win ❌ YANLIŞ | 0-1 ➖ Skor yakın
+Maç #16 [2025-12-04 05:15:08] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #16 [2025-12-04 05:15:08] ÖĞRENME: Fitness: 0.500 → 0.000 (-0.500) ↘️
+Maç #17 [2025-12-04 05:15:13] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 0-0 ✅ Gol farkı doğru
+Maç #17 [2025-12-04 05:15:19] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #17 [2025-12-04 05:15:19] ÖĞRENME: Fitness: 0.000 → 0.000 (+0.000) ↘️
+Maç #18 [2025-12-04 05:15:24] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: home_win (80%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-0 ➖ Skor yakın
+Maç #18 [2025-12-04 05:15:30] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: home_win (80%) | Skor: h-o
+
+Maç #18 [2025-12-04 05:15:30] ÖĞRENME: Fitness: 0.000 → 0.333 (+0.333) ↗️
+Maç #19 [2025-12-04 05:15:33] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 3-1 ❌ Skor uzak
+Maç #19 [2025-12-04 05:15:39] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #19 [2025-12-04 05:15:39] ÖĞRENME: Fitness: 0.333 → 0.500 (+0.167) ↗️
+Maç #20 [2025-12-04 05:15:42] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 1-1 🎯 SKOR TAM!
+Maç #20 [2025-12-04 05:15:48] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #20 [2025-12-04 05:15:48] ÖĞRENME: Fitness: 0.500 → 0.400 (-0.100) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #20 (2025-12-04 05:15:48)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: 4 maç | 🎯 Fitness: 0.400 | 🧬 Gen: 5
+
+🌊 PARÇACIK FİZİĞİ:
+   ⚡ Life Energy: 1.420
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Onsager-Machlup (S_OM): 0.000
+   🧟 Lazarus Λ: 0.535
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 2/5 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen4_eb3feaa7 | Fitness: 0.636
+  Baba: LoRA_Gen1_5381adc7 (home_form + hype: orta_düşük (80%)) | Fitness: 0.627
+  Kardeşler: LoRA_Gen5_97e62b4a
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 2 (%40.0)
+  Yanlış: 3 (%60.0)
+  Güncel Fitness: 0.400
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [████░░░░░░] 0.42
+  Social_intelligence: [███████░░░] 0.74
+  Herd_tendency: [███████░░░] 0.76
+  Contrarian_score: [████████░░] 0.88
+  Emotional_depth: [███████░░░] 0.72
+  Empathy: [█████░░░░░] 0.58
+  Anger_tendency: [████████░░] 0.89
+  Ambition: [█████████░] 0.93
+  Competitiveness: [█████░░░░░] 0.53
+  Resilience: [█████████░] 1.00
+  Will_to_live: [██████░░░░] 0.69
+  Patience: [███████░░░] 0.77
+  Impulsiveness: [███████░░░] 0.75
+  Stress_tolerance: [████████░░] 0.86
+  Risk_appetite: [███░░░░░░░] 0.32
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #16 [2025-12-04 05:15:03] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: away_win ❌ YANLIŞ | 0-1 ➖ Skor yakın
+  Maç #16 [2025-12-04 05:15:08] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #16 [2025-12-04 05:15:08] ÖĞRENME: Fitness: 0.500 → 0.000 (-0.500) ↘️
+  Maç #17 [2025-12-04 05:15:13] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 0-0 ✅ Gol farkı doğru
+  Maç #17 [2025-12-04 05:15:19] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: d-r
+
+  Maç #17 [2025-12-04 05:15:19] ÖĞRENME: Fitness: 0.000 → 0.000 (+0.000) ↘️
+  Maç #18 [2025-12-04 05:15:24] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: home_win (80%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-0 ➖ Skor yakın
+  Maç #18 [2025-12-04 05:15:30] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: home_win (80%) | Skor: h-o
+
+  Maç #18 [2025-12-04 05:15:30] ÖĞRENME: Fitness: 0.000 → 0.333 (+0.333) ↗️
+  Maç #19 [2025-12-04 05:15:33] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 3-1 ❌ Skor uzak
+  Maç #19 [2025-12-04 05:15:39] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+  Maç #19 [2025-12-04 05:15:39] ÖĞRENME: Fitness: 0.333 → 0.500 (+0.167) ↗️
+  Maç #20 [2025-12-04 05:15:42] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 1-1 🎯 SKOR TAM!
+  Maç #20 [2025-12-04 05:15:48] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: home_win (100%) | Skor: d-r
+
+  Maç #20 [2025-12-04 05:15:48] ÖĞRENME: Fitness: 0.500 → 0.400 (-0.100) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #18)
+  • En uzun doğru streak: 2 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ Orta risk (fitness: 0.400)
+
+================================================================================
+Son Güncelleme: Maç #20 (2025-12-04 05:15:48)
+================================================================================
+Maç #21 [2025-12-04 05:15:54] TAHMİN: Sporting Charleroi vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 1-1 🎯 SKOR TAM!
+Maç #21 [2025-12-04 05:16:00] TAHMİN: Sporting Charleroi vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #21 [2025-12-04 05:16:00] ÖĞRENME: Fitness: 0.400 → 0.333 (-0.067) ↘️
+Maç #22 [2025-12-04 05:16:04] TAHMİN: Royal Antwerp vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 3-1 ❌ Skor uzak
+Maç #22 [2025-12-04 05:16:11] TAHMİN: Royal Antwerp vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #22 [2025-12-04 05:16:11] ÖĞRENME: Fitness: 0.333 → 0.429 (+0.095) ↗️
+Maç #23 [2025-12-04 05:16:15] TAHMİN: Sint-Truidense VV vs Royal Antwerp
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 1-0 ➖ Skor yakın
+Maç #23 [2025-12-04 05:16:22] TAHMİN: Sint-Truidense VV vs Royal Antwerp
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #23 [2025-12-04 05:16:22] ÖĞRENME: Fitness: 0.429 → 0.500 (+0.071) ↗️
+Maç #24 [2025-12-04 05:16:27] TAHMİN: Sint-Truidense VV vs RSC Anderlecht
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 2-2 ✅ Gol farkı doğru
+Maç #24 [2025-12-04 05:16:34] TAHMİN: Sint-Truidense VV vs RSC Anderlecht
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #24 [2025-12-04 05:16:34] ÖĞRENME: Fitness: 0.500 → 0.444 (-0.056) ↘️
+Maç #25 [2025-12-04 05:16:38] TAHMİN: Club Brugge KV vs Union Saint-Gilloise
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 1-0 ➖ Skor yakın
+Maç #25 [2025-12-04 05:16:44] TAHMİN: Club Brugge KV vs Union Saint-Gilloise
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #25 [2025-12-04 05:16:44] ÖĞRENME: Fitness: 0.444 → 0.500 (+0.056) ↗️
+Maç #26 [2025-12-04 05:16:48] TAHMİN: Sporting Charleroi vs KV Mechelen
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: away_win ❌ YANLIŞ | 0-2 ➖ Skor yakın
+Maç #26 [2025-12-04 05:16:55] TAHMİN: Sporting Charleroi vs KV Mechelen
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #26 [2025-12-04 05:16:55] ÖĞRENME: Fitness: 0.500 → 0.455 (-0.045) ↘️
+Maç #27 [2025-12-04 05:16:59] TAHMİN: Club Brugge KV vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-0 ➖ Skor yakın
+Maç #27 [2025-12-04 05:17:05] TAHMİN: Club Brugge KV vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #27 [2025-12-04 05:17:05] ÖĞRENME: Fitness: 0.455 → 0.500 (+0.045) ↗️
+Maç #28 [2025-12-04 05:17:09] TAHMİN: RSC Anderlecht vs KRC Genk
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 1-1 🎯 SKOR TAM!
+Maç #28 [2025-12-04 05:17:15] TAHMİN: RSC Anderlecht vs KRC Genk
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #28 [2025-12-04 05:17:15] ÖĞRENME: Fitness: 0.500 → 0.462 (-0.038) ↘️
+Maç #29 [2025-12-04 05:17:19] TAHMİN: Union Saint-Gilloise vs RSC Anderlecht
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-0 ➖ Skor yakın
+Maç #29 [2025-12-04 05:17:25] TAHMİN: Union Saint-Gilloise vs RSC Anderlecht
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #29 [2025-12-04 05:17:25] ÖĞRENME: Fitness: 0.462 → 0.500 (+0.038) ↗️
+Maç #30 [2025-12-04 05:17:29] TAHMİN: RAAL La Louviere vs Union Saint-Gilloise
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 0-0 ✅ Gol farkı doğru
+Maç #30 [2025-12-04 05:17:35] TAHMİN: RAAL La Louviere vs Union Saint-Gilloise
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #30 [2025-12-04 05:17:35] ÖĞRENME: Fitness: 0.500 → 0.467 (-0.033) ↘️
+Maç #31 [2025-12-04 05:17:40] TAHMİN: Cercle Brugge vs KVC Westerlo
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 4-1 ❌ Skor uzak
+Maç #31 [2025-12-04 05:17:46] TAHMİN: Cercle Brugge vs KVC Westerlo
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #31 [2025-12-04 05:17:46] ÖĞRENME: Fitness: 0.467 → 0.448 (-0.018) ↘️
+Maç #32 [2025-12-04 05:17:49] TAHMİN: RSC Anderlecht vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 1-0 ➖ Skor yakın
+Maç #32 [2025-12-04 05:17:56] TAHMİN: RSC Anderlecht vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #32 [2025-12-04 05:17:56] ÖĞRENME: Fitness: 0.448 → 0.481 (+0.032) ↗️
+Maç #33 [2025-12-04 05:18:00] TAHMİN: RAAL La Louviere vs Standard Liège
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: away_win ❌ YANLIŞ | 0-2 ➖ Skor yakın
+Maç #33 [2025-12-04 05:18:07] TAHMİN: RAAL La Louviere vs Standard Liège
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #33 [2025-12-04 05:18:07] ÖĞRENME: Fitness: 0.481 → 0.454 (-0.027) ↘️
+Maç #34 [2025-12-04 05:18:11] TAHMİN: Royal Antwerp vs Union Saint-Gilloise
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 1-1 🎯 SKOR TAM!
+Maç #34 [2025-12-04 05:18:18] TAHMİN: Royal Antwerp vs Union Saint-Gilloise
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #34 [2025-12-04 05:18:18] ÖĞRENME: Fitness: 0.454 → 0.430 (-0.024) ↘️
+Maç #35 [2025-12-04 05:18:21] TAHMİN: RAAL La Louviere vs Club Brugge KV
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 1-0 ➖ Skor yakın
+Maç #35 [2025-12-04 05:18:28] TAHMİN: RAAL La Louviere vs Club Brugge KV
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #35 [2025-12-04 05:18:28] ÖĞRENME: Fitness: 0.430 → 0.459 (+0.028) ↗️
+Maç #36 [2025-12-04 05:18:31] TAHMİN: Standard Liège vs Sporting Charleroi
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 3-1 ❌ Skor uzak
+Maç #36 [2025-12-04 05:18:38] TAHMİN: Standard Liège vs Sporting Charleroi
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #36 [2025-12-04 05:18:38] ÖĞRENME: Fitness: 0.459 → 0.484 (+0.026) ↗️
+Maç #37 [2025-12-04 05:18:41] TAHMİN: KAA Gent vs Standard Liège
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 4-0 ❌ Skor uzak
+Maç #37 [2025-12-04 05:18:48] TAHMİN: KAA Gent vs Standard Liège
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #37 [2025-12-04 05:18:48] ÖĞRENME: Fitness: 0.484 → 0.508 (+0.023) ↗️
+Maç #38 [2025-12-04 05:18:52] TAHMİN: RSC Anderlecht vs KV Mechelen
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 3-1 ❌ Skor uzak

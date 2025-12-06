@@ -1,0 +1,895 @@
+====================================================================================================
+MAÇ SONUÇLARI LOG DEFTERİ
+====================================================================================================
+Oluşturulma: 2025-12-03 12:18:41
+====================================================================================================
+
+
+####################################################################################################
+YENİ OTURUM BAŞLADI: 2025-12-03 12:18:41
+🔄 RESUME MODE: Önceki durumdan devam ediliyor
+📊 Toplam Maç: 10
+####################################################################################################
+
+
+====================================================================================================
+MAÇ #1 - 2025-07-19 18:30:00
+====================================================================================================
+🏟️  SpVgg Ansbach vs 1. FC Nurnberg II
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 39%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: DEPLASMAN
+   • Maç sonucu: 1-4
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ✅ DOĞRU TAHMİN!
+
+🧬 POPÜLASYON: 20 LoRA
+
+💭 LoRA DÜŞÜNCELERI (20 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_000 [Dengeli] | Fitness: 0.500
+   → Kazanan: BERABERE (99%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_001 [Bağımsız] | Fitness: 0.500
+   → Kazanan: BERABERE (87%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_002 [Sürü Psikolojisi] | Fitness: 0.500
+   → Kazanan: BERABERE (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_003 [Dengeli] | Fitness: 0.500
+   → Kazanan: BERABERE (99%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.500
+   → Kazanan: BERABERE (65%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.500
+   → Kazanan: EV SAHİBİ (89%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+✅ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.500
+   → Kazanan: DEPLASMAN (67%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_007 [Bağımsız] | Fitness: 0.500
+   → Kazanan: BERABERE (75%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.500
+   → Kazanan: EV SAHİBİ (90%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_009 [Dengeli] | Fitness: 0.500
+   → Kazanan: EV SAHİBİ (98%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_010 [Sosyal Zeki] | Fitness: 0.500
+   → Kazanan: EV SAHİBİ (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.500
+   → Kazanan: BERABERE (51%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_012 [Karşıt Görüş] | Fitness: 0.500
+   → Kazanan: EV SAHİBİ (94%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+✅ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.500
+   → Kazanan: DEPLASMAN (75%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_014 [Dengeli] | Fitness: 0.500
+   → Kazanan: BERABERE (56%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_015 [Bağımsız] | Fitness: 0.500
+   → Kazanan: BERABERE (97%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+✅ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.500
+   → Kazanan: DEPLASMAN (98%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.500
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_018 [Dengeli] | Fitness: 0.500
+   → Kazanan: BERABERE (97%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+❌ LoRA_Gen0_019 [Dengeli] | Fitness: 0.500
+   → Kazanan: EV SAHİBİ (96%)
+   → Skor tahmini: 1-1
+   → Gerçek: 1-4 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 1-4 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 4/20 LoRA doğru bildi (%20)
+🌟 En iyi: LoRA_Gen0_017 (100% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_010 (100% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #2 - 2025-07-19 19:00:00
+====================================================================================================
+🏟️  1. FC Schweinfurt 05 vs TSV Aubstadt
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 67%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: EV SAHİBİ
+   • Maç sonucu: 2-0
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+   📈 Toplam Puan: 1
+
+🧬 POPÜLASYON: 9 LoRA
+
+💭 LoRA DÜŞÜNCELERI (9 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.170
+   → Kazanan: DEPLASMAN (83%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.825
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.984
+   → Kazanan: BERABERE (92%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+✅ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.035
+   → Kazanan: EV SAHİBİ (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 1.000
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.980
+   → Kazanan: DEPLASMAN (98%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.960
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 1.000
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Alien_9bf75dda [Bağımsız] | Fitness: 0.500
+   → Kazanan: BERABERE (83%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 1/9 LoRA doğru bildi (%11)
+🌟 En iyi: LoRA_Gen0_008 (100% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_017 (100% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #3 - 2025-07-19 19:00:00
+====================================================================================================
+🏟️  TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 42%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: EV SAHİBİ
+   • Maç sonucu: 2-1
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+   📈 Toplam Puan: 1
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.461
+   → Kazanan: DEPLASMAN (40%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+✅ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.889
+   → Kazanan: EV SAHİBİ (35%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.503
+   → Kazanan: DEPLASMAN (42%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+❌ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.517
+   → Kazanan: BERABERE (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.501
+   → Kazanan: DEPLASMAN (38%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.568
+   → Kazanan: DEPLASMAN (42%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+❌ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.480
+   → Kazanan: DEPLASMAN (40%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.500
+   → Kazanan: DEPLASMAN (38%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-1 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-1 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 1/8 LoRA doğru bildi (%12)
+🌟 En iyi: LoRA_Gen0_005 (35% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_013 (42% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #4 - 2025-07-20 14:00:00
+====================================================================================================
+🏟️  Eintracht Bamberg vs SpVgg Hankofen-Hailing
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 43%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: EV SAHİBİ
+   • Maç sonucu: 2-0
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+   📈 Toplam Puan: 1
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.413
+   → Kazanan: DEPLASMAN (39%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+✅ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.824
+   → Kazanan: EV SAHİBİ (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.436
+   → Kazanan: DEPLASMAN (44%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+✅ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.450
+   → Kazanan: EV SAHİBİ (35%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.440
+   → Kazanan: DEPLASMAN (39%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.478
+   → Kazanan: DEPLASMAN (42%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.421
+   → Kazanan: DEPLASMAN (42%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.434
+   → Kazanan: DEPLASMAN (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 2/8 LoRA doğru bildi (%25)
+🌟 En iyi: LoRA_Gen0_005 (37% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_006 (44% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #5 - 2025-07-20 14:00:00
+====================================================================================================
+🏟️  FV Illertissen vs DJK Vilzing
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 43%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: EV SAHİBİ
+   • Maç sonucu: 5-0
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.386
+   → Kazanan: DEPLASMAN (40%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+✅ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.789
+   → Kazanan: EV SAHİBİ (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.398
+   → Kazanan: DEPLASMAN (41%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+❌ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.418
+   → Kazanan: BERABERE (35%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.408
+   → Kazanan: DEPLASMAN (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.432
+   → Kazanan: DEPLASMAN (42%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+❌ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.388
+   → Kazanan: DEPLASMAN (39%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.398
+   → Kazanan: DEPLASMAN (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 5-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 5-0 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 1/8 LoRA doğru bildi (%12)
+🌟 En iyi: LoRA_Gen0_005 (37% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_013 (42% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #6 - 2025-07-20 14:00:00
+====================================================================================================
+🏟️  SpVgg Bayreuth vs TSV Buchbach
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 40%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: EV SAHİBİ
+   • Maç sonucu: 2-0
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+   📈 Toplam Puan: 1
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.372
+   → Kazanan: DEPLASMAN (38%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.695
+   → Kazanan: DEPLASMAN (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+✅ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.381
+   → Kazanan: EV SAHİBİ (36%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.400
+   → Kazanan: BERABERE (34%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.389
+   → Kazanan: DEPLASMAN (35%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.407
+   → Kazanan: DEPLASMAN (36%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.370
+   → Kazanan: DEPLASMAN (36%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.378
+   → Kazanan: DEPLASMAN (35%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 1/8 LoRA doğru bildi (%12)
+🌟 En iyi: LoRA_Gen0_006 (36% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_004 (38% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #7 - 2025-07-20 14:00:00
+====================================================================================================
+🏟️  SpVgg Greuther Furth II vs Augsburg II
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 64%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: DEPLASMAN
+   • Maç sonucu: 2-6
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ✅ DOĞRU TAHMİN!
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+✅ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.362
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.692
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.431
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.445
+   → Kazanan: EV SAHİBİ (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 2-6 ile."
+
+✅ LoRA_Gen0_011 [Dengeli] | Fitness: 0.377
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.393
+   → Kazanan: DEPLASMAN (98%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.362
+   → Kazanan: DEPLASMAN (98%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.370
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-6 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 7/8 LoRA doğru bildi (%88)
+🌟 En iyi: LoRA_Gen0_017 (100% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_008 (100% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #8 - 2025-07-20 14:00:00
+====================================================================================================
+🏟️  Turkgucu Munchen vs Wurzburger Kickers
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 40%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: BERABERE
+   • Maç sonucu: 2-2
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+   📈 Toplam Puan: 4
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.434
+   → Kazanan: DEPLASMAN (37%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Yanıldım. BERABERE kazandı 2-2 ile."
+
+❌ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.715
+   → Kazanan: DEPLASMAN (36%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Yanıldım. BERABERE kazandı 2-2 ile."
+
+❌ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.501
+   → Kazanan: DEPLASMAN (36%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Yanıldım. BERABERE kazandı 2-2 ile."
+
+✅ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.382
+   → Kazanan: BERABERE (34%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.466
+   → Kazanan: DEPLASMAN (36%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Yanıldım. BERABERE kazandı 2-2 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.479
+   → Kazanan: DEPLASMAN (38%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Yanıldım. BERABERE kazandı 2-2 ile."
+
+✅ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.453
+   → Kazanan: BERABERE (34%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.460
+   → Kazanan: DEPLASMAN (35%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-2 (BERABERE)
+   💬 "Yanıldım. BERABERE kazandı 2-2 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 2/8 LoRA doğru bildi (%25)
+🌟 En iyi: LoRA_Gen0_016 (34% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_013 (38% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #9 - 2025-07-25 18:15:00
+====================================================================================================
+🏟️  FCV Dender EH vs Oud-Heverlee Leuven
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 78%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: DEPLASMAN
+   • Maç sonucu: 0-1
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ✅ DOĞRU TAHMİN!
+   📈 Toplam Puan: 1
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.418
+   → Kazanan: BERABERE (94%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 0-1 ile."
+
+✅ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.667
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.478
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.419
+   → Kazanan: EV SAHİBİ (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Yanıldım. DEPLASMAN kazandı 0-1 ile."
+
+✅ LoRA_Gen0_011 [Dengeli] | Fitness: 0.448
+   → Kazanan: DEPLASMAN (99%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.459
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.435
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+✅ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.486
+   → Kazanan: DEPLASMAN (100%)
+   → Skor tahmini: 1-1
+   → Gerçek: 0-1 (DEPLASMAN)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 6/8 LoRA doğru bildi (%75)
+🌟 En iyi: LoRA_Gen0_017 (100% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_008 (100% emindi ama yanlış!)
+
+
+====================================================================================================
+MAÇ #10 - 2025-07-25 18:15:00
+====================================================================================================
+🏟️  Union Saint-Gilloise vs Sint-Truidense VV
+
+🔮 TAHMİN:
+--------------------------------------------------
+   • Kim kazanır? DEPLASMAN
+   • Güven: 54%
+   • Skor tahmini: 1-1
+
+📥 GERÇEK SONUÇ:
+--------------------------------------------------
+   • Kazanan: EV SAHİBİ
+   • Maç sonucu: 2-0
+
+🎯 SONUÇ:
+--------------------------------------------------
+   ❌ YANLIŞ TAHMİN!
+   📈 Toplam Puan: 1
+
+🧬 POPÜLASYON: 8 LoRA
+
+💭 LoRA DÜŞÜNCELERI (8 LoRA):
+====================================================================================================
+
+❌ LoRA_Gen0_004 [Bağımsız] | Fitness: 0.372
+   → Kazanan: DEPLASMAN (40%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+✅ LoRA_Gen0_005 [Bağımsız] | Fitness: 0.701
+   → Kazanan: EV SAHİBİ (47%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_006 [Bağımsız] | Fitness: 0.533
+   → Kazanan: DEPLASMAN (58%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+✅ LoRA_Gen0_008 [Karşıt Görüş] | Fitness: 0.372
+   → Kazanan: EV SAHİBİ (55%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Kazananı doğru bilsem de skor biraz farklıymış."
+
+❌ LoRA_Gen0_011 [Dengeli] | Fitness: 0.509
+   → Kazanan: DEPLASMAN (58%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_013 [Bağımsız] | Fitness: 0.519
+   → Kazanan: DEPLASMAN (50%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_016 [Bağımsız] | Fitness: 0.498
+   → Kazanan: DEPLASMAN (79%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+❌ LoRA_Gen0_017 [Sürü Psikolojisi] | Fitness: 0.540
+   → Kazanan: DEPLASMAN (82%)
+   → Skor tahmini: 1-1
+   → Gerçek: 2-0 (EV SAHİBİ)
+   💬 "Yanıldım. EV SAHİBİ kazandı 2-0 ile."
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+📊 ÖZET: 2/8 LoRA doğru bildi (%25)
+🌟 En iyi: LoRA_Gen0_008 (55% güvenle doğru!)
+⚠️ Aşırı emin yanlış: LoRA_Gen0_017 (82% emindi ama yanlış!)
+
+
+####################################################################################################
+OTURUM TAMAMLANDI: 2025-12-03 12:18:52
+✅ İşlenen Maç: 10
+🧬 Final Popülasyon: 8 LoRA
+####################################################################################################
+

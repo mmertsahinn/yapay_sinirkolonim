@@ -1,0 +1,125 @@
+================================================================================
+🎒 LoRA KİŞİSEL CÜZDANI (KİMLİK BELGESİ)
+================================================================================
+İsim: LoRA_Gen2_21a7c3e3
+ID: 21a7c3e3
+Doğum Maçı: #1
+Generasyon: 2
+🎭 Duygu Arketipi: Sosyal Lider
+Oluşturulma: 2025-12-04 05:03:01
+================================================================================
+
+🌳 SOYAĞACI:
+────────────────────────────────────────────────────────────────────────────────
+  👨 Anne: f0d12123
+  👩 Baba: cafefd61
+────────────────────────────────────────────────────────────────────────────────
+
+🎭 MİZAÇ PROFİLİ:
+────────────────────────────────────────────────────────────────────────────────
+  Independence             : [█████░░░░░] 0.52
+  Social Intelligence      : [██░░░░░░░░] 0.25
+  Herd Tendency            : [███░░░░░░░] 0.37
+  Contrarian Score         : [████░░░░░░] 0.44
+  Emotional Depth          : [██████░░░░] 0.67
+  Empathy                  : [██████░░░░] 0.68
+  Anger Tendency           : [███████░░░] 0.71
+  Ambition                 : [██░░░░░░░░] 0.26
+  Competitiveness          : [████████░░] 0.83
+  Resilience               : [████░░░░░░] 0.50
+  Will To Live             : [░░░░░░░░░░] 0.01
+  Patience                 : [████████░░] 0.88
+  Impulsiveness            : [████████░░] 0.87
+  Stress Tolerance         : [██████░░░░] 0.66
+  Risk Appetite            : [████░░░░░░] 0.47
+────────────────────────────────────────────────────────────────────────────────
+
+🔗 SOSYAL BAĞLAR:
+────────────────────────────────────────────────────────────────────────────────
+  Henüz sosyal bağ yok (yeni doğdu)
+────────────────────────────────────────────────────────────────────────────────
+
+Maç #1 [2025-12-04 05:03:01] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: away_win (100%) | Skor: 1-1
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 ➖ Skor yakın
+Maç #1 [2025-12-04 05:03:05] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: away_win (100%) | Skor: h-o
+
+Maç #1 [2025-12-04 05:03:05] ÖĞRENME: Fitness: 0.500 → 0.000 (-0.500) ↘️
+Maç #2 [2025-12-04 05:03:08] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: away_win (77%) | Skor: 1-1
+      → Gerçek: home_win ❌ YANLIŞ | 2-1 ➖ Skor yakın
+Maç #2 [2025-12-04 05:03:12] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: away_win (77%) | Skor: h-o
+
+Maç #2 [2025-12-04 05:03:12] ÖĞRENME: Fitness: 0.000 → 0.104 (+0.104) ↗️
+Maç #3 [2025-12-04 05:03:15] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (85%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-0 ➖ Skor yakın
+Maç #3 [2025-12-04 05:03:19] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (85%) | Skor: h-o
+
+Maç #3 [2025-12-04 05:03:19] ÖĞRENME: Fitness: 0.104 → 0.380 (+0.276) ↗️
+Maç #4 [2025-12-04 05:03:23] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (51%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 5-0 ❌ Skor uzak
+Maç #4 [2025-12-04 05:03:27] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (51%) | Skor: h-o
+
+Maç #4 [2025-12-04 05:03:27] ÖĞRENME: Fitness: 0.380 → 0.504 (+0.123) ↗️
+Maç #5 [2025-12-04 05:03:32] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: home_win (42%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-0 ➖ Skor yakın
+Maç #5 [2025-12-04 05:03:35] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: home_win (42%) | Skor: h-o
+
+Maç #5 [2025-12-04 05:03:35] ÖĞRENME: Fitness: 0.504 → 0.439 (-0.065) ↘️
+Maç #6 [2025-12-04 05:03:39] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%) | Skor: 1-1
+      → Gerçek: away_win ❌ YANLIŞ | 2-6 ❌ Skor uzak
+Maç #6 [2025-12-04 05:03:43] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #6 [2025-12-04 05:03:43] ÖĞRENME: Fitness: 0.439 → 0.532 (+0.094) ↗️
+Maç #7 [2025-12-04 05:03:46] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (57%) | Skor: 1-1
+      → Gerçek: draw ❌ YANLIŞ | 2-2 ✅ Gol farkı doğru
+Maç #7 [2025-12-04 05:03:50] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (57%) | Skor: d-r
+
+Maç #7 [2025-12-04 05:03:50] ÖĞRENME: Fitness: 0.532 → 0.489 (-0.043) ↘️
+Maç #8 [2025-12-04 05:03:54] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: away_win (100%) | Skor: 1-1
+      → Gerçek: away_win ✅ DOĞRU | 0-1 ➖ Skor yakın
+Maç #8 [2025-12-04 05:03:58] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: away_win (100%) | Skor: a-w
+
+Maç #8 [2025-12-04 05:03:58] ÖĞRENME: Fitness: 0.489 → 0.428 (-0.061) ↘️
+Maç #9 [2025-12-04 05:04:01] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: away_win (100%) | Skor: 1-1
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 ➖ Skor yakın
+Maç #9 [2025-12-04 05:04:04] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: away_win (100%) | Skor: h-o
+
+Maç #9 [2025-12-04 05:04:04] ÖĞRENME: Fitness: 0.428 → 0.381 (-0.048) ↘️
+Maç #10 [2025-12-04 05:04:05] TAHMİN: SV Zulte Waregem vs KAA Gent
+      → Kazanan: away_win (100%) | Skor: 1-1
+      → Gerçek: home_win ❌ YANLIŞ | 4-1 ❌ Skor uzak
+Maç #10 [2025-12-04 05:04:08] TAHMİN: SV Zulte Waregem vs KAA Gent
+      → Kazanan: away_win (100%) | Skor: h-o
+
+Maç #10 [2025-12-04 05:04:08] ÖĞRENME: Fitness: 0.381 → 0.442 (+0.062) ↗️
+Maç #11 [2025-12-04 05:04:11] TAHMİN: RAAL La Louviere vs Cercle Brugge
+      → Kazanan: home_win (46%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-1 ➖ Skor yakın
+Maç #11 [2025-12-04 05:04:15] TAHMİN: RAAL La Louviere vs Cercle Brugge
+      → Kazanan: home_win (46%) | Skor: h-o
+
+Maç #11 [2025-12-04 05:04:15] ÖĞRENME: Fitness: 0.442 → 0.478 (+0.035) ↗️
+Maç #12 [2025-12-04 05:04:17] TAHMİN: Standard Liège vs KRC Genk
+      → Kazanan: home_win (58%) | Skor: 1-1
+      → Gerçek: home_win ✅ DOĞRU | 2-1 ➖ Skor yakın
+Maç #12 [2025-12-04 05:04:20] TAHMİN: Standard Liège vs KRC Genk
+      → Kazanan: home_win (58%) | Skor: h-o
+
+Maç #12 [2025-12-04 05:04:20] ÖĞRENME: Fitness: 0.478 → 0.443 (-0.035) ↘️

@@ -1,0 +1,141 @@
+# 🌪️ KAOTİK EVRİMSEL LoRA SİSTEMİ - KONFIGURASYON
+# ================================================
+
+# POPULASYON PARAMETRELERİ (🌊 AKIŞKAN EVREN!)
+population:
+  min_population: 0            # YOK! Soy tükenebilir! (Manuel diriltme: --resurrect)
+  max_population: null         # YOK! Doğa kendi dengesini kuracak!
+  start_population: 250        # 🌊 BÜYÜK BAŞLANGIÇ! (Maksimum çeşitlilik!)
+  natural_equilibrium: null    # Doğal denge kendini bulacak (tahmini: 150-400 arası)
+
+# ÖLÜM KURALLARI - KOLONİ MANTIĞI! (NEREDEYSE YOK!)
+death:
+  fitness_window: 150          # Son kaç maça bakılacak (çok uzun hafıza)
+  threshold: 0.01              # %1 altında ise ölüm riski (NEREDEYSE İMKANSIZ!)
+  lucky_survival_chance: 0.80  # %80 şanslı kurtuluş (çok çok yüksek!)
+  # NOT: Ölüm neredeyse yok! LoRA'lar ya hibernation'a girer ya da sonsuza kadar yaşar!
+
+# ÜREME KURALLARI
+reproduction:
+  fitness_threshold: 0.60      # Bu üstündeyse çiftleşme şansı var
+  chance_per_match: 0.06       # Her maç %6 çiftleşme şansı
+  
+  # ÇİFTLEŞME EŞ SEÇİMİ (Toplamı 1.0 olmalı)
+  partner_selection:
+    random: 0.30               # %30 tamamen rastgele (KAOS)
+    strongest: 0.30            # %30 en güçlü (klasik evrim)
+    weakest: 0.20              # %20 en zayıf (sürpriz potansiyeli)
+    complementary: 0.20        # %20 tamamlayıcı (farklı uzman)
+
+# GÜRÜLTÜ (KAOS) PARAMETRELERİ
+noise:
+  # Crossover (çiftleşme) gürültüsü
+  crossover:
+    base_noise_max: 0.3        # Her parametrede 0-0.3 arası rastgele
+    mega_noise_chance: 0.10    # %10 MEGA gürültü (büyük değişim)
+  
+  # Mutasyon
+  mutation:
+    param_mutation_chance: 0.15    # %15 her parametre mutasyona uğrayabilir
+    shock_mutation_chance: 0.05    # %5 şok mutasyon (tamamen yeni değer)
+  
+  # Spontane doğum (hiçlikten LoRA doğar!)
+  spontaneous_birth:
+    chance_per_match: 0.04     # Her maç %4 alien LoRA şansı
+
+# LoRA MİMARİSİ
+lora:
+  input_dim: 78                # 60 base + 15 historical + 3 base_proba = 78
+  hidden_dim: 128              # Gizli katman boyutu
+  rank: 16                     # LoRA rank (yüksek = güçlü)
+  alpha: 16.0                  # LoRA alpha (yüksek = agresif öğrenme)
+  dropout: 0.1                 # Regularization
+
+# ONLINE ÖĞRENME
+learning:
+  learning_rate: 0.0001        # Adam optimizer LR
+  buffer_batch_size: 16        # Her update'te kaç buffer örneği
+  update_frequency: 1          # Kaç maçta bir güncelle (1 = her maç)
+
+# REPLAY BUFFER
+buffer:
+  max_size: 1000               # Maximum örnek sayısı
+  importance_weights:
+    loss: 0.3                  # Loss katkısı
+    surprise: 0.3              # Sürpriz katkısı
+    goal_diff: 0.2             # Gol farkı katkısı
+    hype: 0.2                  # Hype katkısı
+
+# META-LoRA
+meta_lora:
+  enabled: true                # Meta-LoRA kullan mı? (false = SimpleMetaLoRA)
+  attention_dim: 16            # Attention vektör boyutu
+  hidden_dim: 64               # Meta-LoRA gizli katman
+
+# LOGLama & RAPORLAMA
+logging:
+  print_every: 10              # Her X maçta durum yazdır
+  save_every: 50               # Her X maçta modelleri kaydet
+  evolution_log: true          # Evrim olaylarını logla
+  detailed_predictions: false  # Her tahminin detayını yazdır mı?
+
+# DEVICE
+device: "cuda"                 # "cuda" veya "cpu"
+cuda_device_id: 0              # Hangi GPU (eğer birden fazlaysa)
+
+# FİTNESS HESAPLAMA
+fitness:
+  # Fitness = accuracy_weight * accuracy + diversity_weight * diversity
+  accuracy_weight: 0.6         # Doğruluk ağırlığı
+  diversity_weight: 0.4        # Çeşitlilik ağırlığı
+  confidence_bonus: true       # Emin olup doğru çıkarsa bonus
+  
+# GELİŞMİŞ MEKANİKLER
+advanced_mechanics:
+  # 1) Elit Direnci
+  elite_resistance:
+    enabled: true
+    max_armor: 0.60              # Max %60 koruma
+  
+  # 2) Sağ Kalan Sendromu
+  survivor_guilt:
+    enabled: true
+    fitness_penalty_ratio: 0.30  # Armor × 0.30
+    trauma_gain_ratio: 0.50      # Armor × 0.50
+    temperament_changes:
+      risk_appetite: 0.70        # ×0.70 (azalır)
+      stress_tolerance: 0.80     # ×0.80 (azalır)
+      impulsiveness: 0.75        # ×0.75 (azalır)
+  
+  # 3) Kan Uyuşmazlığı
+  anti_inbreeding:
+    enabled: true
+    similarity_threshold: 0.95   # %95 üstü benzerlik engellenir
+    mutant_birth_chance: 0.50    # %50 mutant, %50 iptal
+  
+  # 4) Kış Uykusu (KOLONİ MANTIĞI: Ölmez, uyur!)
+  hibernation:
+    enabled: true
+    trigger_population: 30       # 30+ LoRA'da başlar (çok erken!)
+    min_attention: 0.01          # %1 altı uyur (çok düşük)
+    fitness_range: [0.10, 0.60]  # Zayıf + orta LoRA'lar uyur
+    # UYUYANLAR DİSKE YAZILIR, RAM'den çıkar, gerektiğinde yüklenir
+  
+  # 5) Pozitif Geri Besleme Freni
+  feedback_brake:
+    enabled: true
+    cooldown_matches: 20         # Her büyük olaydan sonra 20 maç
+    saturation_threshold: 3      # 20 maçta 3 olay = doygunluk
+    energy_decay: 0.20           # Her 1.0 şiddet = %20 enerji kaybı
+
+# DOSYA YOLLARI
+paths:
+  base_model: "football_prediction_ensemble.joblib"
+  label_encoder: "label_encoder.joblib"
+  lora_population: "lora_population_state.pt"
+  meta_lora: "meta_lora_state.pt"
+  buffer: "replay_buffer.joblib"
+  evolution_log: "evolution_log.json"
+  results_csv: "evolutionary_results.csv"
+  hibernation_dir: "hibernated_loras"
+

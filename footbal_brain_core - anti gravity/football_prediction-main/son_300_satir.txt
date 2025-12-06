@@ -1,0 +1,300 @@
+﻿================================================================================
+ğŸš€ EVRÄ°MSEL Ã–ÄRENME BAÅLIYOR!
+================================================================================
+  Toplam MaÃ§: 1
+  BaÅŸlangÄ±Ã§ MaÃ§Ä±: 0
+  BaÅŸlangÄ±Ã§ PopÃ¼lasyonu: 20 LoRA
+================================================================================
+
+
+ğŸ” DEBUG: MaÃ§ #0 baÅŸlÄ±yor: Charlton Athletic vs Manchester City
+
+
+################################################################################
+âš½ MAÃ‡ #0: Charlton Athletic vs Manchester City
+################################################################################
+ğŸ” DEBUG: Ã–zellikler hazÄ±rlanÄ±yor...
+ğŸ” DEBUG: Features shape: (60,)
+ğŸ” DEBUG: Ensemble tahmin yapÄ±lÄ±yor... Features: (60,)
+ğŸ” DEBUG: Ensemble baÅŸarÄ±lÄ±! Proba: [0.40489346 0.48961119 0.10549535]
+ğŸ” DEBUG: LoRA tahmini baÅŸlÄ±yor... PopÃ¼lasyon: 20
+ğŸ” DEBUG: Combined features shape: (63,)
+ğŸ” DEBUG: Bireysel LoRA tahminleri alÄ±nÄ±yor...
+ğŸ” DEBUG: Ä°lk LoRA baÅŸarÄ±lÄ±! Pred: [nan nan nan]
+ğŸ” DEBUG: Meta-LoRA aggregate ediliyor...
+ğŸ” DEBUG: Meta-LoRA baÅŸarÄ±lÄ±! Proba: [nan nan nan]
+
+ğŸ’¾ Durum kaydediliyor...
+ğŸ’¾ Buffer kaydedildi: replay_buffer.joblib
+   âœ… Durum kaydedildi
+
+ğŸ’¾ Loglar kaydedildi:
+   â€¢ Ana log: evolution_logs\evolution_log_20251203_013851.txt
+   â€¢ JSON: evolution_logs\evolution_data_20251203_013851.json
+   â€¢ PopÃ¼lasyon CSV: evolution_logs\population_history_20251203_013851.csv
+   â€¢ Olaylar CSV: evolution_logs\evolution_events_20251203_013851.csv   
+
+ğŸ“Š Ã–zet rapor oluÅŸturuldu: evolution_logs\summary_report_20251203_013853
+
+================================================================================
+âœ… EVRÄ°MSEL Ã–ÄRENME TAMAMLANDI!
+================================================================================
+  Ä°ÅŸlenen MaÃ§: 1
+  Final PopÃ¼lasyon: 20 LoRA
+================================================================================
+
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main> python .\test_simple_prediction.py
+Feature sayÄ±sÄ±: 60
+Features shape: (1, 60)
+Features: [ 0.  0.  0.  0. nan]...
+C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, 
+but SimpleImputer was fitted with feature names
+  warnings.warn(
+C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, 
+but SimpleImputer was fitted with feature names
+  warnings.warn(
+C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, 
+C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, 
+but SimpleImputer was fitted with feature names
+  warnings.warn(
+
+âœ… TAHMÄ°N BAÅARILI!
+Proba: [0.40489347 0.48961119 0.10549534]
+Tahmin: draw
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main> ^C
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main> pğŸ§¬ LoRA Testi...
+âœ… LoRA oluÅŸturuldu: LoRA_61982418
+Features: [-0.12900777 -1.8879282  -0.03310824 -0.01302018  0.60187817]...
+Base proba: [0.4 0.3 0.3]
+
+âœ… TAHMÄ°N BAÅARILI!
+Prediction: [0.4165449  0.37504187 0.20841318]
+
+âœ… NaN YOK!
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main> python run_evolutionary_learning.py --max 1        
+
+================================================================================
+ğŸŒ EVRÄ°MSEL Ã–ÄRENME SÄ°STEMÄ° BAÅLATILIYOR
+================================================================================
+
+ğŸ’» Device: cuda
+   GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+ğŸ“¦ Base Ensemble yÃ¼kleniyor...
+   âœ… 3 sÄ±nÄ±f: ['away_win' 'draw' 'home_win']
+
+ğŸ§¬ Evrim Motoru baÅŸlatÄ±lÄ±yor...
+ğŸŒªï¸ Kaos Evrim Motoru baÅŸlatÄ±ldÄ±!
+   Min/Max Populasyon: 5/None
+   Ã–lÃ¼m EÅŸiÄŸi: 0.35
+   Ãœreme EÅŸiÄŸi: 0.6
+ğŸ£ Ä°lk popÃ¼lasyon oluÅŸturuluyor: 20 LoRA...
+âœ… 20 LoRA hazÄ±r!
+
+ğŸ§  Meta-LoRA baÅŸlatÄ±lÄ±yor...
+   âœ… Attention-based Meta-LoRA
+
+ğŸŒ DoÄŸa + Entropi Sistemi baÅŸlatÄ±lÄ±yor...
+ğŸŒ DoÄŸa + Entropi Sistemi baÅŸlatÄ±ldÄ±
+   DoÄŸa SaÄŸlÄ±ÄŸÄ±: 1.00
+   Entropi HÄ±zÄ±: 0.0100
+
+âš¡ DoÄŸal Tetikleyiciler baÅŸlatÄ±lÄ±yor...
+ğŸŒ DoÄŸal Tetikleyici Sistemi baÅŸlatÄ±ldÄ±
+   â†’ SÄ±klÄ±k yok, sadece neden-sonuÃ§!
+
+ğŸ’¾ Replay Buffer baÅŸlatÄ±lÄ±yor...
+ğŸ“‚ Buffer yÃ¼klendi: replay_buffer.joblib (0 Ã¶rnek)
+
+ğŸ“ Evolution Logger baÅŸlatÄ±lÄ±yor...
+
+ğŸŒªï¸ Chaotic Global Learner baÅŸlatÄ±lÄ±yor...
+ğŸŒ Chaotic Global Learning System initialized
+
+ğŸ“ˆ Advanced Incremental Learner baÅŸlatÄ±lÄ±yor...
+ğŸ§  Advanced Incremental Learning System initialized
+   State dimension: 58
+   Kalman Filter: Active
+   Correlation Learning: Active
+   Bayesian Update: Active
+   Gradient Optimization: Active
+
+ğŸ¯ Specialization Tracker baÅŸlatÄ±lÄ±yor...
+
+ğŸ’¼ LoRA Wallet Manager baÅŸlatÄ±lÄ±yor...
+
+ğŸ¯ GeliÅŸmiÅŸ Mekanikler baÅŸlatÄ±lÄ±yor...
+ğŸ¯ GeliÅŸmiÅŸ Mekanikler baÅŸlatÄ±ldÄ±:
+   âœ… Elit Direnci (Max %60 zÄ±rh)
+   âœ… SaÄŸ Kalan Sendromu
+   âœ… Kan UyuÅŸmazlÄ±ÄŸÄ± (Anti-Inbreeding)
+   âœ… KÄ±ÅŸ Uykusu (Hibernation)
+   âœ… Pozitif Geri Besleme Freni (20 maÃ§ cooldown)
+
+âœ… TÃ¼m sistemler hazÄ±r!
+
+
+ğŸ“‚ Veri yÃ¼kleniyor: football_match_data.csv
+   âœ… 77537 maÃ§ yÃ¼klendi
+
+================================================================================
+ğŸš€ EVRÄ°MSEL Ã–ÄRENME BAÅLIYOR!
+================================================================================
+  Toplam MaÃ§: 1
+  BaÅŸlangÄ±Ã§ MaÃ§Ä±: 0
+  BaÅŸlangÄ±Ã§ PopÃ¼lasyonu: 20 LoRA
+================================================================================
+
+
+ğŸ” DEBUG: MaÃ§ #0 baÅŸlÄ±yor: Charlton Athletic vs Manchester City
+
+
+################################################################################
+âš½ MAÃ‡ #0: Charlton Athletic vs Manchester City
+################################################################################
+ğŸ” DEBUG: Ã–zellikler hazÄ±rlanÄ±yor...
+ğŸ” DEBUG: Features shape: (60,)
+ğŸ” DEBUG: Ensemble tahmin yapÄ±lÄ±yor... Features: (60,)
+ğŸ” DEBUG: Ensemble baÅŸarÄ±lÄ±! Proba: [0.40489346 0.48961119 0.10549535]
+ğŸ” DEBUG: LoRA tahmini baÅŸlÄ±yor... PopÃ¼lasyon: 20
+ğŸ” DEBUG: Combined features shape: (63,)
+ğŸ” DEBUG: Bireysel LoRA tahminleri alÄ±nÄ±yor...
+ğŸ” DEBUG: Ä°lk LoRA baÅŸarÄ±lÄ±! Pred: [0.33225733 0.32469398 0.34304872]
+ğŸ” DEBUG: Meta-LoRA aggregate ediliyor...
+ğŸ” DEBUG: Meta-LoRA baÅŸarÄ±lÄ±! Proba: [0.3288581  0.33091787 0.34022403]
+
+ğŸ’¾ Durum kaydediliyor...
+ğŸ’¾ Buffer kaydedildi: replay_buffer.joblib
+   âœ… Durum kaydedildi
+
+ğŸ’¾ Loglar kaydedildi:
+   â€¢ Ana log: evolution_logs\evolution_log_20251203_014443.txt
+   â€¢ JSON: evolution_logs\evolution_data_20251203_014443.json
+   â€¢ PopÃ¼lasyon CSV: evolution_logs\population_history_20251203_014443.csv
+   â€¢ Olaylar CSV: evolution_logs\evolution_events_20251203_014443.csv   
+
+ğŸ“Š Ã–zet rapor oluÅŸturuldu: evolution_logs\summary_report_20251203_014445.txt
+================================================================================
+âœ… EVRÄ°MSEL Ã–ÄRENME TAMAMLANDI!
+================================================================================
+  Ä°ÅŸlenen MaÃ§: 1
+  Final PopÃ¼lasyon: 20 LoRA
+================================================================================
+
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main> python run_evolutionary_learning.py --max 1
+
+================================================================================
+ğŸŒ EVRÄ°MSEL Ã–ÄRENME SÄ°STEMÄ° BAÅLATILIYOR
+================================================================================
+
+ğŸ’» Device: cuda
+   GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+ğŸ“¦ Base Ensemble yÃ¼kleniyor...
+   âœ… 3 sÄ±nÄ±f: ['away_win' 'draw' 'home_win']
+
+ğŸ§¬ Evrim Motoru baÅŸlatÄ±lÄ±yor...
+ğŸŒªï¸ Kaos Evrim Motoru baÅŸlatÄ±ldÄ±!
+   Min/Max Populasyon: 5/None
+   Ã–lÃ¼m EÅŸiÄŸi: 0.35
+   Ãœreme EÅŸiÄŸi: 0.6
+ğŸ£ Ä°lk popÃ¼lasyon oluÅŸturuluyor: 20 LoRA...
+âœ… 20 LoRA hazÄ±r!
+
+ğŸ§  Meta-LoRA baÅŸlatÄ±lÄ±yor...
+   âœ… Attention-based Meta-LoRA
+
+ğŸŒ DoÄŸa + Entropi Sistemi baÅŸlatÄ±lÄ±yor...
+ğŸŒ DoÄŸa + Entropi Sistemi baÅŸlatÄ±ldÄ±
+   DoÄŸa SaÄŸlÄ±ÄŸÄ±: 1.00
+   Entropi HÄ±zÄ±: 0.0100
+
+âš¡ DoÄŸal Tetikleyiciler baÅŸlatÄ±lÄ±yor...
+ğŸŒ DoÄŸal Tetikleyici Sistemi baÅŸlatÄ±ldÄ±
+   â†’ SÄ±klÄ±k yok, sadece neden-sonuÃ§!
+
+ğŸ’¾ Replay Buffer baÅŸlatÄ±lÄ±yor...
+ğŸ“‚ Buffer yÃ¼klendi: replay_buffer.joblib (0 Ã¶rnek)
+
+ğŸ“ Evolution Logger baÅŸlatÄ±lÄ±yor...
+
+ğŸŒªï¸ Chaotic Global Learner baÅŸlatÄ±lÄ±yor...
+ğŸŒ Chaotic Global Learning System initialized
+
+ğŸ“ˆ Advanced Incremental Learner baÅŸlatÄ±lÄ±yor...
+ğŸ§  Advanced Incremental Learning System initialized
+   State dimension: 58
+   Kalman Filter: Active
+   Correlation Learning: Active
+   Bayesian Update: Active
+   Gradient Optimization: Active
+
+ğŸ¯ Specialization Tracker baÅŸlatÄ±lÄ±yor...
+
+ğŸ’¼ LoRA Wallet Manager baÅŸlatÄ±lÄ±yor...
+
+ğŸ¯ GeliÅŸmiÅŸ Mekanikler baÅŸlatÄ±lÄ±yor...
+ğŸ¯ GeliÅŸmiÅŸ Mekanikler baÅŸlatÄ±ldÄ±:
+   âœ… Elit Direnci (Max %60 zÄ±rh)
+   âœ… SaÄŸ Kalan Sendromu
+   âœ… Kan UyuÅŸmazlÄ±ÄŸÄ± (Anti-Inbreeding)
+   âœ… KÄ±ÅŸ Uykusu (Hibernation)
+   âœ… Pozitif Geri Besleme Freni (20 maÃ§ cooldown)
+
+âœ… TÃ¼m sistemler hazÄ±r!
+
+
+ğŸ“‚ Veri yÃ¼kleniyor: football_match_data.csv
+   âœ… 77537 maÃ§ yÃ¼klendi
+
+================================================================================
+ğŸš€ EVRÄ°MSEL Ã–ÄRENME BAÅLIYOR!
+================================================================================
+  Toplam MaÃ§: 1
+  BaÅŸlangÄ±Ã§ MaÃ§Ä±: 0
+  BaÅŸlangÄ±Ã§ PopÃ¼lasyonu: 20 LoRA
+================================================================================
+
+
+ğŸ” DEBUG: MaÃ§ #0 baÅŸlÄ±yor: Charlton Athletic vs Manchester City
+
+
+################################################################################
+âš½ MAÃ‡ #0: Charlton Athletic vs Manchester City
+################################################################################
+ğŸ” DEBUG: Ã–zellikler hazÄ±rlanÄ±yor...
+ğŸ” DEBUG: Features shape: (60,)
+ğŸ” DEBUG: Ensemble tahmin yapÄ±lÄ±yor... Features: (60,)
+ğŸ” DEBUG: Ensemble baÅŸarÄ±lÄ±! Proba: [0.40489346 0.48961119 0.10549535]
+ğŸ” DEBUG: LoRA tahmini baÅŸlÄ±yor... PopÃ¼lasyon: 20
+ğŸ” DEBUG: Combined features shape: (63,)
+ğŸ” DEBUG: Bireysel LoRA tahminleri alÄ±nÄ±yor...
+ğŸ” DEBUG: Ä°lk LoRA baÅŸarÄ±lÄ±! Pred: [0.33539015 0.3183924  0.3462174 ]
+ğŸ” DEBUG: Meta-LoRA aggregate ediliyor...
+ğŸ” DEBUG: Meta-LoRA baÅŸarÄ±lÄ±! Proba: [0.3407542  0.3283054  0.33094037]
+ğŸ” DEBUG: Chaotic Global Ã§alÄ±ÅŸÄ±yor...
+âš ï¸ Chaotic hatasÄ±: 'str' object has no attribute 'strftime', atlanÄ±yor..
+.
+ğŸ” DEBUG: Incremental Ã§alÄ±ÅŸÄ±yor...
+âš ï¸ Incremental hatasÄ±: operands could not be broadcast together with sha
+pes (60,) (58,) , atlanÄ±yor...
+
+ğŸ’¾ Durum kaydediliyor...
+ğŸ’¾ Buffer kaydedildi: replay_buffer.joblib
+   âœ… Durum kaydedildi
+
+ğŸ’¾ Loglar kaydedildi:
+   â€¢ Ana log: evolution_logs\evolution_log_20251203_014652.txt
+   â€¢ JSON: evolution_logs\evolution_data_20251203_014652.json
+   â€¢ PopÃ¼lasyon CSV: evolution_logs\population_history_20251203_014652.csv
+   â€¢ Olaylar CSV: evolution_logs\evolution_events_20251203_014652.csv   
+
+ğŸ“Š Ã–zet rapor oluÅŸturuldu: evolution_logs\summary_report_20251203_014658.txt
+
+================================================================================
+âœ… EVRÄ°MSEL Ã–ÄRENME TAMAMLANDI!
+================================================================================
+  Ä°ÅŸlenen MaÃ§: 1
+  Final PopÃ¼lasyon: 20 LoRA
+================================================================================
+
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main> ^C
+PS C:\Users\muham\Desktop\footbal_brain_core\football_prediction-main>

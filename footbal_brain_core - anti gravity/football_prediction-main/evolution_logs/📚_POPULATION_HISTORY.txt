@@ -1,0 +1,1289 @@
+========================================================================================================================
+📚 KAPSAMLI POPÜLASYON TARİHİ
+========================================================================================================================
+Oluşturulma: 2025-12-04 18:16:07
+Güncel Maç: #10
+========================================================================================================================
+
+📊 İSTATİSTİKLER:
+   • Toplam LoRA: 1020
+   • Toplam Olay: 22183
+   • Maç Sayısı: 10
+
+🌟 EN AKTİF LoRA'LAR (En çok olay):
+   1. LoRA_Gen41_cf56e662            |   88 olay
+      {'WRONG_PREDICTION': 48, 'CORRECT_PREDICTION': 40}
+   2. LoRA_Gen42_d3d41b1b            |   69 olay
+      {'WRONG_PREDICTION': 23, 'CORRECT_PREDICTION': 46}
+   3. LoRA_Gen39_0317c48b            |   69 olay
+      {'WRONG_PREDICTION': 25, 'CORRECT_PREDICTION': 44}
+   4. LoRA_Gen35_69e7f932            |   58 olay
+      {'WRONG_PREDICTION': 26, 'CORRECT_PREDICTION': 32}
+   5. LoRA_Gen36_6c0f0120            |   58 olay
+      {'WRONG_PREDICTION': 22, 'CORRECT_PREDICTION': 36}
+   6. LoRA_Gen36_c5a0dc50            |   58 olay
+      {'WRONG_PREDICTION': 26, 'CORRECT_PREDICTION': 32}
+   7. LoRA_Gen37_f7534434            |   58 olay
+      {'CORRECT_PREDICTION': 20, 'WRONG_PREDICTION': 38}
+   8. LoRA_Gen38_03ea9c4c            |   58 olay
+      {'WRONG_PREDICTION': 42, 'CORRECT_PREDICTION': 16}
+   9. LoRA_Gen35_f9bcd13a            |   58 olay
+      {'CORRECT_PREDICTION': 16, 'WRONG_PREDICTION': 42}
+   10. LoRA_Gen35_0b26ae63            |   58 olay
+      {'CORRECT_PREDICTION': 16, 'WRONG_PREDICTION': 42}
+
+========================================================================================================================
+
+📖 DETAYLI LoRA GEÇMİŞLERİ (Her LoRA'nın son 20 olayı):
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_cf56e662 (ID: cf56e662...)
+Toplam Olay: 88
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen42_d3d41b1b (ID: d3d41b1b...)
+Toplam Olay: 69
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 0.927)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen39_0317c48b (ID: 0317c48b...)
+Toplam Olay: 69
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | draw → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen35_69e7f932 (ID: 69e7f932...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen36_6c0f0120 (ID: 6c0f0120...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen36_c5a0dc50 (ID: c5a0dc50...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_f7534434 (ID: f7534434...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | draw → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_03ea9c4c (ID: 03ea9c4c...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen35_f9bcd13a (ID: f9bcd13a...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen35_0b26ae63 (ID: 0b26ae63...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | draw → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_20875ee8 (ID: 20875ee8...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_23c67fa0 (ID: 23c67fa0...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen43_228e8a6b (ID: 228e8a6b...)
+Toplam Olay: 58
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen34_dfc1e77d (ID: dfc1e77d...)
+Toplam Olay: 54
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen40_0665ce40 (ID: 0665ce40...)
+Toplam Olay: 54
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_a6c096c9 (ID: a6c096c9...)
+Toplam Olay: 54
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | away_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_62892690 (ID: 62892690...)
+Toplam Olay: 54
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_7d4446b1 (ID: 7d4446b1...)
+Toplam Olay: 49
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 0.992)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 0.516)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_d808bff1 (ID: d808bff1...)
+Toplam Olay: 49
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen42_752604ec (ID: 752604ec...)
+Toplam Olay: 49
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen40_363a1c56 (ID: 363a1c56...)
+Toplam Olay: 49
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 0.889)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen35_b24e1d30 (ID: b24e1d30...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 0.999)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_5f90de9f (ID: 5f90de9f...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_1517e3ab (ID: 1517e3ab...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_a229b938 (ID: a229b938...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_8b807fc6 (ID: 8b807fc6...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_a6ddc2bf (ID: a6ddc2bf...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen40_79389112 (ID: 79389112...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen43_11adf771 (ID: 11adf771...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen36_55fb85c1 (ID: 55fb85c1...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen45_9ca4e528 (ID: 9ca4e528...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_674e9278 (ID: 674e9278...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen43_f9c1a2c5 (ID: f9c1a2c5...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_b797d72c (ID: b797d72c...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_6e758fd5 (ID: 6e758fd5...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen40_6f2137d3 (ID: 6f2137d3...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen39_87b0be5b (ID: 87b0be5b...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_7760e8e2 (ID: 7760e8e2...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen39_0bf23681 (ID: 0bf23681...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen45_b463912e (ID: b463912e...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen38_290c4ede (ID: 290c4ede...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen43_0848abd4 (ID: 0848abd4...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen46_fa51da12 (ID: fa51da12...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_90f14740 (ID: 90f14740...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | home_win → draw (Güven: 1.000)
+   Maç #   7 | ✅ CORRECT_PREDICTION        | draw → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen40_37bb2cd3 (ID: 37bb2cd3...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_59a285b7 (ID: 59a285b7...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen37_c01505e8 (ID: c01505e8...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | draw → home_win (Güven: 1.000)
+   Maç #   3 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ✅ CORRECT_PREDICTION        | home_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen39_a3e800a1 (ID: a3e800a1...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 0.990)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen41_76b595b1 (ID: 76b595b1...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+LoRA: LoRA_Gen42_913a08d2 (ID: 913a08d2...)
+Toplam Olay: 44
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   Maç #   1 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   1 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   2 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #   3 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   4 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | home_win → home_win (Güven: 1.000)
+   Maç #   5 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | home_win → away_win (Güven: 1.000)
+   Maç #   6 | ❌ WRONG_PREDICTION          | draw → away_win (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | home_win → draw (Güven: 1.000)
+   Maç #   7 | ❌ WRONG_PREDICTION          | away_win → draw (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   8 | ✅ CORRECT_PREDICTION        | away_win → away_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #   9 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | away_win → home_win (Güven: 1.000)
+   Maç #  10 | ❌ WRONG_PREDICTION          | draw → home_win (Güven: 1.000)
+
+========================================================================================================================

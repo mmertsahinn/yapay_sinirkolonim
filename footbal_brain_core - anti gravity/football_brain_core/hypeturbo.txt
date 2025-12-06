@@ -1,0 +1,184 @@
+"""
+HYPE TURBO MOD - DETAYLI GÖRÜNÜM
+- İşlemcinin tüm çekirdeklerini kullanır.
+- Her maçın mention sayısını anlık ekrana yazar.
+"""
+import sys
+import os
+from pathlib import Path
+from datetime import datetime
+import time
+import logging
+import traceback
+from typing import Dict, Optional
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import multiprocessing
+
+# Windows encoding sorunu için
+if sys.platform == "win32":
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+# Proje dizinini ayarla
+project_root = Path(__file__).parent
+sys.path.insert(0, str(project_root.parent))
+
+from src.db.connection import get_session
+from src.db.repositories import MatchRepository, LeagueRepository, TeamRepository
+from src.ingestion.alternative_hype_scraper import AlternativeHypeScraper
+from src.db.schema import Match
+from sqlalchemy import and_, extract, or_
+
+# Loglama ayarları (Dosyaya da yazar)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(message)s',
+    handlers=[
+        logging.FileHandler('hype_detayli.log', encoding='utf-8'),
+        # Ekrana yazdırmayı print ile yapacağız, buraya eklemiyoruz ki karışmasın
+    ]
+)
+logger = logging.getLogger(__name__)
+
+def process_single_match(match_id: int):
+    """
+    Tek bir maçı analiz eder ve sonucu detaylı string olarak döndürür.
+    """
+    session = get_session()
+    scraper = AlternativeHypeScraper()
+    
+    try:
+        match = session.query(Match).get(match_id)
+        if not match:
+            return False, "Maç bulunamadı"
+
+        league = LeagueRepository.get_by_id(session, match.league_id)
+        home_team = TeamRepository.get_by_id(session, match.home_team_id)
+        away_team = TeamRepository.get_by_id(session, match.away_team_id)
+
+        if not (league and home_team and away_team):
+            return False, "Eksik bilgi (Lig/Takım)"
+
+        # Hype analizi yap (Scraper çalışıyor...)
+        try:
+            hype_result = scraper.get_match_hype(
+                league_name=league.name,
+                home_team=home_team.name,
+                away_team=away_team.name,
+                match_date=match.match_date
+            )
+        except Exception as e:
+            return False, f"Scraper Hatası: {e}"
+
+        # Sonuçları al
+        total_mentions = hype_result.get("total_mentions", 0)
+        h_sup = hype_result.get("home_support", 0.5)
+        a_sup = hype_result.get("away_support", 0.5)
+
+        # Veritabanına kaydet
+        match.home_support = h_sup
+        match.away_support = a_sup
+        match.sentiment_score = hype_result.get("sentiment_score", 0.0)
+        match.total_tweets = total_mentions
+        match.hype_updated_at = datetime.now()
+        
+        session.commit()
+        
+        # Geri Dönüt Mesajı Hazırla
+        # Örnek: [Premier League] Arsenal vs Chelsea -> 152 Mentions (Ev: %60, Dep: %40)
+        match_info = f"{league.name}: {home_team.name} vs {away_team.name}"
+        stats = f"📢 {total_mentions} Mentions | 🏠 Ev: %{int(h_sup*100)} - ✈️ Dep: %{int(a_sup*100)}"
+        
+        log_msg = f"✅ {match_info}  --->  {stats}"
+        return True, log_msg
+
+    except Exception as e:
+        session.rollback()
+        return False, f"❌ Hata (ID: {match_id}): {str(e)}"
+    finally:
+        session.close()
+
+def get_pending_matches(limit=1000):
+    """Hype verisi eksik olan maçların ID'lerini getirir"""
+    session = get_session()
+    try:
+        matches = session.query(Match.id).filter(
+            and_(
+                Match.home_score.isnot(None),
+                Match.away_score.isnot(None),
+                extract('year', Match.match_date) >= 2020,
+                extract('year', Match.match_date) <= 2025,
+                or_(
+                    Match.hype_updated_at.is_(None),
+                    Match.total_tweets == 0,
+                    Match.total_tweets.is_(None)
+                )
+            )
+        ).order_by(Match.match_date.desc()).limit(limit).all()
+        return [m.id for m in matches]
+    finally:
+        session.close()
+
+def main():
+    print("=" * 90)
+    print("🔥 HYPE CANAVARI BAŞLATILIYOR - DETAYLI GÖRÜNÜM")
+    print(f"💻 İşlemci Gücü: {multiprocessing.cpu_count()} Çekirdek")
+    
+    # İşçi sayısı (CPU sayısının 4 katı kadar işçi açıyoruz)
+    MAX_WORKERS = min(32, multiprocessing.cpu_count() * 4)
+    print(f"⚡ {MAX_WORKERS} adet işçi aynı anda çalışacak.")
+    print("=" * 90)
+    
+    total_processed = 0
+    total_mentions_found = 0
+
+    while True:
+        # 1. Maçları Çek
+        match_ids = get_pending_matches(limit=500)
+        
+        if not match_ids:
+            print("\n💤 İşlenecek maç kalmadı. Yeni maçlar için 60sn bekleniyor...")
+            time.sleep(60)
+            continue
+
+        print(f"\n📋 {len(match_ids)} maç işlenmek üzere sıraya alındı...")
+
+        # 2. Paralel İşlem Başlat
+        with ProcessPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            # İşleri dağıt
+            future_to_id = {executor.submit(process_single_match, mid): mid for mid in match_ids}
+            
+            for future in as_completed(future_to_id):
+                mid = future_to_id[future]
+                try:
+                    success, message = future.result()
+                    
+                    if success:
+                        # Mesajın içinde mention sayısı var mı diye basit bir kontrol (istatistik için)
+                        # Mesaj formatı: ... -> 152 Mentions ...
+                        try:
+                            parts = message.split('📢')[1].strip().split(' ')
+                            mentions = int(parts[0])
+                            total_mentions_found += mentions
+                        except:
+                            pass
+                            
+                        print(message)  # <-- EKRANA YAZAN KISIM
+                    else:
+                        print(f"⚠️ {message}")
+                        
+                except Exception as exc:
+                    print(f"💥 Kritik Hata (ID: {mid}): {exc}")
+                
+                total_processed += 1
+
+        print("-" * 90)
+        print(f"📊 ÖZET: {total_processed} maç işlendi. Toplam bulunan mention: {total_mentions_found}")
+        print("-" * 90)
+
+if __name__ == "__main__":
+    try:
+        multiprocessing.freeze_support() # Windows için gerekli
+        main()
+    except KeyboardInterrupt:
+        print("\n🛑 Program durduruldu.")

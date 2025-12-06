@@ -1,0 +1,309 @@
+================================================================================
+🎒 LoRA KİŞİSEL CÜZDANI (KİMLİK BELGESİ)
+================================================================================
+İsim: LoRA_Gen23_c23b5f9c
+ID: c23b5f9c
+Doğum Maçı: #12
+Generasyon: 23
+🎭 Duygu Arketipi: Sakin Bilge
+Oluşturulma: 2025-12-04 13:04:52
+================================================================================
+
+🌳 SOYAĞACI:
+────────────────────────────────────────────────────────────────────────────────
+  👨 Anne: 280b3b87
+  👩 Baba: 33836a5f
+────────────────────────────────────────────────────────────────────────────────
+
+🎭 MİZAÇ PROFİLİ:
+────────────────────────────────────────────────────────────────────────────────
+  Independence             : [█████░░░░░] 0.50
+  Social Intelligence      : [██████░░░░] 0.65
+  Herd Tendency            : [████░░░░░░] 0.49
+  Contrarian Score         : [█████░░░░░] 0.60
+  Emotional Depth          : [██░░░░░░░░] 0.27
+  Empathy                  : [███░░░░░░░] 0.32
+  Anger Tendency           : [█████░░░░░] 0.53
+  Ambition                 : [████░░░░░░] 0.44
+  Competitiveness          : [██████░░░░] 0.63
+  Resilience               : [█████░░░░░] 0.58
+  Will To Live             : [████░░░░░░] 0.49
+  Patience                 : [████████░░] 0.89
+  Impulsiveness            : [███░░░░░░░] 0.38
+  Stress Tolerance         : [███░░░░░░░] 0.36
+  Risk Appetite            : [██░░░░░░░░] 0.30
+────────────────────────────────────────────────────────────────────────────────
+
+🔗 SOSYAL BAĞLAR:
+────────────────────────────────────────────────────────────────────────────────
+  Henüz sosyal bağ yok (yeni doğdu)
+────────────────────────────────────────────────────────────────────────────────
+
+Maç #12 [2025-12-04 13:04:52] TAHMİN: Standard Liège vs KRC Genk
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #12 [2025-12-04 13:05:45] TAHMİN: Standard Liège vs KRC Genk
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #12 [2025-12-04 13:05:45] ÖĞRENME: Fitness: 0.500 → 1.000 (+0.500) ↗️
+Maç #13 [2025-12-04 13:06:40] TAHMİN: KV Mechelen vs Cercle Brugge
+      → Kazanan: home_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 0-0 
+Maç #13 [2025-12-04 13:07:55] TAHMİN: KV Mechelen vs Cercle Brugge
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #13 [2025-12-04 13:07:55] ÖĞRENME: Fitness: 1.000 → 0.500 (-0.500) ↘️
+Maç #14 [2025-12-04 13:09:17] TAHMİN: Sint-Truidense VV vs KVC Westerlo
+      → Kazanan: away_win (100%)
+      → Gerçek: away_win ✅ DOĞRU | 0-3 
+Maç #14 [2025-12-04 13:10:46] TAHMİN: Sint-Truidense VV vs KVC Westerlo
+      → Kazanan: away_win (100%) | Skor: a-w
+
+Maç #14 [2025-12-04 13:10:46] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+Maç #15 [2025-12-04 13:12:51] TAHMİN: 1. FC Nurnberg II vs SpVgg Bayreuth
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-3 
+Maç #15 [2025-12-04 13:14:14] TAHMİN: 1. FC Nurnberg II vs SpVgg Bayreuth
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #15 [2025-12-04 13:14:14] ÖĞRENME: Fitness: 0.333 → 0.250 (-0.083) ↘️
+Maç #16 [2025-12-04 13:16:12] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: away_win (100%)
+      → Gerçek: away_win ✅ DOĞRU | 0-1 
+Maç #16 [2025-12-04 13:17:23] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: away_win (100%) | Skor: a-w
+
+Maç #16 [2025-12-04 13:17:23] ÖĞRENME: Fitness: 0.250 → 0.400 (+0.150) ↗️
+Maç #17 [2025-12-04 13:20:48] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 0-0 
+Maç #17 [2025-12-04 13:21:42] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: away_win (100%) | Skor: d-r
+
+Maç #17 [2025-12-04 13:21:42] ÖĞRENME: Fitness: 0.400 → 0.333 (-0.067) ↘️
+Maç #18 [2025-12-04 13:22:39] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: draw (100%)
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 
+Maç #18 [2025-12-04 13:24:03] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: draw (100%) | Skor: h-o
+
+Maç #18 [2025-12-04 13:24:03] ÖĞRENME: Fitness: 0.333 → 0.286 (-0.048) ↘️
+Maç #19 [2025-12-04 13:24:30] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 3-1 
+Maç #19 [2025-12-04 13:25:20] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #19 [2025-12-04 13:25:20] ÖĞRENME: Fitness: 0.286 → 0.250 (-0.036) ↘️
+Maç #20 [2025-12-04 13:25:57] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 1-1 
+Maç #20 [2025-12-04 13:57:22] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: away_win (100%) | Skor: d-r
+
+Maç #20 [2025-12-04 13:57:22] ÖĞRENME: Fitness: 0.250 → 0.222 (-0.028) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #20 (2025-12-04 13:57:22)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: 8 maç | 🎯 Fitness: 0.222 | 🧬 Gen: 23
+
+🌊 PARÇACIK FİZİĞİ:
+   ⚡ Life Energy: 0.000
+   🌡️  Sıcaklık (T): 0.0200
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 0.000
+   🌀 Onsager-Machlup (S_OM): 0.000
+   🧟 Lazarus Λ: 0.552
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 2/9 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 2 (%22.2)
+  Yanlış: 7 (%77.8)
+  Güncel Fitness: 0.222
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [███░░░░░░░] 0.40
+  Social_intelligence: [██████░░░░] 0.66
+  Herd_tendency: [█████░░░░░] 0.51
+  Contrarian_score: [██████░░░░] 0.61
+  Emotional_depth: [██░░░░░░░░] 0.27
+  Empathy: [███░░░░░░░] 0.31
+  Anger_tendency: [██████░░░░] 0.62
+  Ambition: [████░░░░░░] 0.47
+  Competitiveness: [█████░░░░░] 0.57
+  Resilience: [█████░░░░░] 0.56
+  Will_to_live: [████░░░░░░] 0.48
+  Patience: [█████████░] 0.91
+  Impulsiveness: [████░░░░░░] 0.46
+  Stress_tolerance: [██░░░░░░░░] 0.23
+  Risk_appetite: [█░░░░░░░░░] 0.13
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #14 [2025-12-04 13:10:46] TAHMİN: Sint-Truidense VV vs KVC Westerlo
+      → Kazanan: away_win (100%) | Skor: a-w
+
+  Maç #14 [2025-12-04 13:10:46] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+  Maç #15 [2025-12-04 13:12:51] TAHMİN: 1. FC Nurnberg II vs SpVgg Bayreuth
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-3 
+  Maç #15 [2025-12-04 13:14:14] TAHMİN: 1. FC Nurnberg II vs SpVgg Bayreuth
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #15 [2025-12-04 13:14:14] ÖĞRENME: Fitness: 0.333 → 0.250 (-0.083) ↘️
+  Maç #16 [2025-12-04 13:16:12] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: away_win (100%)
+      → Gerçek: away_win ✅ DOĞRU | 0-1 
+  Maç #16 [2025-12-04 13:17:23] TAHMİN: KRC Genk vs Sporting Charleroi
+      → Kazanan: away_win (100%) | Skor: a-w
+
+  Maç #16 [2025-12-04 13:17:23] ÖĞRENME: Fitness: 0.250 → 0.400 (+0.150) ↗️
+  Maç #17 [2025-12-04 13:20:48] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 0-0 
+  Maç #17 [2025-12-04 13:21:42] TAHMİN: FCV Dender EH vs RAAL La Louviere
+      → Kazanan: away_win (100%) | Skor: d-r
+
+  Maç #17 [2025-12-04 13:21:42] ÖĞRENME: Fitness: 0.400 → 0.333 (-0.067) ↘️
+  Maç #18 [2025-12-04 13:22:39] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: draw (100%)
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 
+  Maç #18 [2025-12-04 13:24:03] TAHMİN: KVC Westerlo vs Oud-Heverlee Leuven
+      → Kazanan: draw (100%) | Skor: h-o
+
+  Maç #18 [2025-12-04 13:24:03] ÖĞRENME: Fitness: 0.333 → 0.286 (-0.048) ↘️
+  Maç #19 [2025-12-04 13:24:30] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 3-1 
+  Maç #19 [2025-12-04 13:25:20] TAHMİN: Sint-Truidense VV vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+  Maç #19 [2025-12-04 13:25:20] ÖĞRENME: Fitness: 0.286 → 0.250 (-0.036) ↘️
+  Maç #20 [2025-12-04 13:25:57] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 1-1 
+  Maç #20 [2025-12-04 13:57:22] TAHMİN: KRC Genk vs RAAL La Louviere
+      → Kazanan: away_win (100%) | Skor: d-r
+
+  Maç #20 [2025-12-04 13:57:22] ÖĞRENME: Fitness: 0.250 → 0.222 (-0.028) ↘️
+  ... toplam 27 hareket kaydedildi
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #12)
+  • En uzun doğru streak: 1 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ KRİTİK! Ölüm riski yüksek (fitness: 0.222)
+
+================================================================================
+Son Güncelleme: Maç #20 (2025-12-04 13:57:22)
+================================================================================
+Maç #20 [2025-12-04 13:57:22] EVRİM-💀 ÖLÜM: Sebep: Yaşam enerjisi tükendi (Energy: 0.000) | Final Fitness: 0.222
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100
+Maç #20 [2025-12-04 13:57:22] EVRİM-🏆 HALL OF FAME: Mucize LoRA olarak kaydedildi! Puan: 0.0/100

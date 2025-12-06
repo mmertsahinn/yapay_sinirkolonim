@@ -1,0 +1,25 @@
+Alan Adı,Tip,Açıklama
+id,Int,Veritabanındaki benzersiz sıra numarası (Primary Key).
+match_id,String,Maçı tanımlayan özel anahtar. Format: LigID_Yıl_EvID_DepID_Tarih
+league_id,Int,Ligin sistemdeki benzersiz ID'si.
+home_team_id,Int,Ev sahibi takımın ID'si.
+away_team_id,Int,Deplasman takımının ID'si.
+
+
+
+Alan Adı,Tip,Açıklama
+match_date,Datetime,Maçın başlama saati. (ISO Formatı: YYYY-MM-DDTHH:MM:SS)
+home_score,Int/Null,Ev sahibi gol sayısı. Maç oynanmadıysa null olabilir.
+away_score,Int/Null,Deplasman gol sayısı. Maç oynanmadıysa null olabilir.
+status,String,"Maçın durumu. Örn: FT (Maç Bitti), NS (Başlamadı), LIVE (Canlı)."
+league_name,String,Ligin okunabilir tam adı.
+
+
+
+
+Alan Adı,Tip,Aralık,Açıklama
+home_support,Float,0.0 - 1.0,Ev sahibine olan sosyal medya desteği. (Örn: 0.75 = %75).
+away_support,Float,0.0 - 1.0,Deplasmana olan sosyal medya desteği.
+sentiment_score,Float,-1.0 - +1.0,Maç hakkındaki genel duygu. (Negatif < 0 < Pozitif).
+total_tweets,Int,0 - ∞,Maç hakkında konuşulan toplam mention/tweet sayısı.
+hype_updated_at,Datetime,-,Bu analizin en son yapıldığı tarih. Eğer null ise veri henüz çekilmemiştir.

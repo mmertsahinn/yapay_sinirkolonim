@@ -1,0 +1,131 @@
+2025-11-30 01:50:35,634 - INFO - 📋 Veritabanı şeması kontrol ediliyor...
+2025-11-30 01:50:36,285 - WARNING - pytrends yüklü değil: pip install pytrends
+2025-11-30 01:50:36,285 - WARNING - praw yüklü değil: pip install praw
+2025-11-30 01:50:36,286 - WARNING - newsapi yüklü değil: pip install newsapi-python
+2025-11-30 01:50:44,043 - WARNING - ⚠️ Hype verisi gecersiz: Brighton & Hove Albion vs (0-1) Chelsea FC
+2025-11-30 01:50:44,552 - WARNING - pytrends yüklü değil: pip install pytrends
+2025-11-30 01:50:44,553 - WARNING - praw yüklü değil: pip install praw
+2025-11-30 01:50:44,555 - WARNING - newsapi yüklü değil: pip install newsapi-python
+2025-11-30 01:50:50,075 - WARNING - ⚠️ Hype verisi gecersiz: Millwall FC vs (0-1) Luton Town
+2025-11-30 01:50:50,584 - WARNING - pytrends yüklü değil: pip install pytrends
+2025-11-30 01:50:50,585 - WARNING - praw yüklü değil: pip install praw
+2025-11-30 01:50:50,586 - WARNING - newsapi yüklü değil: pip install newsapi-python
+2025-11-30 01:50:56,238 - WARNING - ⚠️ Hype verisi gecersiz: Newcastle United vs (0-2) Leicester City
+2025-11-30 01:50:56,751 - WARNING - pytrends yüklü değil: pip install pytrends
+2025-11-30 01:50:56,754 - WARNING - praw yüklü değil: pip install praw
+2025-11-30 01:50:56,756 - WARNING - newsapi yüklü değil: pip install newsapi-python
+2025-11-30 01:51:02,769 - WARNING - ⚠️ Hype verisi gecersiz: Huddersfield Town vs (0-1) Stoke City
+2025-11-30 01:51:11,905 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:12,819 - INFO - 📋 Veritabanı şeması kontrol ediliyor...
+2025-11-30 01:51:16,834 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:18,252 - WARNING - ⚠️ Hype verisi gecersiz: Birmingham City vs (1-1) Wigan Athletic
+2025-11-30 01:51:20,360 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:22,487 - WARNING - ⚠️ Hype verisi gecersiz: Brighton & Hove Albion vs (0-1) Chelsea FC
+2025-11-30 01:51:24,441 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:25,808 - WARNING - ⚠️ Hype verisi gecersiz: Nottingham Forest vs (2-1) Blackburn Rovers
+2025-11-30 01:51:27,807 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:29,947 - WARNING - ⚠️ Hype verisi gecersiz: Millwall FC vs (0-1) Luton Town
+2025-11-30 01:51:32,018 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:33,438 - WARNING - ⚠️ Hype verisi gecersiz: Wycombe Wanderers vs (0-0) Ipswich Town
+2025-11-30 01:51:35,409 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:37,329 - INFO - ✅ Premier League: Newcastle United vs (0-2) Leicester City (2020-01-01) - Mentions: 27, Home: 75.00%, Away: 25.00%
+2025-11-30 01:51:39,233 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:40,705 - WARNING - ⚠️ Hype verisi gecersiz: Newport County vs (0-0) Cheltenham Town
+2025-11-30 01:51:42,715 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:45,326 - WARNING - ⚠️ Hype verisi gecersiz: Huddersfield Town vs (0-1) Stoke City
+2025-11-30 01:51:47,324 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:48,428 - WARNING - ⚠️ Hype verisi gecersiz: West Bromwich Albion vs (1-0) Leeds United
+2025-11-30 01:51:50,512 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:53,023 - WARNING - ⚠️ Hype verisi gecersiz: Birmingham City vs (1-1) Wigan Athletic
+2025-11-30 01:51:55,312 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:51:56,114 - INFO - ✅ Premier League: Norwich City vs (1-0) Crystal Palace (2020-01-01) - Mentions: 24, Home: 75.00%, Away: 25.00%
+2025-11-30 01:51:58,316 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:01,034 - WARNING - ⚠️ Hype verisi gecersiz: Nottingham Forest vs (2-1) Blackburn Rovers
+2025-11-30 01:52:03,112 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:04,413 - INFO - ✅ Premier League: Manchester City vs (0-0) Everton FC (2020-01-01) - Mentions: 46, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:06,655 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:09,024 - WARNING - ⚠️ Hype verisi gecersiz: Wycombe Wanderers vs (0-0) Ipswich Town
+2025-11-30 01:52:11,068 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:12,502 - INFO - ✅ Premier League: West Ham United vs (3-0) AFC Bournemouth (2020-01-01) - Mentions: 12, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:14,703 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:16,848 - WARNING - ⚠️ Hype verisi gecersiz: Newport County vs (0-0) Cheltenham Town
+2025-11-30 01:52:18,749 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:20,178 - INFO - ✅ Premier League: Arsenal FC vs (2-0) Manchester United (2020-01-01) - Mentions: 12, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:22,431 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:24,454 - WARNING - ⚠️ Hype verisi gecersiz: West Bromwich Albion vs (1-0) Leeds United
+2025-11-30 01:52:26,606 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:29,496 - INFO - ✅ Championship: Swansea City vs (1-0) Charlton Athletic (2020-01-02) - Mentions: 12, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:31,873 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:32,711 - INFO - ✅ Premier League: Norwich City vs (1-0) Crystal Palace (2020-01-01) - Mentions: 24, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:34,751 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:37,436 - INFO - ✅ Premier League: Liverpool FC vs (1-0) Sheffield United (2020-01-02) - Mentions: 36, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:39,609 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:40,460 - INFO - ✅ Premier League: Manchester City vs (0-0) Everton FC (2020-01-01) - Mentions: 46, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:42,915 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:45,843 - WARNING - ⚠️ Hype verisi gecersiz: Sunderland AFC vs (3-0) Lincoln City
+2025-11-30 01:52:48,173 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:49,071 - INFO - ✅ Premier League: West Ham United vs (3-0) AFC Bournemouth (2020-01-01) - Mentions: 12, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:51,489 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:54,309 - WARNING - ⚠️ Hype verisi gecersiz: Macclesfield Town vs (1-0) Cambridge United
+2025-11-30 01:52:56,294 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:52:57,587 - INFO - ✅ Premier League: Arsenal FC vs (2-0) Manchester United (2020-01-01) - Mentions: 12, Home: 75.00%, Away: 25.00%
+2025-11-30 01:52:59,689 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:53:01,842 - WARNING - ⚠️ Hype verisi gecersiz: Doncaster Rovers vs (1-0) Shrewsbury Town
+2025-11-30 01:53:03,888 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:53:05,253 - INFO - ✅ Championship: Swansea City vs (1-0) Charlton Athletic (2020-01-02) - Mentions: 12, Home: 75.00%, Away: 25.00%
+2025-11-30 01:53:07,229 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:53:09,437 - INFO - ✅ Premier League: Sheffield United vs (0-0) West Ham United (2020-01-10) - Mentions: 31, Home: 75.00%, Away: 25.00%
+2025-11-30 01:53:11,803 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:53:12,927 - INFO - ✅ Premier League: Liverpool FC vs (1-0) Sheffield United (2020-01-02) - Mentions: 36, Home: 75.00%, Away: 25.00%
+2025-11-30 01:53:14,995 - ERROR - Reddit hatası: Required configuration setting 'client_id' missing. 
+This setting can be provided in a praw.ini file, as a keyword argument to the Reddit class constructor, or as an environment variable.
+2025-11-30 01:53:25,595 - INFO - 📋 Veritabanı şeması kontrol ediliyor...
+2025-11-30 01:53:35,447 - WARNING - ⚠️ Hype verisi gecersiz: Brighton & Hove Albion vs (0-1) Chelsea FC
+2025-11-30 01:53:42,910 - WARNING - ⚠️ Hype verisi gecersiz: Millwall FC vs (0-1) Luton Town
+2025-11-30 01:53:45,636 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:55:28,722 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:55:35,934 - WARNING - ⚠️ Hype verisi gecersiz: Brighton & Hove Albion vs (0-1) Chelsea FC
+2025-11-30 01:55:38,023 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:55:43,796 - WARNING - ⚠️ Hype verisi gecersiz: Millwall FC vs (0-1) Luton Town
+2025-11-30 01:55:45,784 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:55:51,398 - WARNING - ⚠️ Hype verisi gecersiz: Newcastle United vs (0-2) Leicester City
+2025-11-30 01:55:53,233 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:55:59,222 - WARNING - ⚠️ Hype verisi gecersiz: Huddersfield Town vs (0-1) Stoke City
+2025-11-30 01:56:01,315 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:56:07,432 - WARNING - ⚠️ Hype verisi gecersiz: Birmingham City vs (1-1) Wigan Athletic
+2025-11-30 01:56:09,508 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:56:15,431 - WARNING - ⚠️ Hype verisi gecersiz: Nottingham Forest vs (2-1) Blackburn Rovers
+2025-11-30 01:56:17,332 - ERROR - Google Trends hatası: The request failed: Google returned a response with code 429
+2025-11-30 01:59:57,763 - INFO - ✅ Premier League: Brighton & Hove Albion vs (0-1) Chelsea FC (2020-01-01) - Mentions: 127, Home: 12.60%, Away: 87.40%
+2025-11-30 02:03:20,863 - INFO - ✅ Championship: Millwall FC vs (0-1) Luton Town (2020-01-01) - Mentions: 170, Home: 86.47%, Away: 13.53%

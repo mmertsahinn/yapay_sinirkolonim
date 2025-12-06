@@ -1,0 +1,37 @@
+====================================================================================================
+⚽ GETAFE - GOAL EXPERTS TOP 5
+====================================================================================================
+Oluşturulma: 2025-12-04 11:31:48
+Maç: 0 (Henüz veri yok)
+====================================================================================================
+
+📐 UZMANLIK SKORU FORMÜLÜ:
+====================================================================================================
+SKOR = Accuracy (30%) + Age (20%) + Consistency (15%) +
+       Peak (15%) + Momentum (10%) + Match Count (10%)
+
+• Accuracy: MAE (Mean Absolute Error) bazlı (SADECE bu takımın gollerinde!)
+  - MAE 0.0 → 1.0 skor (mükemmel!)
+  - MAE 3.0 → 0.0 skor (kötü!)
+• Age: LoRA'nın deneyimi (yaş normalizasyonu)
+• Consistency: Son 20 maçtaki gol tahmin istikrarı (SADECE bu takımda!)
+• Peak: En iyi 10 maçlık dönem gol tahmin başarısı (SADECE bu takımda!)
+• Momentum: İlk yarı vs İkinci yarı gol tahmin trendi (SADECE bu takımda!)
+• Match Count: Bu takım için gol tahmin sayısı bonusu (Min: 20 maç)
+
+🎯 ÖNEMLİ: Tüm metrikler SADECE bu takımın maçlarına bakıyor!
+   Getafe uzmanı → Sadece Getafe maçları sayılır!
+====================================================================================================
+
+📊 MİNİMUM KOŞULLAR:
+----------------------------------------------------------------------------------------------------
+  • Minimum 20 maç gerekli
+  • Top 5 uzman seçilir (eşik yok, sadece en iyiler!)
+  • Sistem her 50 maçta güncellenir
+
+🏆 UZMANLAR:
+====================================================================================================
+Henüz uzman yok. Sistem çalıştıkça bu liste dolacak!
+(İlk 50-100 maçtan sonra uzmanlar ortaya çıkacak)
+
+====================================================================================================
