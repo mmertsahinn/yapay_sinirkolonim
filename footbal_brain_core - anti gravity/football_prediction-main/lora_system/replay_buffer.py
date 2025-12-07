@@ -187,7 +187,12 @@ class ReplayBuffer:
         if len(candidates) < batch_size // 2:
             # Yeterli yoksa, karışık getir (yarı situational, yarı random)
             needed = batch_size - len(candidates)
-            others = [ex for ex in self.storage if ex not in candidates]
+            # Use dictionary identity or manual check instead of direct 'not in' with numpy arrays inside dictionaries
+            # because (dict_a == dict_b) can fail if values are arrays.
+            # Just use IDs or object identity if possible, but here 'ex' are dicts.
+            # Robust way: compare Python object IDs
+            candidate_ids = {id(c) for c in candidates}
+            others = [ex for ex in self.storage if id(ex) not in candidate_ids]
             
             if others:
                 # Kalanı önem sırasına göre doldur

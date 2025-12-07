@@ -146,7 +146,7 @@ if __name__ == "__main__":
     results = []
     
     results.append(("Phase 1", test_phase_1_modules()))
-    results.append(("Phase 2", test_phase_2_modules()))
+    results.append(("Phase 2", test_Phase_2_modules()))
     results.append(("Phase 3", test_master_system()))
     
     # Summary

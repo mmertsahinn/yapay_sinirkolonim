@@ -130,8 +130,8 @@ advanced_mechanics:
 
 # DOSYA YOLLARI
 paths:
-  base_model: "football_prediction_ensemble.joblib"
-  label_encoder: "label_encoder.joblib"
+  base_model: "footbal_brain_core - anti gravity/football_prediction-main/football_prediction_ensemble.joblib"
+  label_encoder: "footbal_brain_core - anti gravity/football_prediction-main/label_encoder.joblib"
   lora_population: "lora_population_state.pt"
   meta_lora: "meta_lora_state.pt"
   buffer: "replay_buffer.joblib"

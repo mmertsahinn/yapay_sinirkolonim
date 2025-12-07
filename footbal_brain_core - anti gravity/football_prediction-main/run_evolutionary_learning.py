@@ -42,6 +42,10 @@ from lora_system import (
     AdvancedMechanicsManager
 )
 
+# 🧬 DEEP LEARNING & SIEVE (NEW!)
+from lora_system.deep_learning_optimization import DeepKnowledgeDistiller, CollectiveDeepLearner
+from lora_system.background_sieve import BackgroundSieve
+
 # 🎯 ADVANCED CATEGORIZATION (NEW!)
 from lora_system.advanced_categorization import AdvancedCategorization
 from lora_system.social_network_visualizer import SocialNetworkVisualizer
@@ -195,6 +199,15 @@ class EvolutionaryLearningSystem:
         print("\n🎯 Specialization Tracker başlatılıyor...")
         self.spec_tracker = SpecializationTracker()
         
+        # 11.2) 🕸️ Arka Plan Elek Sistemi
+        print("\n🕸️ Arka Plan Elek Sistemi (Sieve) başlatılıyor...")
+        self.background_sieve = BackgroundSieve(buffer_size=50)
+
+        # 11.3) 🧬 Deep Learning Optimization
+        print("\n🧬 Deep Learning Optimization (Distillation) başlatılıyor...")
+        self.distiller = DeepKnowledgeDistiller(device=self.device)
+        self.collective_learner = CollectiveDeepLearner(device=self.device)
+
         # 11.5) 🎯 ADVANCED CATEGORIZATION
         print("\n🧠 Advanced Categorization System kısmi entegrasyon...")
         self.advanced_categorization = AdvancedCategorization()
@@ -1668,6 +1681,21 @@ class EvolutionaryLearningSystem:
             
             learner = OnlineLoRALearner(lora, learning_rate=lora_lr, device=self.device)
             
+            # 🧬 KNOWLEDGE DISTILLATION (ÇAĞ ATLAMA!)
+            # Eğer LoRA yeni ve başarısızsa, bir "Master"dan ders alsın
+            distillation_loss = 0.0
+            if lora.get_recent_fitness() < 0.6 and len(lora.match_history) < 50:
+                teacher = self.distiller.find_best_teacher(population, lora)
+                if teacher:
+                    # Distillation step
+                    # Not: Bu, learner.learn_batch'den önce veya sonra yapılabilir
+                    # Burada direkt optimizer step çağrılıyor, dikkat!
+                    distillation_loss = self.distiller.distill_knowledge(
+                        lora, teacher,
+                        features, base_proba, actual_idx,
+                        learner.optimizer
+                    )
+
             # 🔍 DEBUG: Parametre değişimini ölç (Öğrenme Kanıtı!)
             # Önceki parametrelerin kopyasını al
             old_params = {}
@@ -1678,6 +1706,10 @@ class EvolutionaryLearningSystem:
             # Öğrenme adımı
             loss = learner.learn_batch(batch)
             
+            # 🕸️ SIEVE KAYDI (Davranış analizi)
+            lora_pred_vector = lora.predict(features, base_proba, self.device)
+            self.background_sieve.record_behavior(lora.id, lora_pred_vector, lora_correct, abs(1.0 - lora_confidence))
+
             # 🔍 DEBUG: Parametre değişimini hesapla
             param_change = 0.0
             count = 0
@@ -2373,6 +2405,10 @@ class EvolutionaryLearningSystem:
         # 10.5) UZMANLIK TESPİTİ VE EVRİMİ (Advanced Categorization!)
         # Artık Multi-Dimensional Categorization kullanıyoruz!
         
+        # 🕸️ SIEVE ANALİZİ ÇALIŞTIR (Her 10 maçta)
+        if result['match_idx'] % 10 == 0:
+            self.background_sieve.run_sieve(population)
+
         for lora in population:
             lora_correct = any(l[0].id == lora.id for l in correct_loras)
             
@@ -2390,6 +2426,14 @@ class EvolutionaryLearningSystem:
             # Not: AdvancedCategorization içinde log mekanizması var ama burada da loglayabiliriz
             # Şimdilik LivingLoRAsReporter ve diğer sistemler lora.specialization'ı kullanacak.
         
+        # 🧬 KOLEKTİF ÖĞRENME (Sürü Zekası)
+        # Global hata oranına göre tüm popülasyonu hafifçe düzelt
+        if not correct: # Sürü (konsensus) yanıldıysa
+            global_error = mistake_severity
+            self.collective_learner.collective_backprop(
+                population, features, base_proba, actual_idx, global_error
+            )
+
         # META-LoRA bilgisini al (başta tanımla!)
         lora_info = result.get('lora_info', {})  # ✅ Result'tan al!
         
@@ -3297,7 +3341,7 @@ class EvolutionaryLearningSystem:
         
         # LoRA populasyonunu yükle
         if os.path.exists(self.paths['lora_population']):
-            checkpoint = torch.load(self.paths['lora_population'])
+            checkpoint = torch.load(self.paths['lora_population'], weights_only=False)
             
             # Mevcut popülasyonu temizle
             self.evolution_manager.population.clear()
@@ -3612,7 +3656,7 @@ class EvolutionaryLearningSystem:
         
         # Meta-LoRA yükle
         if os.path.exists(self.paths['meta_lora']) and isinstance(self.meta_lora, MetaLoRA):
-            self.meta_lora.load_state_dict(torch.load(self.paths['meta_lora']))
+            self.meta_lora.load_state_dict(torch.load(self.paths['meta_lora'], weights_only=False))
             print(f"   ✅ Meta-LoRA yüklendi")
         
         print("   ✅ Tüm durum yüklendi!")
