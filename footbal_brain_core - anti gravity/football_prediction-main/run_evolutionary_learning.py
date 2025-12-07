@@ -46,6 +46,7 @@ from lora_system import (
 from lora_system.deep_learning_optimization import DeepKnowledgeDistiller, CollectiveDeepLearner
 from lora_system.background_sieve import BackgroundSieve
 from lora_system.butterfly_effect import ButterflyEffect
+from lora_system.tribe_trainer import TribeTrainer
 
 # 🎯 ADVANCED CATEGORIZATION (NEW!)
 from lora_system.advanced_categorization import AdvancedCategorization
@@ -208,6 +209,7 @@ class EvolutionaryLearningSystem:
         print("\n🧬 Deep Learning Optimization (Distillation) başlatılıyor...")
         self.distiller = DeepKnowledgeDistiller(device=self.device)
         self.collective_learner = CollectiveDeepLearner(device=self.device)
+        self.tribe_trainer = TribeTrainer(self.distiller, device=self.device)
 
         # 11.5) 🎯 ADVANCED CATEGORIZATION
         print("\n🧠 Advanced Categorization System kısmi entegrasyon...")
@@ -2419,7 +2421,10 @@ class EvolutionaryLearningSystem:
         
         # 🕸️ SIEVE ANALİZİ ÇALIŞTIR (Her 10 maçta)
         if result['match_idx'] % 10 == 0:
-            self.background_sieve.run_sieve(population)
+            tribes = self.background_sieve.run_sieve(population)
+            # 🔥 KABİLE EĞİTİMİ (Toplu Eğitim)
+            if tribes:
+                self.tribe_trainer.train_tribes(tribes, self.buffer)
 
         for lora in population:
             lora_correct = any(l[0].id == lora.id for l in correct_loras)

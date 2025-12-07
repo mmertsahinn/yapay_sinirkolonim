@@ -96,6 +96,19 @@ class BackgroundSieve:
         self.clusters = new_clusters
         print(f"🕸️ ELEK SİSTEMİ: {len(set(labels)) - (1 if -1 in labels else 0)} kabile tespit edildi.")
 
+        return self._group_by_cluster(valid_loras, labels)
+
+    def _group_by_cluster(self, loras, labels):
+        """
+        LoRA'ları cluster ID'lerine göre grupla.
+        Returns: {cluster_id: [lora1, lora2...]}
+        """
+        groups = collections.defaultdict(list)
+        for i, label in enumerate(labels):
+            if label != -1: # Noise hariç
+                groups[int(label)].append(loras[i])
+        return groups
+
     def _generate_tag(self, features):
         """Kümeye isim ver"""
         avg_err, home, draw, risk, conf = features
