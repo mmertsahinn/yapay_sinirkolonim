@@ -1,0 +1,8 @@
+lora_wallets/
+en_iyi_loralar/
+evolution_logs/
+mucizeler/
+hibernated_loras/
+*.joblib
+lora_population_state.pt
+best_loras/

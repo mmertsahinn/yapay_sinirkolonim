@@ -1025,13 +1025,26 @@ class EvolutionLogger:
     
     def save_all(self):
         """Tüm logları kaydet"""
+        import numpy as np
+
+        def convert_numpy(obj):
+            if isinstance(obj, np.float32):
+                return float(obj)
+            if isinstance(obj, np.int64):
+                return int(obj)
+            if isinstance(obj, np.ndarray):
+                return obj.tolist()
+            if hasattr(obj, 'item'): # Tensor/scalar
+                return obj.item()
+            raise TypeError(f'Object of type {obj.__class__.__name__} is not JSON serializable')
+
         # JSON
         with open(self.json_log_file, 'w', encoding='utf-8') as f:
             json.dump({
                 'events': self.all_events,
                 'population_history': self.population_history,
                 'match_count': self.match_count
-            }, f, indent=2, ensure_ascii=False)
+            }, f, indent=2, ensure_ascii=False, default=convert_numpy)
         
         # Dosya adlarını başta tanımla
         excel_detailed = self.population_csv.replace('.csv', '_DETAYLI.xlsx')

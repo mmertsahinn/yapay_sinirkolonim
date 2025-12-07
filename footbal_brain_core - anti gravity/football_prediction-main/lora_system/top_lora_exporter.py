@@ -1,4 +1,5 @@
-⭐ EN İYİ LoRA'LAR EXPORTERı
+"""
+* EN İYİ LoRA'LAR EXPORTERı
 ============================
 
 ⚠️ ÖNEMLİ: Bu modül "MASTER_CONTEXT_RULES.md" kurallarına sıkı sıkıya bağlıdır.
@@ -23,7 +24,7 @@ from .advanced_score_calculator import AdvancedScoreCalculator
 
 class TopLoRAExporter:
     """
-    ⭐ EN İYİ LoRA'LAR EXPORTERı (LIVE SYNC VERSION)
+    EN İYİ LoRA'LAR EXPORTERı (LIVE SYNC VERSION)
     ================================================
     
     Her çalıştırmada:
@@ -51,16 +52,16 @@ class TopLoRAExporter:
         for d in self.dirs.values():
             os.makedirs(d, exist_ok=True)
             
-        print(f"⭐ Top LoRA Exporter (Live Sync) başlatıldı: {export_dir}")
+        print(f"Top LoRA Exporter (Live Sync) başlatıldı: {export_dir}")
     
     def export_all(self, population: List, miracle_system, match_count: int, 
                    all_loras_ever: Dict = None, top_n: int = 50, collective_memory=None):
         """
         Tüm kategorileri export et (CANLI SENKRONİZASYON!)
         """
-        print(f"\n{'⭐'*40}")
+        print(f"\n{'*'*40}")
         print(f"CANLI LoRA SENKRONİZASYONU BAŞLIYOR...")
-        print(f"{'⭐'*40}")
+        print(f"{'*'*40}")
         
         if all_loras_ever is None:
             all_loras_ever = {}
@@ -132,7 +133,7 @@ class TopLoRAExporter:
         
         print(f"\n✅ CANLI SENKRONİZASYON TAMAMLANDI!")
         print(f"   📂 Klasörler güncellendi: {self.export_dir}")
-        print(f"{'⭐'*40}\n")
+        print(f"{'*'*40}\n")
 
     def _sync_h2h(self, loras: List[Dict], match_count: int, collective_memory):
         """
@@ -302,7 +303,7 @@ class TopLoRAExporter:
             except Exception as e:
                 print(f"⚠️ Silme hatası: {f} - {e}")
 
-    def _save_lora_pair(self, folder: str, lora, rank: int, info: Dict, match_count: int, category: str):
+    def _save_lora_pair(self, folder: str, lora, rank: int, info: Dict, match_count: int, category: str, extra_details: Dict = None):
         """
         .pt ve .txt çiftini kaydet
         Dosya adı: LoRA_Name_ID (SABİT!)
@@ -347,6 +348,12 @@ class TopLoRAExporter:
             f.write(f"   • Advanced Score: {adv_score:.3f}\n")
             f.write(f"   • Fitness: {info['final_fitness']:.3f}\n")
             
+            # Extra Detaylar (H2H vb.)
+            if extra_details:
+                f.write(f"\n📝 EKSTRA DETAYLAR:\n")
+                for k, v in extra_details.items():
+                    f.write(f"   • {k}: {v}\n")
+
             # Fizik
             lazarus = getattr(lora, '_lazarus_lambda', 0.5)
             f.write(f"\n🧬 FİZİK MOTORU:\n")

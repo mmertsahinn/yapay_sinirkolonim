@@ -11,6 +11,12 @@ class AdaptiveNature:
     """
     
     def __init__(self):
+        # Attributes for serialization/versioning
+        self.nature_version = 1
+        self.evolution_history = []
+        self.lora_immunity = {}
+        self.nature_memory = {}
+
         # Nature State
         self.state = {
             'anger': 0.1,    # Determines probability of disasters
