@@ -22,6 +22,9 @@ import random
 from copy import deepcopy
 
 from .lora_adapter import LoRAAdapter
+from .social_network import SocialNetwork
+from .adaptive_nature import AdaptiveNature
+from .advanced_categorization import AdvancedCategorization
 
 
 class ChaosEvolutionManager:
@@ -39,11 +42,14 @@ class ChaosEvolutionManager:
         # 🛡️ DENEYİM DİRENCİ SİSTEMİ (Dışarıdan set edilecek!)
         self.experience_resistance = None
         
-        # 💕 ULTRA KAOTİK ÇİFTLEŞME (Dışarıdan set edilecek!)
-        self.ultra_mating = None
+        # 💕 AKIŞKAN SOSYAL AĞ (Yeni!)
+        self.social_network = SocialNetwork()
         
-        # 🌡️ NATURE THERMOSTAT (Dışarıdan set edilecek!)
-        self.nature_thermostat = None
+        # 🌍 ÖĞRENEN DOĞA (Yeni!)
+        self.adaptive_nature = AdaptiveNature()
+        
+        # 🌡️ NATURE THERMOSTAT (Artık AdaptiveNature içinde!)
+        # self.nature_thermostat = None # Deprecated
         
         # Parametreler
         self.min_population = config.get('population', {}).get('min_population', 5)
@@ -133,10 +139,19 @@ class ChaosEvolutionManager:
             0-1 arası şans
         """
         # 1. Sosyal Bağ (En iyi arkadaşı var mı?)
+        # 🔗 Social Network'ten oku!
         social_factor = 0.0
-        if hasattr(lora, 'social_bonds') and lora.social_bonds:
-            max_bond = max(lora.social_bonds.values()) if lora.social_bonds else 0.0
-            social_factor = max_bond  # 0-1 arası
+        if hasattr(self, 'social_network'):
+            # Arkadaş listesini çek
+            friends = self.social_network.get_social_cluster(lora.id, threshold=0.3)
+            # Eğer arkadaşı varsa, sosyal faktör yüksek!
+            if friends:
+                # En güçlü bağ
+                max_bond = 0.0
+                for friend_id in friends:
+                    bond = self.social_network.get_bond_strength(lora.id, friend_id)
+                    max_bond = max(max_bond, bond)
+                social_factor = max_bond
         
         # 2. Fitness
         fitness_factor = lora.get_recent_fitness()
@@ -165,13 +180,16 @@ class ChaosEvolutionManager:
         # Base scale
         final_chance = base_chance * self.base_reproduction_chance * 5.0  # Scale up
         
-        # 🌡️ TEMPERATURE ETKİSİ (AKIŞKAN!)
-        if self.nature_thermostat:
-            temp = self.nature_thermostat.temperature
-            # Sıcak (0.8) → Zorluk artar → Şans x0.7
-            # Soğuk (0.2) → Kolaylık artar → Şans x1.3
-            temp_modifier = 1.0 - ((temp - 0.5) * 0.6)
-            final_chance *= temp_modifier
+        # 🌡️ ADAPTIVE NATURE ETKİSİ!
+        # Nature State: Anger (Zorluk), Health (Kolaylık)
+        nature_state = self.adaptive_nature.state
+        anger = nature_state.get('anger', 0.1)
+        
+        # Anger yüksekse → Üreme zorlaşır (x0.5'e kadar düşer)
+        # Anger düşükse  → Üreme kolaylaşır (x1.5'e kadar çıkar)
+        nature_modifier = 1.5 - anger # 0.5 (High Anger) ile 1.4 (No Anger) arası
+        
+        final_chance *= nature_modifier
         
         return min(0.90, final_chance)
 
@@ -407,9 +425,24 @@ class ChaosEvolutionManager:
                 genetic_diversity = self._calculate_genetic_diversity()
                 
                 # Diversity düşük → Daha fazla mutasyon (radikal değişim!)
-                # Diversity yüksek → Daha az mutasyon (stabil)
-                fluid_param_mutation = self.base_param_mutation_chance * (1.8 - genetic_diversity) * temp_modifier
-                fluid_shock_mutation = self.base_shock_mutation_chance * (2.0 - genetic_diversity) * temp_modifier
+                if hasattr(self, 'adaptive_nature'):
+                    # Nature durumunu al
+                    nature_state = self.adaptive_nature.state
+                    chaos_level = nature_state.get('chaos', 0.1) # Default to 0.1 if not found
+                    
+                    # 🌪️ KAOS ETKİSİ: Kaos arttıkça mutasyon artar!
+                    # Base 0.15 -> Kaos 1.0 iken 0.30'a kadar çıkabilir
+                    base_mutation_chance_adjusted = self.base_param_mutation_chance * (1.0 + chaos_level)
+                    
+                    # Şok mutasyon da artar
+                    base_shock_chance_adjusted = self.base_shock_mutation_chance * (1.0 + chaos_level * 2)
+                else:
+                    base_mutation_chance_adjusted = self.base_param_mutation_chance
+                    base_shock_chance_adjusted = self.base_shock_mutation_chance
+                
+                # Apply genetic diversity and temperature modifier
+                fluid_param_mutation = base_mutation_chance_adjusted * (1.8 - genetic_diversity) * temp_modifier
+                fluid_shock_mutation = base_shock_chance_adjusted * (2.0 - genetic_diversity) * temp_modifier
                 # Diversity 0 → %27 normal, %10 shock (radikal!)
                 # Diversity 1 → %12 normal, %5 shock (stabil)
                 
@@ -598,13 +631,13 @@ class ChaosEvolutionManager:
         
         self.population.extend(new_borns)
         
-        # 3) SPONTANE DOĞUM (Alien LoRA!) (🌊 DİNAMİK!)
+        # 4) SPONTANE DOĞUM (Alien LoRA!) (🌊 NATURE CHAOS!)
         
-        # 🌊 DİNAMİK ALIEN ŞANSI (Genetic diversity'ye göre!)
-        genetic_diversity = self._calculate_genetic_diversity()
+        # Nature Chaos seviyesini oku
+        chaos_level = self.adaptive_nature.state.get('chaos', 0.1)
         
-        # Diversity düşük → Daha fazla alien (yeni gen havuzu lazım!)
-        fluid_alien_chance = self.base_mutation_chance * (2.5 - (genetic_diversity * 1.5))
+        # Chaos yüksekse → Alien şansı artar!
+        fluid_alien_chance = self.base_mutation_chance * (1.0 + chaos_level * 5.0)
         
         if random.random() < fluid_alien_chance:
             alien = self.spawn_random_lora(device=self.device)
@@ -612,9 +645,27 @@ class ChaosEvolutionManager:
             events.append({
                 'type': 'spontaneous_birth',
                 'lora': alien.name,
-                'genetic_diversity': genetic_diversity,
+                'chaos_level': chaos_level,
                 'alien_chance': fluid_alien_chance
             })
+            
+        # 5) NATURE LEARNING STEP (Doğa öğreniyor!)
+        # Bu turun sonunda popülasyon sağlığını ölçüp doğayı güncelle
+        # Önceki health
+        old_health = self.adaptive_nature.state.get('health', 0.5)
+        
+        # Yeni stats
+        stats = self.get_population_stats()
+        avg_success = 0.5 # Placeholder (collective memory'den gelmeli idealde)
+        # Basitçe fitness ortalaması kullanalım şimdilik
+        avg_success = stats.get('avg_fitness', 0.5) 
+        
+        new_health = self.adaptive_nature.assess_colony_health(self.population, avg_success)
+        self.adaptive_nature.update_nature_state(new_health)
+        
+        # Eğer bir aksiyon alındıysa (disaster vs.) sonucunu öğren (RL)
+        # Şu an evolution_step içinde disaster kararı yok, bunu entegre etmek lazım.
+        # Basitlik için nature state update yeterli şimdilik.
         
         # 4) SOY TÜKENMESİ KONTROLÜ
         # MANUEL DİRİLTME! Otomatik spawn YOK!

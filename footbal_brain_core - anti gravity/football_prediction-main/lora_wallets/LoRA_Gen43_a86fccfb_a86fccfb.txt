@@ -787,3 +787,1097 @@ Maç #10 [2025-12-04 18:16:01] TAHMİN: SV Zulte Waregem vs KAA Gent
       → Kazanan: home_win (100%) | Skor: h-o
 
 Maç #10 [2025-12-04 18:16:01] ÖĞRENME: Fitness: 0.500 → 0.538 (+0.038) ↗️
+Maç #0 [2025-12-06 22:42:07] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 22:46:39] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 22:56:51] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 22:57:43] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 22:58:53] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:00:06] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: away_win (100%)
+      → Gerçek: away_win ✅ DOĞRU | 1-4 
+Maç #0 [2025-12-06 23:00:45] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:01:29] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:02:17] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:03:05] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:04:53] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:05:53] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:06:15] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:06:15] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:06:16)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.333 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 1.195
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.735
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 1/3 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e | Fitness: 0.643
+  Baba: LoRA_Gen35_0b26ae63 | Fitness: 0.440
+  Kardeşler: LoRA_Gen43_b781ac1e
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 1 (%33.3)
+  Yanlış: 2 (%66.7)
+  Güncel Fitness: 0.333
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.93
+  Social_intelligence: [██████░░░░] 0.60
+  Herd_tendency: [███████░░░] 0.74
+  Contrarian_score: [███░░░░░░░] 0.40
+  Emotional_depth: [██████░░░░] 0.66
+  Empathy: [██████░░░░] 0.62
+  Anger_tendency: [██████░░░░] 0.63
+  Ambition: [██████░░░░] 0.66
+  Competitiveness: [███░░░░░░░] 0.37
+  Resilience: [█████░░░░░] 0.53
+  Will_to_live: [██░░░░░░░░] 0.28
+  Patience: [████░░░░░░] 0.43
+  Impulsiveness: [████░░░░░░] 0.41
+  Stress_tolerance: [██░░░░░░░░] 0.26
+  Risk_appetite: [░░░░░░░░░░] 0.02
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:05:53] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:06:15] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:06:15] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 1 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ KRİTİK! Ölüm riski yüksek (fitness: 0.333)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:06:16)
+================================================================================
+Maç #0 [2025-12-06 23:07:14] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:07:34] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:07:34] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:07:34)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.333 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 1.198
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.734
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 1/3 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e | Fitness: 0.643
+  Baba: LoRA_Gen35_0b26ae63 | Fitness: 0.440
+  Kardeşler: LoRA_Gen43_b781ac1e
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 1 (%33.3)
+  Yanlış: 2 (%66.7)
+  Güncel Fitness: 0.333
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.91
+  Social_intelligence: [██████░░░░] 0.62
+  Herd_tendency: [███████░░░] 0.76
+  Contrarian_score: [███░░░░░░░] 0.32
+  Emotional_depth: [██████░░░░] 0.68
+  Empathy: [██████░░░░] 0.62
+  Anger_tendency: [██████░░░░] 0.63
+  Ambition: [█████░░░░░] 0.57
+  Competitiveness: [███░░░░░░░] 0.37
+  Resilience: [█████░░░░░] 0.55
+  Will_to_live: [███░░░░░░░] 0.36
+  Patience: [████░░░░░░] 0.46
+  Impulsiveness: [████░░░░░░] 0.45
+  Stress_tolerance: [███░░░░░░░] 0.40
+  Risk_appetite: [░░░░░░░░░░] 0.05
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:07:14] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:07:34] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:07:34] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 1 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ KRİTİK! Ölüm riski yüksek (fitness: 0.333)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:07:34)
+================================================================================
+Maç #0 [2025-12-06 23:09:30] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:09:51] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:09:51] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:09:51)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.333 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 1.194
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.734
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 1/3 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e | Fitness: 0.643
+  Baba: LoRA_Gen35_0b26ae63 | Fitness: 0.440
+  Kardeşler: LoRA_Gen43_b781ac1e
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 1 (%33.3)
+  Yanlış: 2 (%66.7)
+  Güncel Fitness: 0.333
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [████████░░] 0.89
+  Social_intelligence: [██████░░░░] 0.60
+  Herd_tendency: [███████░░░] 0.75
+  Contrarian_score: [███░░░░░░░] 0.32
+  Emotional_depth: [██████░░░░] 0.67
+  Empathy: [██████░░░░] 0.68
+  Anger_tendency: [██████░░░░] 0.63
+  Ambition: [████░░░░░░] 0.50
+  Competitiveness: [███░░░░░░░] 0.32
+  Resilience: [████░░░░░░] 0.40
+  Will_to_live: [███░░░░░░░] 0.34
+  Patience: [███░░░░░░░] 0.35
+  Impulsiveness: [████░░░░░░] 0.43
+  Stress_tolerance: [████░░░░░░] 0.47
+  Risk_appetite: [░░░░░░░░░░] 0.04
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:09:30] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:09:51] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:09:51] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 1 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ KRİTİK! Ölüm riski yüksek (fitness: 0.333)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:09:51)
+================================================================================
+Maç #0 [2025-12-06 23:11:20] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:12:57] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:15:25] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:15:47] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:15:47] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:15:48)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.333 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 1.200
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.734
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 1/3 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e | Fitness: 0.643
+  Baba: LoRA_Gen35_0b26ae63 | Fitness: 0.440
+  Kardeşler: LoRA_Gen43_b781ac1e
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 1 (%33.3)
+  Yanlış: 2 (%66.7)
+  Güncel Fitness: 0.333
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.90
+  Social_intelligence: [█████░░░░░] 0.59
+  Herd_tendency: [███████░░░] 0.72
+  Contrarian_score: [██░░░░░░░░] 0.30
+  Emotional_depth: [██████░░░░] 0.63
+  Empathy: [██████░░░░] 0.68
+  Anger_tendency: [██████░░░░] 0.63
+  Ambition: [██████░░░░] 0.63
+  Competitiveness: [███░░░░░░░] 0.35
+  Resilience: [█████░░░░░] 0.53
+  Will_to_live: [███░░░░░░░] 0.34
+  Patience: [████░░░░░░] 0.42
+  Impulsiveness: [████░░░░░░] 0.43
+  Stress_tolerance: [███░░░░░░░] 0.35
+  Risk_appetite: [░░░░░░░░░░] 0.00
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:15:25] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:15:47] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:15:47] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 1 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ KRİTİK! Ölüm riski yüksek (fitness: 0.333)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:15:48)
+================================================================================
+Maç #0 [2025-12-06 23:16:39] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:16:59] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:16:59] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:16:59)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.333 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 1.195
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.734
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 1/3 doğru
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e | Fitness: 0.643
+  Baba: LoRA_Gen35_0b26ae63 | Fitness: 0.440
+  Kardeşler: LoRA_Gen43_b781ac1e
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 1 (%33.3)
+  Yanlış: 2 (%66.7)
+  Güncel Fitness: 0.333
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.98
+  Social_intelligence: [█████░░░░░] 0.60
+  Herd_tendency: [███████░░░] 0.78
+  Contrarian_score: [██░░░░░░░░] 0.29
+  Emotional_depth: [██████░░░░] 0.68
+  Empathy: [██████░░░░] 0.62
+  Anger_tendency: [██████░░░░] 0.69
+  Ambition: [█████░░░░░] 0.55
+  Competitiveness: [███░░░░░░░] 0.34
+  Resilience: [█████░░░░░] 0.51
+  Will_to_live: [███░░░░░░░] 0.34
+  Patience: [████░░░░░░] 0.40
+  Impulsiveness: [████░░░░░░] 0.44
+  Stress_tolerance: [███░░░░░░░] 0.40
+  Risk_appetite: [█░░░░░░░░░] 0.15
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:16:39] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:16:59] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:16:59] ÖĞRENME: Fitness: 0.500 → 0.333 (-0.167) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 1 maç
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ⚠️ KRİTİK! Ölüm riski yüksek (fitness: 0.333)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:16:59)
+================================================================================
+Maç #1 [2025-12-06 23:17:08] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #1 [2025-12-06 23:17:28] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #1 [2025-12-06 23:17:28] ÖĞRENME: Fitness: 0.333 → 0.500 (+0.167) ↗️
+Maç #2 [2025-12-06 23:17:36] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #2 [2025-12-06 23:17:57] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #2 [2025-12-06 23:17:57] ÖĞRENME: Fitness: 0.500 → 0.600 (+0.100) ↗️
+Maç #3 [2025-12-06 23:18:05] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #3 [2025-12-06 23:18:25] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #3 [2025-12-06 23:18:25] ÖĞRENME: Fitness: 0.600 → 0.667 (+0.067) ↗️
+Maç #4 [2025-12-06 23:18:34] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 5-0 
+Maç #4 [2025-12-06 23:18:55] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #4 [2025-12-06 23:18:55] ÖĞRENME: Fitness: 0.667 → 0.714 (+0.048) ↗️
+Maç #5 [2025-12-06 23:19:04] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #5 [2025-12-06 23:19:27] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #5 [2025-12-06 23:19:27] ÖĞRENME: Fitness: 0.714 → 0.750 (+0.036) ↗️
+Maç #6 [2025-12-06 23:19:36] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 2-6 
+Maç #6 [2025-12-06 23:20:00] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #6 [2025-12-06 23:20:00] ÖĞRENME: Fitness: 0.750 → 0.667 (-0.083) ↘️
+Maç #7 [2025-12-06 23:20:09] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 2-2 
+Maç #7 [2025-12-06 23:20:35] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (100%) | Skor: d-r
+
+Maç #7 [2025-12-06 23:20:35] ÖĞRENME: Fitness: 0.667 → 0.600 (-0.067) ↘️
+Maç #8 [2025-12-06 23:20:45] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 0-1 
+Maç #8 [2025-12-06 23:21:12] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #8 [2025-12-06 23:21:12] ÖĞRENME: Fitness: 0.600 → 0.545 (-0.055) ↘️
+Maç #9 [2025-12-06 23:21:24] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #9 [2025-12-06 23:21:54] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #9 [2025-12-06 23:21:54] ÖĞRENME: Fitness: 0.545 → 0.583 (+0.038) ↗️
+Maç #0 [2025-12-06 23:24:23] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:30:57] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:31:26] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:31:26] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:31:27)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.538 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 0.981
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.812
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 7/13 doğru
+🎯 Uzmanlık: CONSISTENCY_GOD
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e (DERBY_MASTER) | Fitness: 0.542
+  Baba: LoRA_Gen35_0b26ae63 (DERBY_MASTER) | Fitness: 0.400
+  Kardeşler: LoRA_Gen43_b781ac1e
+  Çocuklar: LoRA_8d680f43
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 7 (%53.8)
+  Yanlış: 6 (%46.2)
+  Güncel Fitness: 0.538
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.96
+  Social_intelligence: [████░░░░░░] 0.49
+  Herd_tendency: [███████░░░] 0.78
+  Contrarian_score: [██░░░░░░░░] 0.21
+  Emotional_depth: [██████░░░░] 0.68
+  Empathy: [██████░░░░] 0.65
+  Anger_tendency: [███████░░░] 0.79
+  Ambition: [████░░░░░░] 0.43
+  Competitiveness: [███░░░░░░░] 0.37
+  Resilience: [███░░░░░░░] 0.37
+  Will_to_live: [███░░░░░░░] 0.38
+  Patience: [██████░░░░] 0.61
+  Impulsiveness: [████░░░░░░] 0.47
+  Stress_tolerance: [████░░░░░░] 0.42
+  Risk_appetite: [███████░░░] 0.70
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:30:57] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:31:26] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:31:26] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 5 maç
+  • Toplam çocuk: 1
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ✅ Düşük risk (fitness: 0.538)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:31:27)
+================================================================================
+Maç #1 [2025-12-06 23:31:38] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #1 [2025-12-06 23:32:06] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #1 [2025-12-06 23:32:06] ÖĞRENME: Fitness: 0.538 → 0.571 (+0.033) ↗️
+Maç #2 [2025-12-06 23:32:16] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #2 [2025-12-06 23:32:46] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #2 [2025-12-06 23:32:46] ÖĞRENME: Fitness: 0.571 → 0.600 (+0.029) ↗️
+Maç #3 [2025-12-06 23:32:56] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #3 [2025-12-06 23:33:26] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #3 [2025-12-06 23:33:26] ÖĞRENME: Fitness: 0.600 → 0.625 (+0.025) ↗️
+Maç #4 [2025-12-06 23:33:38] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 5-0 
+Maç #4 [2025-12-06 23:34:11] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #4 [2025-12-06 23:34:11] ÖĞRENME: Fitness: 0.625 → 0.647 (+0.022) ↗️
+Maç #5 [2025-12-06 23:34:26] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #5 [2025-12-06 23:35:01] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #5 [2025-12-06 23:35:01] ÖĞRENME: Fitness: 0.647 → 0.667 (+0.020) ↗️
+Maç #6 [2025-12-06 23:35:14] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 2-6 
+Maç #6 [2025-12-06 23:35:48] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #6 [2025-12-06 23:35:48] ÖĞRENME: Fitness: 0.667 → 0.632 (-0.035) ↘️
+Maç #7 [2025-12-06 23:36:01] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: home_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 2-2 
+Maç #7 [2025-12-06 23:36:37] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: home_win (100%) | Skor: d-r
+
+Maç #7 [2025-12-06 23:36:37] ÖĞRENME: Fitness: 0.632 → 0.600 (-0.032) ↘️
+Maç #8 [2025-12-06 23:36:50] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 0-1 
+Maç #8 [2025-12-06 23:37:27] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #8 [2025-12-06 23:37:27] ÖĞRENME: Fitness: 0.600 → 0.571 (-0.029) ↘️
+Maç #9 [2025-12-06 23:37:39] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #9 [2025-12-06 23:38:14] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #9 [2025-12-06 23:38:14] ÖĞRENME: Fitness: 0.571 → 0.591 (+0.019) ↗️
+Maç #10 [2025-12-06 23:38:26] TAHMİN: SV Zulte Waregem vs KAA Gent
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 4-1 
+Maç #10 [2025-12-06 23:39:02] TAHMİN: SV Zulte Waregem vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #10 [2025-12-06 23:39:02] ÖĞRENME: Fitness: 0.591 → 0.609 (+0.018) ↗️
+Maç #0 [2025-12-06 23:40:17] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:40:46] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:40:46] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:40:47)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.538 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 0.985
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.812
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 7/13 doğru
+🎯 Uzmanlık: CONSISTENCY_GOD
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e (DERBY_MASTER) | Fitness: 0.542
+  Baba: LoRA_Gen35_0b26ae63 (DERBY_MASTER) | Fitness: 0.400
+  Kardeşler: LoRA_Gen43_b781ac1e
+  Çocuklar: LoRA_8d680f43
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 7 (%53.8)
+  Yanlış: 6 (%46.2)
+  Güncel Fitness: 0.538
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.97
+  Social_intelligence: [█████░░░░░] 0.53
+  Herd_tendency: [███████░░░] 0.78
+  Contrarian_score: [███░░░░░░░] 0.30
+  Emotional_depth: [███████░░░] 0.73
+  Empathy: [█████░░░░░] 0.59
+  Anger_tendency: [████████░░] 0.82
+  Ambition: [█████░░░░░] 0.57
+  Competitiveness: [███░░░░░░░] 0.37
+  Resilience: [███░░░░░░░] 0.32
+  Will_to_live: [███░░░░░░░] 0.40
+  Patience: [███████░░░] 0.77
+  Impulsiveness: [████░░░░░░] 0.50
+  Stress_tolerance: [██████░░░░] 0.61
+  Risk_appetite: [█████░░░░░] 0.58
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:40:17] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:40:46] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:40:46] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 5 maç
+  • Toplam çocuk: 1
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ✅ Düşük risk (fitness: 0.538)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:40:47)
+================================================================================
+Maç #1 [2025-12-06 23:40:58] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #1 [2025-12-06 23:41:26] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #1 [2025-12-06 23:41:26] ÖĞRENME: Fitness: 0.538 → 0.571 (+0.033) ↗️
+Maç #2 [2025-12-06 23:41:36] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #2 [2025-12-06 23:42:03] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #2 [2025-12-06 23:42:03] ÖĞRENME: Fitness: 0.571 → 0.600 (+0.029) ↗️
+Maç #3 [2025-12-06 23:42:14] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #3 [2025-12-06 23:42:43] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #3 [2025-12-06 23:42:43] ÖĞRENME: Fitness: 0.600 → 0.625 (+0.025) ↗️
+Maç #4 [2025-12-06 23:42:53] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 5-0 
+Maç #4 [2025-12-06 23:43:23] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #4 [2025-12-06 23:43:23] ÖĞRENME: Fitness: 0.625 → 0.647 (+0.022) ↗️
+Maç #5 [2025-12-06 23:43:34] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: away_win (100%)
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 
+Maç #5 [2025-12-06 23:44:05] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: away_win (100%) | Skor: h-o
+
+Maç #5 [2025-12-06 23:44:05] ÖĞRENME: Fitness: 0.647 → 0.611 (-0.036) ↘️
+Maç #6 [2025-12-06 23:44:16] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 2-6 
+Maç #6 [2025-12-06 23:44:49] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #6 [2025-12-06 23:44:49] ÖĞRENME: Fitness: 0.611 → 0.579 (-0.032) ↘️
+Maç #7 [2025-12-06 23:45:01] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 2-2 
+Maç #7 [2025-12-06 23:45:33] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (100%) | Skor: d-r
+
+Maç #7 [2025-12-06 23:45:33] ÖĞRENME: Fitness: 0.579 → 0.550 (-0.029) ↘️
+Maç #8 [2025-12-06 23:45:45] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 0-1 
+Maç #8 [2025-12-06 23:46:19] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #8 [2025-12-06 23:46:19] ÖĞRENME: Fitness: 0.550 → 0.524 (-0.026) ↘️
+Maç #9 [2025-12-06 23:46:33] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #9 [2025-12-06 23:47:07] TAHMİN: Union Saint-Gilloise vs Sint-Truidense VV
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #9 [2025-12-06 23:47:07] ÖĞRENME: Fitness: 0.524 → 0.545 (+0.022) ↗️
+Maç #10 [2025-12-06 23:47:20] TAHMİN: SV Zulte Waregem vs KAA Gent
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 4-1 
+Maç #10 [2025-12-06 23:47:58] TAHMİN: SV Zulte Waregem vs KAA Gent
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #10 [2025-12-06 23:47:58] ÖĞRENME: Fitness: 0.545 → 0.565 (+0.020) ↗️
+Maç #11 [2025-12-06 23:48:24] TAHMİN: RAAL La Louviere vs Cercle Brugge
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #11 [2025-12-06 23:49:02] TAHMİN: RAAL La Louviere vs Cercle Brugge
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #11 [2025-12-06 23:49:02] ÖĞRENME: Fitness: 0.565 → 0.583 (+0.018) ↗️
+Maç #12 [2025-12-06 23:49:15] TAHMİN: Standard Liège vs KRC Genk
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #12 [2025-12-06 23:49:52] TAHMİN: Standard Liège vs KRC Genk
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #12 [2025-12-06 23:49:52] ÖĞRENME: Fitness: 0.583 → 0.600 (+0.017) ↗️
+Maç #13 [2025-12-06 23:50:08] TAHMİN: KV Mechelen vs Cercle Brugge
+      → Kazanan: away_win (100%)
+      → Gerçek: draw ❌ YANLIŞ | 0-0 
+Maç #0 [2025-12-06 23:56:49] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:57:17] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:57:17] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:57:18)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.538 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 0.980
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.812
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 7/13 doğru
+🎯 Uzmanlık: CONSISTENCY_GOD
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e (DERBY_MASTER) | Fitness: 0.542
+  Baba: LoRA_Gen35_0b26ae63 (DERBY_MASTER) | Fitness: 0.400
+  Kardeşler: LoRA_Gen43_b781ac1e
+  Çocuklar: LoRA_8d680f43
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 7 (%53.8)
+  Yanlış: 6 (%46.2)
+  Güncel Fitness: 0.538
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.91
+  Social_intelligence: [████░░░░░░] 0.48
+  Herd_tendency: [███████░░░] 0.77
+  Contrarian_score: [██░░░░░░░░] 0.28
+  Emotional_depth: [███████░░░] 0.74
+  Empathy: [███████░░░] 0.76
+  Anger_tendency: [███████░░░] 0.77
+  Ambition: [████░░░░░░] 0.45
+  Competitiveness: [███░░░░░░░] 0.39
+  Resilience: [███░░░░░░░] 0.39
+  Will_to_live: [███░░░░░░░] 0.39
+  Patience: [███████░░░] 0.70
+  Impulsiveness: [████░░░░░░] 0.46
+  Stress_tolerance: [███░░░░░░░] 0.39
+  Risk_appetite: [██████░░░░] 0.65
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:56:49] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:57:17] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:57:17] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 5 maç
+  • Toplam çocuk: 1
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ✅ Düşük risk (fitness: 0.538)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:57:18)
+================================================================================
+Maç #1 [2025-12-06 23:57:28] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #0 [2025-12-06 23:59:03] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+Maç #0 [2025-12-06 23:59:31] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #0 [2025-12-06 23:59:31] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+────────────────────────────────────────────────────────────────────────────────
+📊 DURUM RAPORU - Maç #0 (2025-12-06 23:59:31)
+────────────────────────────────────────────────────────────────────────────────
+⏳ Yaş: -8 maç | 🎯 Fitness: 0.538 | 🧬 Gen: 43
+
+🌊 PARÇACIK FİZİĞİ RAPORU:
+   ⚡ Life Energy: 0.984
+   🌡️  Sıcaklık (T): 0.0100
+   🛑 Sürtünme (ξ): 0.000
+   💨 Kinetik Enerji: 1.000
+   🌀 Opsiyon (Action): 0.000
+   🧟 Lazarus Λ: 0.813
+   👻 Ghost Potansiyel: 0.000
+📊 Son 20 maç: 7/13 doğru
+🎯 Uzmanlık: CONSISTENCY_GOD
+
+
+🧬 GENETİK BİLGİ:
+------------------------------
+  Anne: LoRA_Gen42_9612378e (DERBY_MASTER) | Fitness: 0.542
+  Baba: LoRA_Gen35_0b26ae63 (DERBY_MASTER) | Fitness: 0.400
+  Kardeşler: LoRA_Gen43_b781ac1e
+  Çocuklar: LoRA_8d680f43
+
+📊 PERFORMANS:
+--------------------------------------------------------------------------------
+  Toplam Maç: 0
+  Doğru: 7 (%53.8)
+  Yanlış: 6 (%46.2)
+  Güncel Fitness: 0.538
+  En Yüksek Fitness: 1.000
+  En Düşük Fitness: 0.000
+
+🩹 TRAVMA GEÇMİŞİ (Ciddi olanlar):
+--------------------------------------------------------------------------------
+  • Maç #0: loss_trauma (şiddet: 2.00)
+
+  Toplam Ciddi Travma: 1
+
+🧠 MİZAÇ:
+--------------------------------------------------------------------------------
+  Independence: [█████████░] 0.95
+  Social_intelligence: [█████░░░░░] 0.50
+  Herd_tendency: [███████░░░] 0.78
+  Contrarian_score: [███░░░░░░░] 0.30
+  Emotional_depth: [██████░░░░] 0.70
+  Empathy: [██████░░░░] 0.69
+  Anger_tendency: [███████░░░] 0.78
+  Ambition: [████░░░░░░] 0.46
+  Competitiveness: [███░░░░░░░] 0.38
+  Resilience: [███░░░░░░░] 0.32
+  Will_to_live: [███░░░░░░░] 0.38
+  Patience: [██████░░░░] 0.62
+  Impulsiveness: [████░░░░░░] 0.44
+  Stress_tolerance: [█████░░░░░] 0.52
+  Risk_appetite: [██████░░░░] 0.63
+
+📜 SON 20 HAREKET:
+--------------------------------------------------------------------------------
+  Maç #0 [2025-12-06 23:59:03] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 1-4 
+  Maç #0 [2025-12-06 23:59:31] TAHMİN: SpVgg Ansbach vs 1. FC Nurnberg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+  Maç #0 [2025-12-06 23:59:31] ÖĞRENME: Fitness: 0.583 → 0.538 (-0.045) ↘️
+
+🏆 BAŞARILAR VE REKORLAR:
+--------------------------------------------------------------------------------
+  • En yüksek fitness: 1.000 (Maç #9)
+  • En uzun doğru streak: 5 maç
+  • Toplam çocuk: 1
+
+💀 RİSK DURUMU:
+--------------------------------------------------------------------------------
+  ✅ Düşük risk (fitness: 0.538)
+
+================================================================================
+Son Güncelleme: Maç #0 (2025-12-06 23:59:31)
+================================================================================
+Maç #1 [2025-12-06 23:59:41] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: draw (100%)
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 
+Maç #1 [2025-12-07 00:00:10] TAHMİN: 1. FC Schweinfurt 05 vs TSV Aubstadt
+      → Kazanan: draw (100%) | Skor: h-o
+
+Maç #1 [2025-12-07 00:00:10] ÖĞRENME: Fitness: 0.538 → 0.500 (-0.038) ↘️
+Maç #2 [2025-12-07 00:00:19] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-1 
+Maç #2 [2025-12-07 00:00:47] TAHMİN: TSV Schwaben Augsburg vs Viktoria Aschaffenburg
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #2 [2025-12-07 00:00:47] ÖĞRENME: Fitness: 0.500 → 0.533 (+0.033) ↗️
+Maç #3 [2025-12-07 00:00:56] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 2-0 
+Maç #3 [2025-12-07 00:01:24] TAHMİN: Eintracht Bamberg vs SpVgg Hankofen-Hailing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #3 [2025-12-07 00:01:24] ÖĞRENME: Fitness: 0.533 → 0.562 (+0.029) ↗️
+Maç #4 [2025-12-07 00:01:34] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%)
+      → Gerçek: home_win ✅ DOĞRU | 5-0 
+Maç #4 [2025-12-07 00:02:03] TAHMİN: FV Illertissen vs DJK Vilzing
+      → Kazanan: home_win (100%) | Skor: h-o
+
+Maç #4 [2025-12-07 00:02:03] ÖĞRENME: Fitness: 0.562 → 0.588 (+0.026) ↗️
+Maç #5 [2025-12-07 00:02:13] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: draw (100%)
+      → Gerçek: home_win ❌ YANLIŞ | 2-0 
+Maç #5 [2025-12-07 00:02:44] TAHMİN: SpVgg Bayreuth vs TSV Buchbach
+      → Kazanan: draw (100%) | Skor: h-o
+
+Maç #5 [2025-12-07 00:02:44] ÖĞRENME: Fitness: 0.588 → 0.556 (-0.033) ↘️
+Maç #6 [2025-12-07 00:02:54] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 2-6 
+Maç #6 [2025-12-07 00:03:26] TAHMİN: SpVgg Greuther Furth II vs Augsburg II
+      → Kazanan: home_win (100%) | Skor: a-w
+
+Maç #6 [2025-12-07 00:03:26] ÖĞRENME: Fitness: 0.556 → 0.526 (-0.029) ↘️
+Maç #7 [2025-12-07 00:03:36] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (90%)
+      → Gerçek: draw ❌ YANLIŞ | 2-2 
+Maç #7 [2025-12-07 00:04:09] TAHMİN: Turkgucu Munchen vs Wurzburger Kickers
+      → Kazanan: away_win (90%) | Skor: d-r
+
+Maç #7 [2025-12-07 00:04:09] ÖĞRENME: Fitness: 0.526 → 0.503 (-0.024) ↘️
+Maç #8 [2025-12-07 00:04:20] TAHMİN: FCV Dender EH vs Oud-Heverlee Leuven
+      → Kazanan: home_win (100%)
+      → Gerçek: away_win ❌ YANLIŞ | 0-1 

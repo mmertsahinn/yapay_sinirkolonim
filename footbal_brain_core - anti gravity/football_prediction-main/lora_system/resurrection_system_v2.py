@@ -146,6 +146,16 @@ class ResurrectionSystemV2:
                 source='MIRACLES',
                 lazarus_scores=miracle_scores_dict
             )
+            
+            # 📄 DOSYA OLUŞTUR (HER BİRİ İÇİN!)
+            for lora in all_resurrected:
+                 lam, final, typ = miracle_scores_dict.get(lora.id, (0.5, 0.5, 'Unknown'))
+                 reason = f"MUCİZE LİSTESİNDEN (Skor: {final:.3f})"
+                 if 'PERFECT' in typ: reason += " + 💎 PERFECT HYBRID"
+                 
+                 resurrection_debugger.create_resurrection_dossier(
+                     lora, 'MIRACLES', reason, {'lazarus': lam, 'final': final}
+                 )
         else:
             print(f"   ⚠️ Henüz mucize LoRA yok!\n")
         
@@ -254,6 +264,16 @@ class ResurrectionSystemV2:
                     source='TOP_LIST',
                     lazarus_scores=top_list_scores_dict
                 )
+                
+                # 📄 DOSYA OLUŞTUR (HER BİRİ İÇİN!)
+                for lora in resurrected_from_list:
+                     lam, final, typ = top_list_scores_dict.get(lora.id, (0.5, 0.5, 'Unknown'))
+                     reason = f"TOP LİSTESİNDEN (Skor: {final:.3f})"
+                     if 'PERFECT' in typ: reason += " + 💎 PERFECT HYBRID"
+                     
+                     resurrection_debugger.create_resurrection_dossier(
+                         lora, 'TOP_LIST', reason, {'lazarus': lam, 'final': final}
+                     )
             else:
                 print(f"   ⚠️ Scoreboard klasörü bulunamadı!\n")
         
@@ -284,6 +304,12 @@ class ResurrectionSystemV2:
                 
                 print(f"      {i}. ⚖️ {lora.name}")
                 print(f"         {archetype_desc}")
+                
+                # 📄 DOSYA OLUŞTUR
+                reason = f"SPAWN (DENGELİ) - Arketip: {archetype_name}"
+                resurrection_debugger.create_resurrection_dossier(
+                    lora, 'SPAWN_BALANCED', reason, {'archetype': archetype_name}
+                )
             
             print(f"\n   ✅ {stats['balanced_spawned']} Dengeli karakter spawn edildi!")
             print(f"   🔄 Kalan: {remaining}\n")
@@ -317,6 +343,12 @@ class ResurrectionSystemV2:
                 
                 print(f"      {i}. {archetype_emoji} {lora.name}")
                 print(f"         Arketip: {archetype_name} - {archetype_desc}")
+                
+                # 📄 DOSYA OLUŞTUR
+                reason = f"SPAWN (UÇ) - Arketip: {archetype_name}"
+                resurrection_debugger.create_resurrection_dossier(
+                    lora, 'SPAWN_EXTREME', reason, {'archetype': archetype_name, 'desc': archetype_desc}
+                )
             
             print(f"\n   ✅ {stats['extreme_spawned']} Uç karakter spawn edildi!")
             print(f"   🔄 Kalan: {remaining}\n")
@@ -337,6 +369,12 @@ class ResurrectionSystemV2:
                 stats['alien_spawned'] += 1  # Alien ayrı sayılır!
                 
                 print(f"      {i+1}. 👽 {lora.name} (Nörotipik farklılık)")
+                
+                # 📄 DOSYA OLUŞTUR
+                reason = f"SPAWN (ALIEN) - Tamamen Rastgele"
+                resurrection_debugger.create_resurrection_dossier(
+                    lora, 'SPAWN_ALIEN', reason, {'type': 'Neurodivergent'}
+                )
             
             print(f"\n   ✅ {remaining} Gerçek ALIEN spawn edildi!")
             remaining = 0

@@ -16,7 +16,18 @@ import torch
 import numpy as np
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
+import json
 from collections import defaultdict
+
+# 🔄 JSON Serialization Helper for defaultdict
+def default_team_stats():
+    return {
+        'win_predictions': [],
+        'goal_predictions': [],
+        'hype_predictions': [], 
+        'vs_predictions': {}  # vs_predictions is a dict, handled dynamically
+    }
+
 
 
 class TeamSpecializationManager:
@@ -32,17 +43,50 @@ class TeamSpecializationManager:
         os.makedirs(base_dir, exist_ok=True)
         
         # Her takım için istatistikler
-        self.team_stats = defaultdict(lambda: {
-            'win_predictions': [],      # [(lora_id, correct, match_idx), ...]
-            'goal_predictions': [],     # [(lora_id, predicted_goals, actual_goals, match_idx), ...]
-            'hype_predictions': [],     # [(lora_id, hype_correct, match_idx), ...]
-            'vs_predictions': defaultdict(list)  # {opponent: [(lora_id, correct, match_idx), ...]}
-        })
+        self.team_stats = defaultdict(default_team_stats)
+        
+        # Persistence File
+        self.state_file = os.path.join(self.base_dir, "team_specialization_memory.json")
+        
+        # Yükle
+        self._load_state()
         
         # Top 5 listeler (cache)
         self.top_5_cache = {}
         
         print(f"🏆 Takım Uzmanlık Yöneticisi başlatıldı: {base_dir}")
+        print(f"   📂 Hafıza dosyası: {self.state_file}")
+
+    def _load_state(self):
+        """Hafıza dosyasından yükle"""
+        if os.path.exists(self.state_file):
+            try:
+                with open(self.state_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    
+                # Dict -> DefaultDict conversion
+                for team, stats in data.items():
+                    self.team_stats[team] = stats
+                    # VS predictions dict conversion (if needed)
+                    if 'vs_predictions' in stats and isinstance(stats['vs_predictions'], dict):
+                        # Convert list to dict if needed or keep as dict
+                        pass
+                        
+                print(f"   ✅ {len(self.team_stats)} takımın hafızası yüklendi.")
+            except Exception as e:
+                print(f"   ⚠️ Hafıza yüklenemedi: {e}")
+
+    def _save_state(self):
+        """Hafızayı diske kaydet"""
+        try:
+            # DefaultDict -> Dict
+            data = dict(self.team_stats)
+            with open(self.state_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            # print(f"   💾 Takım hafızası kaydedildi.")
+        except Exception as e:
+            print(f"   ❌ Hafıza kaydedilemedi: {e}")
+
     
     def record_match_prediction(self, 
                                 lora,
@@ -59,6 +103,15 @@ class TeamSpecializationManager:
         """
         Maç tahminini kaydet (her LoRA için)
         """
+        
+        # 🛡️ DEDUPLICATION CHECK (Aynı maçı tekrar kaydetme!)
+        # Home ve Away istatistiklerini kontrol et
+        home_recorded = any(p[2] == match_idx for p in self.team_stats[home_team]['win_predictions'] if p[0] == lora.id)
+        away_recorded = any(p[2] == match_idx for p in self.team_stats[away_team]['win_predictions'] if p[0] == lora.id)
+        
+        if home_recorded and away_recorded:
+            return # Zaten kayıtlı!
+
         # Win prediction
         win_correct = (predicted_winner == actual_winner)
         
@@ -71,18 +124,34 @@ class TeamSpecializationManager:
         hype_correct = (hype_prediction == actual_winner) if hype_prediction != 'NEUTRAL' else None
         
         # Home team kayıt
-        self.team_stats[home_team]['win_predictions'].append((lora.id, win_correct, match_idx))
-        self.team_stats[home_team]['goal_predictions'].append((lora.id, predicted_home_goals, actual_home_goals, match_idx))
-        if hype_correct is not None:
-            self.team_stats[home_team]['hype_predictions'].append((lora.id, hype_correct, match_idx))
-        self.team_stats[home_team]['vs_predictions'][away_team].append((lora.id, win_correct, match_idx))
+        # (Sadece kayıtlı değilse ekle - yukarıda check yaptık ama çift dikiş gitmek iyidir)
+        if not home_recorded:
+            self.team_stats[home_team]['win_predictions'].append((lora.id, win_correct, match_idx))
+            self.team_stats[home_team]['goal_predictions'].append((lora.id, predicted_home_goals, actual_home_goals, match_idx))
+            if hype_correct is not None:
+                self.team_stats[home_team]['hype_predictions'].append((lora.id, hype_correct, match_idx))
+            # VS check (biraz pahalı ama gerekli)
+            if away_team not in self.team_stats[home_team]['vs_predictions']:
+                self.team_stats[home_team]['vs_predictions'][away_team] = []
+                
+            if not any(p[2] == match_idx for p in self.team_stats[home_team]['vs_predictions'][away_team] if p[0] == lora.id):
+                self.team_stats[home_team]['vs_predictions'][away_team].append((lora.id, win_correct, match_idx))
         
         # Away team kayıt
-        self.team_stats[away_team]['win_predictions'].append((lora.id, win_correct, match_idx))
-        self.team_stats[away_team]['goal_predictions'].append((lora.id, predicted_away_goals, actual_away_goals, match_idx))
-        if hype_correct is not None:
-            self.team_stats[away_team]['hype_predictions'].append((lora.id, hype_correct, match_idx))
-        self.team_stats[away_team]['vs_predictions'][home_team].append((lora.id, win_correct, match_idx))
+        if not away_recorded:
+            self.team_stats[away_team]['win_predictions'].append((lora.id, win_correct, match_idx))
+            self.team_stats[away_team]['goal_predictions'].append((lora.id, predicted_away_goals, actual_away_goals, match_idx))
+            
+            if home_team not in self.team_stats[away_team]['vs_predictions']:
+                self.team_stats[away_team]['vs_predictions'][home_team] = []
+                
+            if not any(p[2] == match_idx for p in self.team_stats[away_team]['vs_predictions'][home_team] if p[0] == lora.id):
+                self.team_stats[away_team]['vs_predictions'][home_team].append((lora.id, win_correct, match_idx))
+            if hype_correct is not None:
+                self.team_stats[away_team]['hype_predictions'].append((lora.id, hype_correct, match_idx))
+            # VS check
+            if not any(p[2] == match_idx for p in self.team_stats[away_team]['vs_predictions'][home_team] if p[0] == lora.id):
+                self.team_stats[away_team]['vs_predictions'][home_team].append((lora.id, win_correct, match_idx))
     
     def calculate_team_specialization_scores(self, population: List, match_count: int) -> Dict:
         """
@@ -225,7 +294,11 @@ class TeamSpecializationManager:
             # 5) MASTER TXT (Takım özeti)
             self._create_team_master_txt(team_dir, team_name, team_data, match_count)
         
-        print(f"\n✅ Takım uzmanlıkları export edildi! ({len(specialization_results)} takım)")
+        # 6) STATE KAYDET (Persistence!)
+        self._save_state()
+        
+        print(f"\n✅ Takım uzmanlıkları export edildi ve kaydedildi! ({len(specialization_results)} takım)")
+
     
     def _export_expert_type(self, team_dir: str, subdir_name: str, 
                            experts: List[Tuple], team_name: str, 

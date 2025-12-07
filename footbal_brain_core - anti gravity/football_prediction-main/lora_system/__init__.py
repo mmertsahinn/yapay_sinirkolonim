@@ -21,7 +21,15 @@ from .replay_buffer import ReplayBuffer
 from .specialization_tracker import SpecializationTracker
 from .score_predictor import ScorePredictor, score_predictor
 from .collective_memory import CollectiveMemory, collective_memory
-from .miracle_system import MiracleSystem, miracle_system
+from .social_network import SocialNetwork
+from .social_network_visualizer import SocialNetworkVisualizer
+from .mentorship_inheritance import MentorshipInheritance, mentorship_inheritance
+from .collective_intelligence import CollectiveIntelligence, collective_intelligence
+from .temperament_encoder import TemperamentEncoder, get_temperament_encoder
+from .social_attention_layer import SocialAttentionLayer, get_social_attention
+from .knowledge_distillation import DiscoveryDistillation, get_distillation
+from .meta_learning import CumulativeMetaLearner, get_meta_learner
+from .deep_collective_intelligence import DeepLoRACollectiveIntelligence, get_deep_collective_intelligence
 from .resurrection_system_v2 import ResurrectionSystemV2
 from .top_score_calculator import TopScoreCalculator, top_score_calculator
 from .advanced_score_calculator import AdvancedScoreCalculator, advanced_score_calculator
@@ -35,7 +43,7 @@ from .advanced_mechanics import (
 )
 from .temperament_learning import TemperamentBasedLearning, temperament_learning
 from .psychological_responses import PsychologicalResponseSystem, psychological_responses
-from .adaptive_nature import AdaptiveNatureSystem, adaptive_nature
+from .adaptive_nature import AdaptiveNature
 from .historical_learning import HistoricalLearningSystem, historical_learning
 from .reputation_system import ReputationSystem, reputation_system
 from .experience_based_resistance import ExperienceBasedResistance, experience_resistance
@@ -63,10 +71,63 @@ from .death_immunity_system import (
     apply_death_immunity_to_energy_loss,
     check_specialization_loss_warning
 )
-try:
-    from .specialization_system import SpecializationSystem
-except ImportError:
-    SpecializationSystem = SpecializationTracker  # Fallback
+
+# NEW 3 MAIN SYSTEMS
+from .advanced_categorization import AdvancedCategorization
+from .social_network import SocialNetwork
+
+# NEUROEVOLUTION DEEP COLLECTIVE INTELLIGENCE SYSTEMS
+from .neuroevolution_engine import (
+    NeuroevolutionEngine,
+    EvolutionStrategy,
+    get_neuroevolution_engine
+)
+from .thinking_patterns import (
+    ThinkingPattern,
+    EvolvableThinkingSystem,
+    get_thinking_system
+)
+from .evolvable_lora_adapter import (
+    EvolvableLoRAAdapter,
+    DynamicLoRALinear,
+    create_evolvable_from_base
+)
+from .deep_knowledge_transfer import (
+    DeepKnowledgeTransfer,
+    Domain,
+    get_deep_knowledge_transfer
+)
+from .enhanced_temperament_processing import (
+    EnhancedTemperamentProcessing,
+    get_enhanced_temperament_processing
+)
+from .advanced_social_network import (
+    AdvancedSocialNetwork,
+    get_advanced_social_network
+)
+from .cumulative_evolution import (
+    CumulativeEvolutionSystem,
+    get_cumulative_evolution_system
+)
+from .collective_intelligence_brain import (
+    CollectiveIntelligenceBrain,
+    get_collective_intelligence_brain
+)
+from .integration_wrapper import (
+    upgrade_lora_to_evolvable,
+    upgrade_social_network_to_advanced,
+    gradual_migration_wrapper
+)
+from .performance_optimizer import (
+    GPUOptimizer,
+    BatchProcessor,
+    MemoryOptimizer,
+    PerformanceMonitor,
+    get_gpu_optimizer,
+    get_batch_processor,
+    get_memory_optimizer,
+    get_performance_monitor
+)
 
 __all__ = [
     'LoRAAdapter',
@@ -76,11 +137,47 @@ __all__ = [
     'SimpleMetaLoRA',
     'ReplayBuffer',
     'SpecializationTracker',
-    'SpecializationSystem',
+    'AdvancedCategorization', # Replaces SpecializationSystem
+    'SocialNetwork',
+    'AdaptiveNature',
     'ScorePredictor',
     'score_predictor',
     'AdvancedMechanicsManager',
     'TemperamentBasedLearning',
-    'temperament_learning'
+    'temperament_learning',
+    # Neuroevolution systems
+    'NeuroevolutionEngine',
+    'EvolutionStrategy',
+    'get_neuroevolution_engine',
+    'ThinkingPattern',
+    'EvolvableThinkingSystem',
+    'get_thinking_system',
+    'EvolvableLoRAAdapter',
+    'DynamicLoRALinear',
+    'create_evolvable_from_base',
+    'DeepKnowledgeTransfer',
+    'Domain',
+    'get_deep_knowledge_transfer',
+    'EnhancedTemperamentProcessing',
+    'get_enhanced_temperament_processing',
+    'AdvancedSocialNetwork',
+    'get_advanced_social_network',
+    'CumulativeEvolutionSystem',
+    'get_cumulative_evolution_system',
+    'CollectiveIntelligenceBrain',
+    'get_collective_intelligence_brain',
+    # Integration
+    'upgrade_lora_to_evolvable',
+    'upgrade_social_network_to_advanced',
+    'gradual_migration_wrapper',
+    # Performance
+    'GPUOptimizer',
+    'BatchProcessor',
+    'MemoryOptimizer',
+    'PerformanceMonitor',
+    'get_gpu_optimizer',
+    'get_batch_processor',
+    'get_memory_optimizer',
+    'get_performance_monitor'
 ]
 

@@ -448,6 +448,7 @@ class GoallessDriftSystem:
         """
         # ✅ YAŞ HESAPLA (MAÇ BAZLI! - Bilimsel standart!)
         age_in_matches = current_match - lora.birth_match if current_match else 0
+        age_in_years = age_in_matches / 10.0  # 10 maç = 1 yaş
         
         # 👶 BEBEKLİK DÖNEMİ (0-100 maç)
         if age_in_matches < 100:

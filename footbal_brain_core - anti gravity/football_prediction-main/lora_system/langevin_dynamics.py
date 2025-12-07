@@ -158,6 +158,11 @@ class LangevinDynamics:
         # Sınırla (çok aşırı olmasın!)
         T_eff = max(0.001, min(T_eff, 0.5))
         
+        # 🔥 FIX: LoRA'ya kaydet! (Raporlama için!)
+        lora._nose_hoover_xi = self.xi[lora_id]
+        lora._langevin_temp = T_eff
+        lora._kinetic_energy = KE
+        
         return T_eff
     
     def compute_gradient_variance_temperature(self, lora, window: int = 10) -> float:

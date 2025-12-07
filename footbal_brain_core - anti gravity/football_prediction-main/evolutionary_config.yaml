@@ -137,5 +137,37 @@ paths:
   buffer: "replay_buffer.joblib"
   evolution_log: "evolution_log.json"
   results_csv: "evolutionary_results.csv"
-  hibernation_dir: "hibernated_loras"
+# 3 TEMEL SİSTEM KONFİGURASYONU
+# ==============================
+
+# 1. AKIŞKAN SOSYAL AĞ
+social_network:
+  enabled: true
+  weights:
+    prediction_similarity: 0.30  # Alpha
+    success_correlation: 0.25    # Beta
+    mentorship: 0.25             # Gamma
+    complementary: 0.20          # Delta
+  bond_decay_rate: 0.10          # Her etkileşimde bağ zayıflaması
+
+# 2. GELİŞMİŞ KATEGORİZASYON (ELEK SİSTEMİ)
+categorization:
+  enabled: true
+  weights:
+    success_rate: 0.30           # Alpha
+    confidence: 0.25             # Beta
+    recency: 0.20                # Gamma
+    consistency: 0.15            # Delta
+    entropy: 0.10                # Epsilon
+  thresholds:
+    perfect_hybrid: 0.75         # Hall of Fame giriş
+    einstein_hall: 0.65          # Einstein Hall giriş
+
+# 3. ÖĞRENEN DOĞA (RL)
+adaptive_nature:
+  enabled: true
+  learning_rate: 0.1             # RL öğrenme hızı
+  discount_factor: 0.95          # Gelecek ödül ağırlığı (Gamma)
+  epsilon_start: 1.0             # Keşif oranı (başlangıç)
+  epsilon_decay: 0.995           # Keşif azalma hızı
 

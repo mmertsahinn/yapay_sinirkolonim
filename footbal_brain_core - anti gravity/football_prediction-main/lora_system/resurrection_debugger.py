@@ -146,6 +146,77 @@ class ResurrectionDebugger:
             if perfect_count > 0:
                 print(f"      • 💎 Perfect Hybrid: {perfect_count} LoRA (öncelikli!)")
     
+    def create_resurrection_dossier(self, lora, source: str, reason: str, stats: Dict = None):
+        """
+        Dirilen LoRA için ÖZEL DOSYA (Kimlik Kartı) oluştur
+        
+        Yol: evolution_logs/DIRILEN_DOSYALARI/{lora_name}_{id}.txt
+        """
+        dossier_dir = os.path.join(self.log_dir, "DIRILEN_DOSYALARI")
+        os.makedirs(dossier_dir, exist_ok=True)
+        
+        safe_name = lora.name.replace(' ', '_').replace('/', '_')
+        filename = f"{safe_name}_{lora.id}.txt"
+        filepath = os.path.join(dossier_dir, filename)
+        
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write("=" * 80 + "\n")
+                f.write(f"🧟 DİRİLİŞ DOSYASI (RESURRECTION DOSSIER)\n")
+                f.write("=" * 80 + "\n")
+                f.write(f"👤 KİMLİK:\n")
+                f.write(f"   • İsim: {lora.name}\n")
+                f.write(f"   • ID: {lora.id}\n")
+                f.write(f"   • Köken: {source}\n")
+                f.write(f"   • Tarih: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write("-" * 80 + "\n")
+                
+                f.write(f"⚡ DİRİLİŞ SEBEBİ:\n")
+                f.write(f"   • {reason}\n")
+                if stats:
+                    f.write(f"   • Detay: {stats}\n")
+                f.write("-" * 80 + "\n\n")
+                
+                # SKORLAR
+                f.write("📊 MEVCUT SKORLAR:\n")
+                f.write(f"   • Fitness: {lora.get_recent_fitness():.3f}\n")
+                f.write(f"   • Lazarus Λ: {getattr(lora, '_lazarus_lambda', 0.5):.3f}\n")
+                f.write(f"   • Life Energy: {getattr(lora, 'life_energy', 1.0):.3f}\n")
+                f.write("\n")
+                
+                # MİZAÇ (Bar Grafiği)
+                if hasattr(lora, 'temperament'):
+                    f.write("🧠 KİŞİLİK PROFİLİ:\n")
+                    for trait, value in lora.temperament.items():
+                        bar = int(value * 10) * "█" + (10 - int(value * 10)) * "░"
+                        f.write(f"   • {trait.ljust(20)}: [{bar}] {value:.2f}\n")
+                    f.write("\n")
+                
+                # FİZİK
+                f.write("🌊 PARÇACIK FİZİĞİ:\n")
+                f.write(f"   • Arketip: {getattr(lora, '_particle_archetype', 'Bilinmiyor')}\n")
+                f.write(f"   • Sıcaklık: {getattr(lora, '_langevin_temp', 0.01):.4f}\n")
+                f.write(f"   • Kaos: {getattr(lora, '_nose_hoover_xi', 0.0):.3f}\n")
+                f.write("\n")
+                
+                # GENETİK MİRAS
+                f.write("🧬 GENETİK MİRAS:\n")
+                if hasattr(lora, 'parents') and lora.parents:
+                    f.write(f"   • Ebeveynler: {lora.parents}\n")
+                else:
+                    f.write(f"   • İlk Nesil / Spontane\n")
+                    
+                if hasattr(lora, 'resurrection_count'):
+                    f.write(f"   • Dirilme Sayısı: {lora.resurrection_count}\n")
+                
+                f.write("\n" + "=" * 80 + "\n")
+                f.write("⚠️ Bu dosya diriliş anındaki kayıttır. Güncel durum için Cüzdan'a bakınız.\n")
+                
+            print(f"      📄 Diriliş dosyası oluşturuldu: {filename}")
+            
+        except Exception as e:
+            print(f"      ❌ Dosya oluşturulamadı: {e}")
+
     def print_resurrection_summary(self):
         """
         Diriltme özetini print et

@@ -64,16 +64,18 @@ def calculate_advanced_team_score(lora, team_name: str, spec_type: str,
     # ============================================
     age = match_count - lora.birth_match
     
-    if age >= 200:
+    if age >= 100:
         age_normalized = 1.0  # Çok deneyimli
-    elif age >= 100:
-        age_normalized = 0.8
     elif age >= 50:
-        age_normalized = 0.6
+        age_normalized = 0.8
     elif age >= 20:
+        age_normalized = 0.6
+    elif age >= 10:
         age_normalized = 0.4
+    elif age >= 5:
+        age_normalized = 0.2
     else:
-        age_normalized = 0.0  # Minimum 20 maç
+        age_normalized = 0.0  # Minimum 5 maç
     
     age_score = age_normalized * 0.20
     
@@ -170,16 +172,18 @@ def calculate_advanced_team_score(lora, team_name: str, spec_type: str,
             match_bonus = 0.0
     else:
         # Win/Goal/Hype için
-        if match_count_team >= 100:
+        if match_count_team >= 50:
             match_bonus = 1.0
-        elif match_count_team >= 50:
-            match_bonus = 0.8
-        elif match_count_team >= 30:
-            match_bonus = 0.6
         elif match_count_team >= 20:
+            match_bonus = 0.8
+        elif match_count_team >= 10:
+            match_bonus = 0.6
+        elif match_count_team >= 5:
             match_bonus = 0.4
+        elif match_count_team >= 3:
+            match_bonus = 0.2
         else:
-            match_bonus = 0.0  # Minimum 20!
+            match_bonus = 0.0  # Minimum 3!
     
     match_bonus_score = match_bonus * 0.10
     

@@ -2,6 +2,8 @@
 
 Futbol takımlarının davranışlarını çok boyutlu olarak öğrenen, çoklu bahis marketlerinde olası senaryoları çıkaran ve bunları yüksek doğrulukla yorumlayan bir "zeka çekirdeği".
 
+> 📘 **Documentation**: Visit the [**Code Wiki**](WIKI.md) for detailed Architecture, Concepts, and Component guides.
+
 ## Özellikler
 
 - 🏆 **7 Lig Desteği**: Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Liga Portugal, Süper Lig

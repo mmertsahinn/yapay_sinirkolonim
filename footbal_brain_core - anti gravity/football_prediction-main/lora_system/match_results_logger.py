@@ -52,10 +52,13 @@ class MatchResultsLogger:
                   population_size: int = 0,
                   base_proba: Optional[list] = None,
                   final_proba: Optional[list] = None,
-                  lora_thoughts: Optional[List[Dict]] = None):
+                  lora_thoughts: Optional[List[Dict]] = None,
+                  nature_context: Optional[Dict] = None):
         """
         Tek bir maçın sonucunu logla
         """
+        if nature_context:
+            self.current_context = nature_context
         
         with open(self.log_file, 'a', encoding='utf-8') as f:
             # Kaç LoRA doğru bildi hesapla
@@ -68,8 +71,20 @@ class MatchResultsLogger:
             
             # Başlık - NET FORMAT (SAAT + ÖZET!)
             result_text = "✅ DOĞRU!" if winner_correct else "❌ YANLIŞ!"
+            
+            # 🌡️ NATURE & SOCIAL STATS (Context)
+            nature_info = ""
+            if base_proba is not None and hasattr(self, 'last_nature_state'): 
+                # Not: Bu değerleri dışarıdan almak lazım, şimdilik placeholder
+                pass
+            
             f.write("\n" + "="*100 + "\n")
             f.write(f"MAÇ #{match_idx + 1} - {match_date} {match_time} | {result_text} | {lora_accuracy}\n")
+            
+            # Ekstra Context Satırı (Varsa)
+            if hasattr(self, 'current_context'):
+                f.write(f"🌍 DOĞA: {self.current_context.get('temperature', 0.0):.2f}°C (Kaos: {self.current_context.get('chaos', 0.0):.2f}) | 💕 SOSYAL BAĞ: {self.current_context.get('active_bonds', 0)}\n")
+            
             f.write("="*100 + "\n")
             f.write(f"🏟️  {home_team} vs {away_team}\n\n")
             

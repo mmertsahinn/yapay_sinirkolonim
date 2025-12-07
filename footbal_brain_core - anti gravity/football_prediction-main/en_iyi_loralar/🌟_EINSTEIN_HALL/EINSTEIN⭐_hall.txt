@@ -1,9 +1,9 @@
 ================================================================================
 EINSTEIN⭐ HALL OF FAME
 ================================================================================
-Güncelleme: 2025-12-04 15:05:43
-Maç: 10
-Toplam EINSTEIN⭐: 90
+Güncelleme: 2025-12-07 00:40:01
+Maç: 50
+Toplam EINSTEIN⭐: 74
 ================================================================================
 
 💡 KULLANIM: Derbi, Hype, Sürpriz maçlarda bu LoRA'ları dinle!
@@ -11,79 +11,31 @@ Toplam EINSTEIN⭐: 90
 ================================================================================
 
 ================================================================================
-#01 | LoRA_Gen11_a47458ba | TES:0.516
-📁 Dosya: LoRA_Gen11_a47458ba_a47458ba.pt
+#01 | LoRA_fababe1a | TES:0.455
+📁 Dosya: LoRA_fababe1a_fababe1a.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: a47458ba
+   ID: fababe1a
    Durum: ⚡ YAŞIYOR
-   Yaş: -38 maç
-   Nesil: 11
-   Fitness: 0.500
+   Yaş: 50 maç
+   Nesil: 41
+   Fitness: 0.502
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
+   Toplam TES: 0.455
+   Darwin (Katkı): 0.580
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
+   Newton (İstikrar): 0.257
+   Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.770
-   Langevin Sıcaklık (T): 0.0050
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: İstikrarlı Newton 🏛️
-   Duygu Arketipi: Dengeli
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 0.96
-   herd_tendency: 0.93
-   will_to_live: 0.90
-   competitiveness: 0.84
-   contrarian_score: 0.84
-
-💾 DOSYA:
-   LoRA_Gen11_a47458ba_a47458ba.pt
-
-================================================================================
-#02 | LoRA_Gen16_120eca0b | TES:0.516
-📁 Dosya: LoRA_Gen16_120eca0b_120eca0b.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 120eca0b
-   Durum: ⚡ YAŞIYOR
-   Yaş: -36 maç
-   Nesil: 16
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.472
+   Life Energy: 1.217
    Langevin Sıcaklık (T): 0.0100
    Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.482
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.939
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
@@ -93,45 +45,45 @@ Toplam EINSTEIN⭐: 90
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: DERBY_MASTER
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   competitiveness: 0.80
-   independence: 0.75
-   emotional_depth: 0.69
-   herd_tendency: 0.66
+   risk_appetite: 0.67
+   independence: 0.60
+   impulsiveness: 0.54
+   herd_tendency: 0.52
+   contrarian_score: 0.49
 
 💾 DOSYA:
-   LoRA_Gen16_120eca0b_120eca0b.pt
+   LoRA_fababe1a_fababe1a.pt
 
 ================================================================================
-#03 | LoRA_Gen10_ba382f2e | TES:0.516
-📁 Dosya: LoRA_Gen10_ba382f2e_ba382f2e.pt
+#02 | LoRA_b07295a6 | TES:0.444
+📁 Dosya: LoRA_b07295a6_b07295a6.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: ba382f2e
+   ID: b07295a6
    Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 10
-   Fitness: 0.500
+   Yaş: 50 maç
+   Nesil: 49
+   Fitness: 0.148
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
+   Toplam TES: 0.444
+   Darwin (Katkı): 0.270
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
+   Newton (İstikrar): 0.582
+   Tip: HYBRID(E-N)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.911
+   Life Energy: 2.000
    Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
+   Lazarus Lambda (Λ): 0.832
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
@@ -141,3981 +93,285 @@ Toplam EINSTEIN⭐: 90
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   stress_tolerance: 1.00
-   resilience: 0.99
-   empathy: 0.91
-   ambition: 0.89
-   herd_tendency: 0.88
-
-💾 DOSYA:
-   LoRA_Gen10_ba382f2e_ba382f2e.pt
-
-================================================================================
-#04 | LoRA_Gen11_408895dd | TES:0.516
-📁 Dosya: LoRA_Gen11_408895dd_408895dd.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 408895dd
-   Durum: ⚡ YAŞIYOR
-   Yaş: -32 maç
-   Nesil: 11
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.045
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: CONSISTENCY_GOD
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
    anger_tendency: 1.00
-   patience: 0.93
-   resilience: 0.85
-   independence: 0.76
-   stress_tolerance: 0.73
+   stress_tolerance: 0.88
+   confidence_level: 0.73
+   risk_appetite: 0.72
+   resilience: 0.56
 
 💾 DOSYA:
-   LoRA_Gen11_408895dd_408895dd.pt
+   LoRA_b07295a6_b07295a6.pt
 
 ================================================================================
-#05 | LoRA_Gen12_5614ed05 | TES:0.516
-📁 Dosya: LoRA_Gen12_5614ed05_5614ed05.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 5614ed05
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 12
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.405
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   herd_tendency: 1.00
-   anger_tendency: 1.00
-   patience: 0.82
-   competitiveness: 0.81
-   ambition: 0.77
-
-💾 DOSYA:
-   LoRA_Gen12_5614ed05_5614ed05.pt
-
-================================================================================
-#06 | LoRA_Gen12_f64967b2 | TES:0.516
-📁 Dosya: LoRA_Gen12_f64967b2_f64967b2.pt
+#03 | LoRA_Gen39_f0644428 | TES:0.443
+📁 Dosya: LoRA_Gen39_f0644428_f0644428.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: f64967b2
+   ID: f0644428
    Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 12
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.405
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.90
-   herd_tendency: 0.78
-   stress_tolerance: 0.72
-   will_to_live: 0.69
-   resilience: 0.66
-
-💾 DOSYA:
-   LoRA_Gen12_f64967b2_f64967b2.pt
-
-================================================================================
-#07 | LoRA_Gen13_1cb1a560 | TES:0.516
-📁 Dosya: LoRA_Gen13_1cb1a560_1cb1a560.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 1cb1a560
-   Durum: ⚡ YAŞIYOR
-   Yaş: -32 maç
-   Nesil: 13
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.162
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   resilience: 0.91
-   competitiveness: 0.83
-   will_to_live: 0.72
-   patience: 0.66
-
-💾 DOSYA:
-   LoRA_Gen13_1cb1a560_1cb1a560.pt
-
-================================================================================
-#08 | LoRA_Gen13_5560fa91 | TES:0.516
-📁 Dosya: LoRA_Gen13_5560fa91_5560fa91.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 5560fa91
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 13
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.418
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   resilience: 0.76
-   ambition: 0.71
-   anger_tendency: 0.69
-   independence: 0.66
-   patience: 0.58
-
-💾 DOSYA:
-   LoRA_Gen13_5560fa91_5560fa91.pt
-
-================================================================================
-#09 | LoRA_Gen14_a6f8e1c8 | TES:0.516
-📁 Dosya: LoRA_Gen14_a6f8e1c8_a6f8e1c8.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: a6f8e1c8
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 14
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.417
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   will_to_live: 1.00
-   resilience: 0.82
-   anger_tendency: 0.79
-   independence: 0.73
-   empathy: 0.70
-
-💾 DOSYA:
-   LoRA_Gen14_a6f8e1c8_a6f8e1c8.pt
-
-================================================================================
-#10 | LoRA_Gen14_be58c776 | TES:0.516
-📁 Dosya: LoRA_Gen14_be58c776_be58c776.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: be58c776
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 14
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.424
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   contrarian_score: 1.00
-   ambition: 0.93
-   herd_tendency: 0.92
-   resilience: 0.92
-   competitiveness: 0.88
-
-💾 DOSYA:
-   LoRA_Gen14_be58c776_be58c776.pt
-
-================================================================================
-#11 | LoRA_Gen14_d8ecd478 | TES:0.516
-📁 Dosya: LoRA_Gen14_d8ecd478_d8ecd478.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: d8ecd478
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 14
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.415
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   contrarian_score: 0.66
-   herd_tendency: 0.61
-   confidence_level: 0.51
-   impulsiveness: 0.41
-   patience: 0.31
-
-💾 DOSYA:
-   LoRA_Gen14_d8ecd478_d8ecd478.pt
-
-================================================================================
-#12 | LoRA_Gen14_fbac625a | TES:0.516
-📁 Dosya: LoRA_Gen14_fbac625a_fbac625a.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: fbac625a
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 14
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.416
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   resilience: 1.00
-   herd_tendency: 0.94
-   will_to_live: 0.73
-   contrarian_score: 0.63
-
-💾 DOSYA:
-   LoRA_Gen14_fbac625a_fbac625a.pt
-
-================================================================================
-#13 | LoRA_Gen15_6c2264f8 | TES:0.516
-📁 Dosya: LoRA_Gen15_6c2264f8_6c2264f8.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 6c2264f8
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 15
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.416
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   risk_appetite: 0.89
-   patience: 0.76
-   stress_tolerance: 0.62
-   contrarian_score: 0.59
-   confidence_level: 0.52
-
-💾 DOSYA:
-   LoRA_Gen15_6c2264f8_6c2264f8.pt
-
-================================================================================
-#14 | LoRA_Gen19_58b2a834 | TES:0.516
-📁 Dosya: LoRA_Gen19_58b2a834_58b2a834.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 58b2a834
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 19
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.426
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   competitiveness: 0.87
-   resilience: 0.81
-   anger_tendency: 0.78
-   ambition: 0.77
-   contrarian_score: 0.72
-
-💾 DOSYA:
-   LoRA_Gen19_58b2a834_58b2a834.pt
-
-================================================================================
-#15 | LoRA_Gen19_88de1f16 | TES:0.516
-📁 Dosya: LoRA_Gen19_88de1f16_88de1f16.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 88de1f16
-   Durum: ⚡ YAŞIYOR
-   Yaş: -34 maç
-   Nesil: 19
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.516
-   Darwin (Katkı): 0.546
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: PERFECT HYBRID🌟🌟
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.418
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   resilience: 0.93
-   anger_tendency: 0.81
-   empathy: 0.75
-   will_to_live: 0.66
-   patience: 0.63
-
-💾 DOSYA:
-   LoRA_Gen19_88de1f16_88de1f16.pt
-
-================================================================================
-#16 | LoRA_Gen7_f4dd2464 | TES:0.467
-📁 Dosya: LoRA_Gen7_f4dd2464_f4dd2464.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: f4dd2464
-   Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 7
-   Fitness: 0.603
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.467
-   Darwin (Katkı): 0.598
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.277
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.423
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.491
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Bağımsız Yalnız
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   ambition: 0.98
-   social_intelligence: 0.83
-   independence: 0.70
-   herd_tendency: 0.68
-
-💾 DOSYA:
-   LoRA_Gen7_f4dd2464_f4dd2464.pt
-
-================================================================================
-#17 | LoRA_Gen28_9458bba7 | TES:0.455
-📁 Dosya: LoRA_Gen28_9458bba7_9458bba7.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 9458bba7
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 28
-   Fitness: 0.511
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.455
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.243
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.905
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.497
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.99
-   patience: 0.86
-   independence: 0.72
-   herd_tendency: 0.60
-   contrarian_score: 0.49
-
-💾 DOSYA:
-   LoRA_Gen28_9458bba7_9458bba7.pt
-
-================================================================================
-#18 | LoRA_Gen32_8b4581a2 | TES:0.455
-📁 Dosya: LoRA_Gen32_8b4581a2_8b4581a2.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8b4581a2
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 32
-   Fitness: 0.511
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.455
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.243
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.905
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.497
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.94
-   herd_tendency: 0.83
-   contrarian_score: 0.73
-   independence: 0.60
-   confidence_level: 0.54
-
-💾 DOSYA:
-   LoRA_Gen32_8b4581a2_8b4581a2.pt
-
-================================================================================
-#19 | LoRA_Gen17_ee2b9f4d | TES:0.452
-📁 Dosya: LoRA_Gen17_ee2b9f4d_ee2b9f4d.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: ee2b9f4d
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 17
-   Fitness: 0.595
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.452
-   Darwin (Katkı): 0.597
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.227
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 2.000
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.513
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.76
-   independence: 0.76
-   confidence_level: 0.72
-   social_intelligence: 0.48
-   stress_tolerance: 0.47
-
-💾 DOSYA:
-   LoRA_Gen17_ee2b9f4d_ee2b9f4d.pt
-
-================================================================================
-#20 | LoRA_Gen33_2c1bb077 | TES:0.449
-📁 Dosya: LoRA_Gen33_2c1bb077_2c1bb077.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 2c1bb077
-   Durum: ⚡ YAŞIYOR
-   Yaş: 5 maç
-   Nesil: 33
-   Fitness: 0.535
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.449
-   Darwin (Katkı): 0.571
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.246
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.805
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.491
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   ambition: 0.87
-   will_to_live: 0.81
-   independence: 0.81
-   resilience: 0.79
-
-💾 DOSYA:
-   LoRA_Gen33_2c1bb077_2c1bb077.pt
-
-================================================================================
-#21 | LoRA_Gen23_4246fa54 | TES:0.445
-📁 Dosya: LoRA_Gen23_4246fa54_4246fa54.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 4246fa54
-   Durum: ⚡ YAŞIYOR
-   Yaş: -7 maç
-   Nesil: 23
-   Fitness: 0.578
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.445
-   Darwin (Katkı): 0.599
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.203
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.377
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   patience: 0.90
-   independence: 0.88
-   contrarian_score: 0.75
-   will_to_live: 0.75
-
-💾 DOSYA:
-   LoRA_Gen23_4246fa54_4246fa54.pt
-
-================================================================================
-#22 | LoRA_Gen24_8b34b61e | TES:0.444
-📁 Dosya: LoRA_Gen24_8b34b61e_8b34b61e.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8b34b61e
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 24
-   Fitness: 0.553
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.444
-   Darwin (Katkı): 0.548
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.258
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.957
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.495
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 0.79
-   contrarian_score: 0.68
-   resilience: 0.68
-   herd_tendency: 0.61
-   empathy: 0.55
-
-💾 DOSYA:
-   LoRA_Gen24_8b34b61e_8b34b61e.pt
-
-================================================================================
-#23 | LoRA_Gen26_4e4d7379 | TES:0.444
-📁 Dosya: LoRA_Gen26_4e4d7379_4e4d7379.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 4e4d7379
-   Durum: ⚡ YAŞIYOR
-   Yaş: -9 maç
-   Nesil: 26
-   Fitness: 0.588
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.444
-   Darwin (Katkı): 0.590
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.536
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.520
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Dengeli
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   resilience: 0.92
-   will_to_live: 0.85
-   ambition: 0.70
-   competitiveness: 0.64
-
-💾 DOSYA:
-   LoRA_Gen26_4e4d7379_4e4d7379.pt
-
-================================================================================
-#24 | LoRA_Gen41_cf56e662 | TES:0.443
-📁 Dosya: LoRA_Gen41_cf56e662_cf56e662.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: cf56e662
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 41
-   Fitness: 0.537
+   Yaş: 44 maç
+   Nesil: 39
+   Fitness: 0.469
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
    Toplam TES: 0.443
-   Darwin (Katkı): 0.596
+   Darwin (Katkı): 0.573
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.198
+   Newton (İstikrar): 0.227
    Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.762
+   Life Energy: 1.857
    Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
+   Lazarus Lambda (Λ): 0.744
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
 🎭 ARKETİPLER:
    Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Duygusal Empatik
+   Duygu Arketipi: Sinirli Ateşli
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: DERBY_MASTER
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 1.00
-   confidence_level: 0.66
-   patience: 0.66
-   impulsiveness: 0.65
-   social_intelligence: 0.60
-
-💾 DOSYA:
-   LoRA_Gen41_cf56e662_cf56e662.pt
-
-================================================================================
-#25 | LoRA_Gen30_e98b9f57 | TES:0.441
-📁 Dosya: LoRA_Gen30_e98b9f57_e98b9f57.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: e98b9f57
-   Durum: ⚡ YAŞIYOR
-   Yaş: -12 maç
-   Nesil: 30
-   Fitness: 0.579
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.441
-   Darwin (Katkı): 0.599
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.187
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.263
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.87
-   anger_tendency: 0.82
-   social_intelligence: 0.77
-   will_to_live: 0.68
-   stress_tolerance: 0.60
-
-💾 DOSYA:
-   LoRA_Gen30_e98b9f57_e98b9f57.pt
-
-================================================================================
-#26 | LoRA_Gen31_9cda53f3 | TES:0.441
-📁 Dosya: LoRA_Gen31_9cda53f3_9cda53f3.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 9cda53f3
-   Durum: ⚡ YAŞIYOR
-   Yaş: -12 maç
-   Nesil: 31
-   Fitness: 0.579
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.441
-   Darwin (Katkı): 0.599
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.187
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.356
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.64
-   stress_tolerance: 0.59
-   impulsiveness: 0.57
-   confidence_level: 0.56
-   risk_appetite: 0.51
-
-💾 DOSYA:
-   LoRA_Gen31_9cda53f3_9cda53f3.pt
-
-================================================================================
-#27 | LoRA_Gen21_f88d232d | TES:0.440
-📁 Dosya: LoRA_Gen21_f88d232d_f88d232d.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: f88d232d
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 21
-   Fitness: 0.550
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.218
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.448
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.506
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   patience: 0.82
-   empathy: 0.76
-   contrarian_score: 0.75
-   herd_tendency: 0.73
-
-💾 DOSYA:
-   LoRA_Gen21_f88d232d_f88d232d.pt
-
-================================================================================
-#28 | LoRA_Gen21_faa28a43 | TES:0.440
-📁 Dosya: LoRA_Gen21_faa28a43_faa28a43.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: faa28a43
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 21
-   Fitness: 0.550
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.218
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.528
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.506
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   resilience: 0.96
-   will_to_live: 0.93
-   social_intelligence: 0.75
-   competitiveness: 0.73
-
-💾 DOSYA:
-   LoRA_Gen21_faa28a43_faa28a43.pt
-
-================================================================================
-#29 | LoRA_Gen22_8b326401 | TES:0.440
-📁 Dosya: LoRA_Gen22_8b326401_8b326401.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8b326401
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 22
-   Fitness: 0.550
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.218
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.359
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.506
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.85
-   independence: 0.78
-   confidence_level: 0.75
-   contrarian_score: 0.68
-   herd_tendency: 0.67
-
-💾 DOSYA:
-   LoRA_Gen22_8b326401_8b326401.pt
-
-================================================================================
-#30 | LoRA_Gen24_f07bb793 | TES:0.440
-📁 Dosya: LoRA_Gen24_f07bb793_f07bb793.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: f07bb793
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 24
-   Fitness: 0.550
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.218
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.355
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.506
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Bağımsız Yalnız
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   contrarian_score: 0.82
-   confidence_level: 0.70
-   independence: 0.70
-   social_intelligence: 0.64
-   patience: 0.61
-
-💾 DOSYA:
-   LoRA_Gen24_f07bb793_f07bb793.pt
-
-================================================================================
-#31 | LoRA_Gen25_14162b2f | TES:0.440
-📁 Dosya: LoRA_Gen25_14162b2f_14162b2f.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 14162b2f
-   Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 25
-   Fitness: 0.550
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.218
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.357
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.506
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.91
+   independence: 0.89
+   herd_tendency: 0.86
    contrarian_score: 0.61
-   patience: 0.58
-   confidence_level: 0.56
-   risk_appetite: 0.55
+   confidence_level: 0.47
+   social_intelligence: 0.43
 
 💾 DOSYA:
-   LoRA_Gen25_14162b2f_14162b2f.pt
+   LoRA_Gen39_f0644428_f0644428.pt
 
 ================================================================================
-#32 | LoRA_Gen25_d48fc546 | TES:0.440
-📁 Dosya: LoRA_Gen25_d48fc546_d48fc546.pt
+#04 | LoRA_Gen41_9e9389cc | TES:0.443
+📁 Dosya: LoRA_Gen41_9e9389cc_9e9389cc.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: d48fc546
+   ID: 9e9389cc
    Durum: ⚡ YAŞIYOR
-   Yaş: -8 maç
-   Nesil: 25
-   Fitness: 0.550
+   Yaş: 40 maç
+   Nesil: 41
+   Fitness: 0.468
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.218
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.359
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.506
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Bağımsız Yalnız
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.97
-   stress_tolerance: 0.68
-   independence: 0.62
-   social_intelligence: 0.50
-   confidence_level: 0.38
-
-💾 DOSYA:
-   LoRA_Gen25_d48fc546_d48fc546.pt
-
-================================================================================
-#33 | LoRA_Gen23_8e6aa281 | TES:0.440
-📁 Dosya: LoRA_Gen23_8e6aa281_8e6aa281.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8e6aa281
-   Durum: ⚡ YAŞIYOR
-   Yaş: -3 maç
-   Nesil: 23
-   Fitness: 0.582
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.440
-   Darwin (Katkı): 0.577
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.209
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.827
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.80
-   social_intelligence: 0.70
-   herd_tendency: 0.66
-   contrarian_score: 0.65
-   confidence_level: 0.64
-
-💾 DOSYA:
-   LoRA_Gen23_8e6aa281_8e6aa281.pt
-
-================================================================================
-#34 | LoRA_Gen30_6e104a5c | TES:0.439
-📁 Dosya: LoRA_Gen30_6e104a5c_6e104a5c.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 6e104a5c
-   Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 30
-   Fitness: 0.577
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.439
-   Darwin (Katkı): 0.579
+   Toplam TES: 0.443
+   Darwin (Katkı): 0.590
    Einstein (Sürpriz): 0.500
    Newton (İstikrar): 0.205
    Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.219
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   will_to_live: 0.99
-   resilience: 0.98
-   independence: 0.85
-   empathy: 0.81
-
-💾 DOSYA:
-   LoRA_Gen30_6e104a5c_6e104a5c.pt
-
-================================================================================
-#35 | LoRA_Gen33_fc92eca2 | TES:0.438
-📁 Dosya: LoRA_Gen33_fc92eca2_fc92eca2.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: fc92eca2
-   Durum: ⚡ YAŞIYOR
-   Yaş: 9 maç
-   Nesil: 33
-   Fitness: 0.524
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.438
-   Darwin (Katkı): 0.570
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.213
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.888
-   Langevin Sıcaklık (T): 0.0100
+   Life Energy: 1.473
+   Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.533
+   Lazarus Lambda (Λ): 0.944
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
 🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Bağımsız Yalnız
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: DERBY_MASTER
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
    anger_tendency: 1.00
-   will_to_live: 1.00
    resilience: 1.00
-   independence: 0.92
-   herd_tendency: 0.83
-
-💾 DOSYA:
-   LoRA_Gen33_fc92eca2_fc92eca2.pt
-
-================================================================================
-#36 | LoRA_Gen23_fcd2fbf7 | TES:0.438
-📁 Dosya: LoRA_Gen23_fcd2fbf7_fcd2fbf7.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: fcd2fbf7
-   Durum: ⚡ YAŞIYOR
-   Yaş: -2 maç
-   Nesil: 23
-   Fitness: 0.445
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.438
-   Darwin (Katkı): 0.527
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.263
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.927
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: home_form + hype: orta_düşük (78%)
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.87
-   independence: 0.64
-   contrarian_score: 0.61
-   confidence_level: 0.56
-   impulsiveness: 0.54
-
-💾 DOSYA:
-   LoRA_Gen23_fcd2fbf7_fcd2fbf7.pt
-
-================================================================================
-#37 | LoRA_Gen25_af7665ed | TES:0.437
-📁 Dosya: LoRA_Gen25_af7665ed_af7665ed.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: af7665ed
-   Durum: ⚡ YAŞIYOR
-   Yaş: -10 maç
-   Nesil: 25
-   Fitness: 0.571
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.437
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.184
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.353
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   confidence_level: 0.69
-   contrarian_score: 0.69
-   herd_tendency: 0.69
-   stress_tolerance: 0.51
-   independence: 0.50
-
-💾 DOSYA:
-   LoRA_Gen25_af7665ed_af7665ed.pt
-
-================================================================================
-#38 | LoRA_Gen31_1aff8337 | TES:0.437
-📁 Dosya: LoRA_Gen31_1aff8337_1aff8337.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 1aff8337
-   Durum: ⚡ YAŞIYOR
-   Yaş: -17 maç
-   Nesil: 31
-   Fitness: 0.571
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.437
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.184
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.982
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.76
-   patience: 0.49
-   confidence_level: 0.49
-   stress_tolerance: 0.48
-   contrarian_score: 0.37
-
-💾 DOSYA:
-   LoRA_Gen31_1aff8337_1aff8337.pt
-
-================================================================================
-#39 | LoRA_Gen31_8d518076 | TES:0.437
-📁 Dosya: LoRA_Gen31_8d518076_8d518076.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8d518076
-   Durum: ⚡ YAŞIYOR
-   Yaş: -17 maç
-   Nesil: 31
-   Fitness: 0.571
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.437
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.184
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.144
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.83
-   emotional_depth: 0.76
-   social_intelligence: 0.73
-   stress_tolerance: 0.71
-   contrarian_score: 0.63
-
-💾 DOSYA:
-   LoRA_Gen31_8d518076_8d518076.pt
-
-================================================================================
-#40 | LoRA_Gen35_e4da73bd | TES:0.437
-📁 Dosya: LoRA_Gen35_e4da73bd_e4da73bd.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: e4da73bd
-   Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 35
-   Fitness: 0.583
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.437
-   Darwin (Katkı): 0.585
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.190
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.648
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   contrarian_score: 1.00
-   anger_tendency: 1.00
-   will_to_live: 1.00
    independence: 0.98
-   herd_tendency: 0.96
+   ambition: 0.86
+   risk_appetite: 0.83
 
 💾 DOSYA:
-   LoRA_Gen35_e4da73bd_e4da73bd.pt
+   LoRA_Gen41_9e9389cc_9e9389cc.pt
 
 ================================================================================
-#41 | LoRA_Gen30_449ebfd7 | TES:0.437
-📁 Dosya: LoRA_Gen30_449ebfd7_449ebfd7.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 449ebfd7
-   Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 30
-   Fitness: 0.583
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.437
-   Darwin (Katkı): 0.585
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.190
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.260
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   independence: 0.83
-   patience: 0.73
-   social_intelligence: 0.70
-   will_to_live: 0.70
-
-💾 DOSYA:
-   LoRA_Gen30_449ebfd7_449ebfd7.pt
-
-================================================================================
-#42 | LoRA_Gen35_3774f779 | TES:0.437
-📁 Dosya: LoRA_Gen35_3774f779_3774f779.pt
+#05 | LoRA_Gen43_29f88091 | TES:0.442
+📁 Dosya: LoRA_Gen43_29f88091_29f88091.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: 3774f779
+   ID: 29f88091
    Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 35
-   Fitness: 0.583
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.437
-   Darwin (Katkı): 0.585
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.190
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.257
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.85
-   herd_tendency: 0.85
-   confidence_level: 0.81
-   contrarian_score: 0.73
-   patience: 0.57
-
-💾 DOSYA:
-   LoRA_Gen35_3774f779_3774f779.pt
-
-================================================================================
-#43 | LoRA_Gen40_32c267b0 | TES:0.436
-📁 Dosya: LoRA_Gen40_32c267b0_32c267b0.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 32c267b0
-   Durum: ⚡ YAŞIYOR
-   Yaş: 0 maç
-   Nesil: 40
-   Fitness: 0.550
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.596
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.175
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 2.000
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   will_to_live: 0.93
-   ambition: 0.83
-   resilience: 0.75
-   empathy: 0.70
-
-💾 DOSYA:
-   LoRA_Gen40_32c267b0_32c267b0.pt
-
-================================================================================
-#44 | LoRA_Gen22_4bcf2bec | TES:0.436
-📁 Dosya: LoRA_Gen22_4bcf2bec_4bcf2bec.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 4bcf2bec
-   Durum: ⚡ YAŞIYOR
-   Yaş: -9 maç
-   Nesil: 22
-   Fitness: 0.485
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.566
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.907
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.507
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   herd_tendency: 1.00
-   contrarian_score: 0.49
-   patience: 0.49
-   confidence_level: 0.32
-   risk_appetite: 0.29
-
-💾 DOSYA:
-   LoRA_Gen22_4bcf2bec_4bcf2bec.pt
-
-================================================================================
-#45 | LoRA_Gen22_4e834854 | TES:0.436
-📁 Dosya: LoRA_Gen22_4e834854_4e834854.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 4e834854
-   Durum: ⚡ YAŞIYOR
-   Yaş: -9 maç
-   Nesil: 22
-   Fitness: 0.485
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.566
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 2.000
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.507
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Dengeli
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   resilience: 0.91
-   contrarian_score: 0.82
-   competitiveness: 0.81
-   will_to_live: 0.69
-
-💾 DOSYA:
-   LoRA_Gen22_4e834854_4e834854.pt
-
-================================================================================
-#46 | LoRA_Gen24_35f4a263 | TES:0.436
-📁 Dosya: LoRA_Gen24_35f4a263_35f4a263.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 35f4a263
-   Durum: ⚡ YAŞIYOR
-   Yaş: -9 maç
-   Nesil: 24
-   Fitness: 0.485
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.566
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.906
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.507
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.94
-   contrarian_score: 0.56
-   independence: 0.48
-   confidence_level: 0.47
-   stress_tolerance: 0.47
-
-💾 DOSYA:
-   LoRA_Gen24_35f4a263_35f4a263.pt
-
-================================================================================
-#47 | LoRA_Gen25_9fa12e70 | TES:0.436
-📁 Dosya: LoRA_Gen25_9fa12e70_9fa12e70.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 9fa12e70
-   Durum: ⚡ YAŞIYOR
-   Yaş: -9 maç
-   Nesil: 25
-   Fitness: 0.485
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.566
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.813
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.507
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 1.00
-   independence: 0.80
-   anger_tendency: 0.75
-   resilience: 0.68
-   stress_tolerance: 0.65
-
-💾 DOSYA:
-   LoRA_Gen25_9fa12e70_9fa12e70.pt
-
-================================================================================
-#48 | LoRA_Gen26_816945ca | TES:0.436
-📁 Dosya: LoRA_Gen26_816945ca_816945ca.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 816945ca
-   Durum: ⚡ YAŞIYOR
-   Yaş: -9 maç
-   Nesil: 26
-   Fitness: 0.485
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.566
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.002
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.507
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 1.00
-   anger_tendency: 1.00
-   will_to_live: 0.92
-   resilience: 0.76
-   emotional_depth: 0.73
-
-💾 DOSYA:
-   LoRA_Gen26_816945ca_816945ca.pt
-
-================================================================================
-#49 | LoRA_Gen37_73e7ee66 | TES:0.436
-📁 Dosya: LoRA_Gen37_73e7ee66_73e7ee66.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 73e7ee66
-   Durum: ⚡ YAŞIYOR
-   Yaş: 3 maç
-   Nesil: 37
-   Fitness: 0.538
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.598
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.336
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.80
-   herd_tendency: 0.66
-   independence: 0.65
-   confidence_level: 0.64
-   risk_appetite: 0.62
-
-💾 DOSYA:
-   LoRA_Gen37_73e7ee66_73e7ee66.pt
-
-================================================================================
-#50 | LoRA_Gen39_73d8a464 | TES:0.436
-📁 Dosya: LoRA_Gen39_73d8a464_73d8a464.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 73d8a464
-   Durum: ⚡ YAŞIYOR
-   Yaş: 3 maç
-   Nesil: 39
-   Fitness: 0.538
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.436
-   Darwin (Katkı): 0.598
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.337
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sinirli Ateşli
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.85
-   patience: 0.81
-   stress_tolerance: 0.76
-   independence: 0.71
-   impulsiveness: 0.63
-
-💾 DOSYA:
-   LoRA_Gen39_73d8a464_73d8a464.pt
-
-================================================================================
-#51 | LoRA_Gen37_1b7a67c3 | TES:0.434
-📁 Dosya: LoRA_Gen37_1b7a67c3_1b7a67c3.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 1b7a67c3
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 37
-   Fitness: 0.545
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.174
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.625
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   herd_tendency: 0.99
-   independence: 0.89
-   confidence_level: 0.79
-   patience: 0.71
-   contrarian_score: 0.65
-
-💾 DOSYA:
-   LoRA_Gen37_1b7a67c3_1b7a67c3.pt
-
-================================================================================
-#52 | LoRA_Gen39_262fc3db | TES:0.434
-📁 Dosya: LoRA_Gen39_262fc3db_262fc3db.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 262fc3db
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 39
-   Fitness: 0.545
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.174
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 2.000
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.76
-   will_to_live: 0.74
-   independence: 0.74
-   ambition: 0.69
-   anger_tendency: 0.62
-
-💾 DOSYA:
-   LoRA_Gen39_262fc3db_262fc3db.pt
-
-================================================================================
-#53 | LoRA_Gen40_b34dfc23 | TES:0.434
-📁 Dosya: LoRA_Gen40_b34dfc23_b34dfc23.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: b34dfc23
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 40
-   Fitness: 0.545
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.174
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.397
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.92
-   stress_tolerance: 0.89
-   confidence_level: 0.68
-   contrarian_score: 0.60
-   risk_appetite: 0.57
-
-💾 DOSYA:
-   LoRA_Gen40_b34dfc23_b34dfc23.pt
-
-================================================================================
-#54 | LoRA_Gen42_9c158ca3 | TES:0.434
-📁 Dosya: LoRA_Gen42_9c158ca3_9c158ca3.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 9c158ca3
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 42
-   Fitness: 0.545
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.174
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.060
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   independence: 0.89
-   herd_tendency: 0.84
-   contrarian_score: 0.76
-   impulsiveness: 0.66
-
-💾 DOSYA:
-   LoRA_Gen42_9c158ca3_9c158ca3.pt
-
-================================================================================
-#55 | LoRA_Gen45_15ef8533 | TES:0.434
-📁 Dosya: LoRA_Gen45_15ef8533_15ef8533.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 15ef8533
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 45
-   Fitness: 0.545
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.592
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.174
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.960
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.88
-   will_to_live: 0.79
-   emotional_depth: 0.73
-   herd_tendency: 0.66
-   independence: 0.64
-
-💾 DOSYA:
-   LoRA_Gen45_15ef8533_15ef8533.pt
-
-================================================================================
-#56 | LoRA_Gen34_dfc1e77d | TES:0.434
-📁 Dosya: LoRA_Gen34_dfc1e77d_dfc1e77d.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: dfc1e77d
-   Durum: ⚡ YAŞIYOR
-   Yaş: 5 maç
-   Nesil: 34
-   Fitness: 0.533
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.593
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.170
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.338
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   will_to_live: 0.87
-   competitiveness: 0.86
-   social_intelligence: 0.85
-   independence: 0.84
-
-💾 DOSYA:
-   LoRA_Gen34_dfc1e77d_dfc1e77d.pt
-
-================================================================================
-#57 | LoRA_Gen36_601b44b0 | TES:0.434
-📁 Dosya: LoRA_Gen36_601b44b0_601b44b0.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 601b44b0
-   Durum: ⚡ YAŞIYOR
-   Yaş: 5 maç
-   Nesil: 36
-   Fitness: 0.533
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.593
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.170
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.340
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   impulsiveness: 0.81
-   confidence_level: 0.66
-   stress_tolerance: 0.48
-   risk_appetite: 0.48
-   herd_tendency: 0.44
-
-💾 DOSYA:
-   LoRA_Gen36_601b44b0_601b44b0.pt
-
-================================================================================
-#58 | LoRA_Gen37_2da4fece | TES:0.434
-📁 Dosya: LoRA_Gen37_2da4fece_2da4fece.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 2da4fece
-   Durum: ⚡ YAŞIYOR
-   Yaş: 5 maç
-   Nesil: 37
-   Fitness: 0.533
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.434
-   Darwin (Katkı): 0.593
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.170
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.680
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 1.00
-   social_intelligence: 0.69
-   patience: 0.65
-   stress_tolerance: 0.64
-   confidence_level: 0.63
-
-💾 DOSYA:
-   LoRA_Gen37_2da4fece_2da4fece.pt
-
-================================================================================
-#59 | LoRA_Gen32_2a43eff6 | TES:0.433
-📁 Dosya: LoRA_Gen32_2a43eff6_2a43eff6.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 2a43eff6
-   Durum: ⚡ YAŞIYOR
-   Yaş: -15 maç
-   Nesil: 32
-   Fitness: 0.562
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.433
-   Darwin (Katkı): 0.583
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.180
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.575
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.77
-   risk_appetite: 0.65
-   confidence_level: 0.64
-   patience: 0.61
-   impulsiveness: 0.48
-
-💾 DOSYA:
-   LoRA_Gen32_2a43eff6_2a43eff6.pt
-
-================================================================================
-#60 | LoRA_Gen37_20875ee8 | TES:0.433
-📁 Dosya: LoRA_Gen37_20875ee8_20875ee8.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 20875ee8
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 37
-   Fitness: 0.542
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.433
-   Darwin (Katkı): 0.588
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.262
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.90
-   confidence_level: 0.87
-   patience: 0.85
-   independence: 0.83
-   stress_tolerance: 0.70
-
-💾 DOSYA:
-   LoRA_Gen37_20875ee8_20875ee8.pt
-
-================================================================================
-#61 | LoRA_Gen37_23c67fa0 | TES:0.433
-📁 Dosya: LoRA_Gen37_23c67fa0_23c67fa0.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 23c67fa0
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 37
-   Fitness: 0.542
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.433
-   Darwin (Katkı): 0.588
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 2.000
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Bağımsız Yalnız
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.97
-   social_intelligence: 0.67
-   herd_tendency: 0.65
-   contrarian_score: 0.48
-   risk_appetite: 0.46
-
-💾 DOSYA:
-   LoRA_Gen37_23c67fa0_23c67fa0.pt
-
-================================================================================
-#62 | LoRA_Gen15_f5482844 | TES:0.432
-📁 Dosya: LoRA_Gen15_f5482844_f5482844.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: f5482844
-   Durum: ⚡ YAŞIYOR
-   Yaş: 1 maç
-   Nesil: 15
-   Fitness: 0.569
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.432
-   Darwin (Katkı): 0.571
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.189
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.249
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   will_to_live: 0.83
-   independence: 0.80
-   contrarian_score: 0.74
-   resilience: 0.72
-
-💾 DOSYA:
-   LoRA_Gen15_f5482844_f5482844.pt
-
-================================================================================
-#63 | LoRA_Gen33_7b849362 | TES:0.431
-📁 Dosya: LoRA_Gen33_7b849362_7b849362.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 7b849362
-   Durum: ⚡ YAŞIYOR
-   Yaş: 6 maç
-   Nesil: 33
-   Fitness: 0.538
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.431
-   Darwin (Katkı): 0.585
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.939
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   social_intelligence: 0.80
-   resilience: 0.71
-   patience: 0.62
-   independence: 0.62
-
-💾 DOSYA:
-   LoRA_Gen33_7b849362_7b849362.pt
-
-================================================================================
-#64 | LoRA_Gen36_674319bd | TES:0.431
-📁 Dosya: LoRA_Gen36_674319bd_674319bd.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 674319bd
-   Durum: ⚡ YAŞIYOR
-   Yaş: 3 maç
-   Nesil: 36
-   Fitness: 0.538
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.431
-   Darwin (Katkı): 0.585
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.258
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.87
-   confidence_level: 0.80
-   patience: 0.80
-   social_intelligence: 0.65
-   contrarian_score: 0.48
-
-💾 DOSYA:
-   LoRA_Gen36_674319bd_674319bd.pt
-
-================================================================================
-#65 | LoRA_Gen39_b04e61b6 | TES:0.431
-📁 Dosya: LoRA_Gen39_b04e61b6_b04e61b6.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: b04e61b6
-   Durum: ⚡ YAŞIYOR
-   Yaş: 3 maç
-   Nesil: 39
-   Fitness: 0.538
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.431
-   Darwin (Katkı): 0.585
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.258
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   confidence_level: 0.92
-   social_intelligence: 0.86
-   patience: 0.83
-   risk_appetite: 0.56
-   stress_tolerance: 0.56
-
-💾 DOSYA:
-   LoRA_Gen39_b04e61b6_b04e61b6.pt
-
-================================================================================
-#66 | LoRA_Gen43_8f2e5724 | TES:0.431
-📁 Dosya: LoRA_Gen43_8f2e5724_8f2e5724.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8f2e5724
-   Durum: ⚡ YAŞIYOR
-   Yaş: 3 maç
+   Yaş: 47 maç
    Nesil: 43
-   Fitness: 0.538
+   Fitness: 0.470
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.431
-   Darwin (Katkı): 0.585
+   Toplam TES: 0.442
+   Darwin (Katkı): 0.592
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.259
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   contrarian_score: 0.85
-   independence: 0.82
-   social_intelligence: 0.64
-   patience: 0.59
-   herd_tendency: 0.56
-
-💾 DOSYA:
-   LoRA_Gen43_8f2e5724_8f2e5724.pt
-
-================================================================================
-#67 | LoRA_Gen33_209b1fb4 | TES:0.431
-📁 Dosya: LoRA_Gen33_209b1fb4_209b1fb4.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 209b1fb4
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 33
-   Fitness: 0.571
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.431
-   Darwin (Katkı): 0.573
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.184
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.589
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   confidence_level: 0.70
-   patience: 0.66
-   social_intelligence: 0.60
-   independence: 0.57
-   risk_appetite: 0.43
-
-💾 DOSYA:
-   LoRA_Gen33_209b1fb4_209b1fb4.pt
-
-================================================================================
-#68 | LoRA_Gen21_d98871f5 | TES:0.428
-📁 Dosya: LoRA_Gen21_d98871f5_d98871f5.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: d98871f5
-   Durum: ⚡ YAŞIYOR
-   Yaş: -6 maç
-   Nesil: 21
-   Fitness: 0.571
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.428
-   Darwin (Katkı): 0.566
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.184
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.608
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.534
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.89
-   confidence_level: 0.76
-   patience: 0.66
-   herd_tendency: 0.47
-   stress_tolerance: 0.47
-
-💾 DOSYA:
-   LoRA_Gen21_d98871f5_d98871f5.pt
-
-================================================================================
-#69 | LoRA_Gen22_8c0545d2 | TES:0.428
-📁 Dosya: LoRA_Gen22_8c0545d2_8c0545d2.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 8c0545d2
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 22
-   Fitness: 0.546
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.428
-   Darwin (Katkı): 0.548
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.203
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.595
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   patience: 0.88
-   social_intelligence: 0.86
-   confidence_level: 0.85
-   risk_appetite: 0.72
-   independence: 0.72
-
-💾 DOSYA:
-   LoRA_Gen22_8c0545d2_8c0545d2.pt
-
-================================================================================
-#70 | LoRA_Gen34_76e07664 | TES:0.426
-📁 Dosya: LoRA_Gen34_76e07664_76e07664.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 76e07664
-   Durum: ⚡ YAŞIYOR
-   Yaş: 6 maç
-   Nesil: 34
-   Fitness: 0.562
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.426
-   Darwin (Katkı): 0.564
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.180
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.650
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   resilience: 0.97
-   will_to_live: 0.85
-   ambition: 0.78
-   herd_tendency: 0.78
-
-💾 DOSYA:
-   LoRA_Gen34_76e07664_76e07664.pt
-
-================================================================================
-#71 | LoRA_Gen31_074d2f33 | TES:0.426
-📁 Dosya: LoRA_Gen31_074d2f33_074d2f33.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 074d2f33
-   Durum: ⚡ YAŞIYOR
-   Yaş: 7 maç
-   Nesil: 31
-   Fitness: 0.286
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.426
-   Darwin (Katkı): 0.288
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.246
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.543
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 1.00
-   will_to_live: 0.95
-   ambition: 0.93
-   anger_tendency: 0.81
-   empathy: 0.77
-
-💾 DOSYA:
-   LoRA_Gen31_074d2f33_074d2f33.pt
-
-================================================================================
-#72 | LoRA_Gen32_88c00147 | TES:0.425
-📁 Dosya: LoRA_Gen32_88c00147_88c00147.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 88c00147
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 32
-   Fitness: 0.250
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.286
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.445
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   social_intelligence: 0.99
-   confidence_level: 0.88
-   independence: 0.87
-   impulsiveness: 0.83
-   stress_tolerance: 0.70
-
-💾 DOSYA:
-   LoRA_Gen32_88c00147_88c00147.pt
-
-================================================================================
-#73 | LoRA_Gen36_55fbc70a | TES:0.425
-📁 Dosya: LoRA_Gen36_55fbc70a_55fbc70a.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 55fbc70a
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 36
-   Fitness: 0.250
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.286
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.440
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 1.00
-   will_to_live: 0.87
-   ambition: 0.81
-   contrarian_score: 0.74
-   resilience: 0.73
-
-💾 DOSYA:
-   LoRA_Gen36_55fbc70a_55fbc70a.pt
-
-================================================================================
-#74 | LoRA_Gen37_ca554f39 | TES:0.425
-📁 Dosya: LoRA_Gen37_ca554f39_ca554f39.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: ca554f39
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 37
-   Fitness: 0.250
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.286
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.586
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 1.00
-   patience: 0.86
-   confidence_level: 0.74
-   social_intelligence: 0.67
-   herd_tendency: 0.53
-
-💾 DOSYA:
-   LoRA_Gen37_ca554f39_ca554f39.pt
-
-================================================================================
-#75 | LoRA_Gen38_6ac858d8 | TES:0.425
-📁 Dosya: LoRA_Gen38_6ac858d8_6ac858d8.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 6ac858d8
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 38
-   Fitness: 0.250
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.286
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.386
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   herd_tendency: 0.97
-   anger_tendency: 0.81
-   resilience: 0.71
-   social_intelligence: 0.70
-   contrarian_score: 0.69
-
-💾 DOSYA:
-   LoRA_Gen38_6ac858d8_6ac858d8.pt
-
-================================================================================
-#76 | LoRA_Gen38_94d14d7d | TES:0.425
-📁 Dosya: LoRA_Gen38_94d14d7d_94d14d7d.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 94d14d7d
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 38
-   Fitness: 0.250
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.286
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.443
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Duygusal Empatik
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 0.82
-   impulsiveness: 0.75
-   social_intelligence: 0.70
-   independence: 0.70
-   competitiveness: 0.67
-
-💾 DOSYA:
-   LoRA_Gen38_94d14d7d_94d14d7d.pt
-
-================================================================================
-#77 | LoRA_Gen39_a1602066 | TES:0.425
-📁 Dosya: LoRA_Gen39_a1602066_a1602066.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: a1602066
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 39
-   Fitness: 0.250
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.286
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.390
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.482
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Bağımsız Yalnız
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   confidence_level: 0.70
-   patience: 0.68
-   independence: 0.61
-   social_intelligence: 0.58
-   herd_tendency: 0.51
-
-💾 DOSYA:
-   LoRA_Gen39_a1602066_a1602066.pt
-
-================================================================================
-#78 | LoRA_Gen32_5c47e7cb | TES:0.425
-📁 Dosya: LoRA_Gen32_5c47e7cb_5c47e7cb.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 5c47e7cb
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 32
-   Fitness: 0.430
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.490
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.261
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.685
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.499
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: home_form + hype: orta_düşük (80%)
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.86
-   confidence_level: 0.73
-   social_intelligence: 0.72
-   contrarian_score: 0.60
-   stress_tolerance: 0.57
-
-💾 DOSYA:
-   LoRA_Gen32_5c47e7cb_5c47e7cb.pt
-
-================================================================================
-#79 | LoRA_Gen16_7e1e7f19 | TES:0.425
-📁 Dosya: LoRA_Gen16_7e1e7f19_7e1e7f19.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 7e1e7f19
-   Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 16
-   Fitness: 0.540
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.425
-   Darwin (Katkı): 0.535
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.208
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.151
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 0.99
-   contrarian_score: 0.90
-   will_to_live: 0.89
-   ambition: 0.87
-   resilience: 0.83
-
-💾 DOSYA:
-   LoRA_Gen16_7e1e7f19_7e1e7f19.pt
-
-================================================================================
-#80 | LoRA_Gen34_2f5c7985 | TES:0.421
-📁 Dosya: LoRA_Gen34_2f5c7985_2f5c7985.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 2f5c7985
-   Durum: ⚡ YAŞIYOR
-   Yaş: 0 maç
-   Nesil: 34
-   Fitness: 0.482
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.421
-   Darwin (Katkı): 0.518
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.217
+   Newton (İstikrar): 0.199
    Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
    Life Energy: 2.000
    Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 1.017
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.95
+   confidence_level: 0.73
+   social_intelligence: 0.73
+   impulsiveness: 0.57
+   contrarian_score: 0.50
+
+💾 DOSYA:
+   LoRA_Gen43_29f88091_29f88091.pt
+
+================================================================================
+#06 | LoRA_Gen39_0cd078a1 | TES:0.442
+📁 Dosya: LoRA_Gen39_0cd078a1_0cd078a1.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 0cd078a1
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 39
+   Fitness: 0.472
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.442
+   Darwin (Katkı): 0.575
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.218
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.744
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.504
+   Lazarus Lambda (Λ): 0.809
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
 🎭 ARKETİPLER:
    Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Dengeli
+   Duygu Arketipi: Sakin Bilge
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: DERBY_MASTER
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
-   will_to_live: 0.73
-   impulsiveness: 0.71
-   confidence_level: 0.69
-   ambition: 0.67
-   herd_tendency: 0.67
+   social_intelligence: 0.97
+   risk_appetite: 0.95
+   independence: 0.93
+   confidence_level: 0.83
+   contrarian_score: 0.79
 
 💾 DOSYA:
-   LoRA_Gen34_2f5c7985_2f5c7985.pt
+   LoRA_Gen39_0cd078a1_0cd078a1.pt
 
 ================================================================================
-#81 | LoRA_Gen42_10e8fce2 | TES:0.421
-📁 Dosya: LoRA_Gen42_10e8fce2_10e8fce2.pt
+#07 | LoRA_Gen42_66f9654f | TES:0.441
+📁 Dosya: LoRA_Gen42_66f9654f_66f9654f.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: 10e8fce2
+   ID: 66f9654f
    Durum: ⚡ YAŞIYOR
-   Yaş: 0 maç
+   Yaş: 41 maç
    Nesil: 42
-   Fitness: 0.500
+   Fitness: 0.163
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.421
-   Darwin (Katkı): 0.559
+   Toplam TES: 0.441
+   Darwin (Katkı): 0.285
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.167
-   Tip: HYBRID(E-D)⚡
+   Newton (İstikrar): 0.554
+   Tip: HYBRID(E-N)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.535
+   Life Energy: 2.000
    Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
+   Lazarus Lambda (Λ): 1.131
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
 🎭 ARKETİPLER:
    Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Hırslı Savaşçı
+   Duygu Arketipi: Sakin Bilge
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 0.91
-   will_to_live: 0.90
-   stress_tolerance: 0.76
-   resilience: 0.75
-   independence: 0.72
-
-💾 DOSYA:
-   LoRA_Gen42_10e8fce2_10e8fce2.pt
-
-================================================================================
-#82 | LoRA_Gen34_be055923 | TES:0.421
-📁 Dosya: LoRA_Gen34_be055923_be055923.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: be055923
-   Durum: ⚡ YAŞIYOR
-   Yaş: 6 maç
-   Nesil: 34
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.421
-   Darwin (Katkı): 0.559
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.167
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.883
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sinirli Ateşli
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   herd_tendency: 0.93
-   independence: 0.84
-   contrarian_score: 0.54
-   social_intelligence: 0.53
-   confidence_level: 0.47
-
-💾 DOSYA:
-   LoRA_Gen34_be055923_be055923.pt
-
-================================================================================
-#83 | LoRA_Gen35_9b55bb8d | TES:0.421
-📁 Dosya: LoRA_Gen35_9b55bb8d_9b55bb8d.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 9b55bb8d
-   Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 35
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.421
-   Darwin (Katkı): 0.559
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.167
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.682
-   Langevin Sıcaklık (T): 0.0100
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Dengeli Parçacık ⚖️
-   Duygu Arketipi: Bağımsız Yalnız
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: home_form + hype: orta_düşük (80%)
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   independence: 0.91
-   herd_tendency: 0.79
-   confidence_level: 0.75
-   social_intelligence: 0.67
-   contrarian_score: 0.56
-
-💾 DOSYA:
-   LoRA_Gen35_9b55bb8d_9b55bb8d.pt
-
-================================================================================
-#84 | LoRA_Gen35_bd7a0bc4 | TES:0.421
-📁 Dosya: LoRA_Gen35_bd7a0bc4_bd7a0bc4.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: bd7a0bc4
-   Durum: ⚡ YAŞIYOR
-   Yaş: 0 maç
-   Nesil: 35
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.421
-   Darwin (Katkı): 0.559
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.167
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.257
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Hırslı Savaşçı
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   anger_tendency: 0.97
-   will_to_live: 0.84
-   independence: 0.72
-   herd_tendency: 0.72
-   contrarian_score: 0.68
-
-💾 DOSYA:
-   LoRA_Gen35_bd7a0bc4_bd7a0bc4.pt
-
-================================================================================
-#85 | LoRA_Gen36_c5a0dc50 | TES:0.421
-📁 Dosya: LoRA_Gen36_c5a0dc50_c5a0dc50.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: c5a0dc50
-   Durum: ⚡ YAŞIYOR
-   Yaş: 6 maç
-   Nesil: 36
-   Fitness: 0.500
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.421
-   Darwin (Katkı): 0.559
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.167
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.334
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.532
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sosyal Lider
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: CONSISTENCY_GOD
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
    anger_tendency: 1.00
    independence: 0.94
-   social_intelligence: 0.91
-   patience: 0.85
-   ambition: 0.82
+   resilience: 0.83
+   social_intelligence: 0.76
+   emotional_depth: 0.68
 
 💾 DOSYA:
-   LoRA_Gen36_c5a0dc50_c5a0dc50.pt
+   LoRA_Gen42_66f9654f_66f9654f.pt
 
 ================================================================================
-#86 | LoRA_Gen30_4dbdb025 | TES:0.417
-📁 Dosya: LoRA_Gen30_4dbdb025_4dbdb025.pt
+#08 | LoRA_a3c7eb24 | TES:0.440
+📁 Dosya: LoRA_a3c7eb24_a3c7eb24.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: 4dbdb025
+   ID: a3c7eb24
    Durum: ⚡ YAŞIYOR
-   Yaş: -17 maç
-   Nesil: 30
-   Fitness: 0.542
+   Yaş: 50 maç
+   Nesil: 45
+   Fitness: 0.580
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.417
-   Darwin (Katkı): 0.543
+   Toplam TES: 0.440
+   Darwin (Katkı): 0.597
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
+   Newton (İstikrar): 0.188
    Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.752
+   Life Energy: 1.916
    Langevin Sıcaklık (T): 0.0100
    Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
+   Lazarus Lambda (Λ): 0.843
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
@@ -4125,140 +381,2732 @@ Toplam EINSTEIN⭐: 90
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   contrarian_score: 0.80
-   herd_tendency: 0.73
-   stress_tolerance: 0.66
-   risk_appetite: 0.51
-   impulsiveness: 0.49
-
-💾 DOSYA:
-   LoRA_Gen30_4dbdb025_4dbdb025.pt
-
-================================================================================
-#87 | LoRA_Gen37_c1725c24 | TES:0.408
-📁 Dosya: LoRA_Gen37_c1725c24_c1725c24.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: c1725c24
-   Durum: ⚡ YAŞIYOR
-   Yaş: 5 maç
-   Nesil: 37
-   Fitness: 0.200
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.408
-   Darwin (Katkı): 0.236
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.500
-   Tip: HYBRID(E-N)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.381
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 0.0000
-   Lazarus Lambda (Λ): 0.555
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
-   İtibar Skoru: 0.000
-
-🎨 MİZAÇ (İlk 5 Özellik):
-   herd_tendency: 0.91
-   independence: 0.89
-   patience: 0.81
-   anger_tendency: 0.75
-   stress_tolerance: 0.70
-
-💾 DOSYA:
-   LoRA_Gen37_c1725c24_c1725c24.pt
-
-================================================================================
-#88 | LoRA_Gen30_415c49cf | TES:0.405
-📁 Dosya: LoRA_Gen30_415c49cf_415c49cf.pt
-================================================================================
-📊 TEMEL BİLGİLER:
-   ID: 415c49cf
-   Durum: ⚡ YAŞIYOR
-   Yaş: 2 maç
-   Nesil: 30
-   Fitness: 0.397
-   Ebeveynler: 2 ebeveyn
-   Çocuklar: 0 çocuk
-
-🔬 TES SKORLARI:
-   Toplam TES: 0.405
-   Darwin (Katkı): 0.433
-   Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.261
-   Tip: HYBRID(E-D)⚡
-
-⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.600
-   Langevin Sıcaklık (T): 0.0200
-   Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.502
-   Onsager-Machlup (S_OM): 0.000
-   Ghost Potansiyel: 0.000
-
-🎭 ARKETİPLER:
-   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
-   Duygu Arketipi: Sakin Bilge
-   Fizik Arketipi: Standart
-
-🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: DERBY_MASTER
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
    anger_tendency: 1.00
-   will_to_live: 0.99
-   independence: 0.87
-   emotional_depth: 0.84
-   empathy: 0.82
+   ambition: 1.00
+   resilience: 1.00
+   confidence_level: 0.81
+   competitiveness: 0.61
 
 💾 DOSYA:
-   LoRA_Gen30_415c49cf_415c49cf.pt
+   LoRA_a3c7eb24_a3c7eb24.pt
 
 ================================================================================
-#89 | LoRA_Gen39_21b65134 | TES:0.401
-📁 Dosya: LoRA_Gen39_21b65134_21b65134.pt
+#09 | LoRA_Gen40_14439846 | TES:0.440
+📁 Dosya: LoRA_Gen40_14439846_14439846.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: 21b65134
+   ID: 14439846
    Durum: ⚡ YAŞIYOR
-   Yaş: 4 maç
-   Nesil: 39
-   Fitness: 0.337
+   Yaş: 44 maç
+   Nesil: 40
+   Fitness: 0.580
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.401
-   Darwin (Katkı): 0.373
+   Toplam TES: 0.440
+   Darwin (Katkı): 0.597
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.318
-   Tip: EINSTEIN⭐
+   Newton (İstikrar): 0.188
+   Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 0.514
+   Life Energy: 1.866
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.862
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 1.00
+   confidence_level: 1.00
+   herd_tendency: 0.94
+   social_intelligence: 0.93
+   contrarian_score: 0.75
+
+💾 DOSYA:
+   LoRA_Gen40_14439846_14439846.pt
+
+================================================================================
+#10 | LoRA_Gen43_6a65cbf1 | TES:0.440
+📁 Dosya: LoRA_Gen43_6a65cbf1_6a65cbf1.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 6a65cbf1
+   Durum: ⚡ YAŞIYOR
+   Yaş: 40 maç
+   Nesil: 43
+   Fitness: 0.515
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.440
+   Darwin (Katkı): 0.593
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.191
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.088
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.841
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sinirli Ateşli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.99
+   risk_appetite: 0.90
+   anger_tendency: 0.83
+   patience: 0.69
+   herd_tendency: 0.69
+
+💾 DOSYA:
+   LoRA_Gen43_6a65cbf1_6a65cbf1.pt
+
+================================================================================
+#11 | LoRA_Gen43_b9f59f31 | TES:0.440
+📁 Dosya: LoRA_Gen43_b9f59f31_b9f59f31.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: b9f59f31
+   Durum: ⚡ YAŞIYOR
+   Yaş: 41 maç
+   Nesil: 43
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.440
+   Darwin (Katkı): 0.283
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
    Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
    Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.747
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Dengeli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   patience: 0.96
+   independence: 0.84
+   social_intelligence: 0.76
+   risk_appetite: 0.75
+
+💾 DOSYA:
+   LoRA_Gen43_b9f59f31_b9f59f31.pt
+
+================================================================================
+#12 | LoRA_Gen36_ccbfca82 | TES:0.439
+📁 Dosya: LoRA_Gen36_ccbfca82_ccbfca82.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: ccbfca82
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 36
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.439
+   Darwin (Katkı): 0.282
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.827
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.789
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   contrarian_score: 0.98
+   will_to_live: 0.98
+   independence: 0.91
+   herd_tendency: 0.84
+
+💾 DOSYA:
+   LoRA_Gen36_ccbfca82_ccbfca82.pt
+
+================================================================================
+#13 | LoRA_Gen39_1944805e | TES:0.439
+📁 Dosya: LoRA_Gen39_1944805e_1944805e.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 1944805e
+   Durum: ⚡ YAŞIYOR
+   Yaş: 43 maç
+   Nesil: 39
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.439
+   Darwin (Katkı): 0.282
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.861
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.95
+   social_intelligence: 0.84
+   herd_tendency: 0.76
+   confidence_level: 0.60
+   impulsiveness: 0.59
+
+💾 DOSYA:
+   LoRA_Gen39_1944805e_1944805e.pt
+
+================================================================================
+#14 | LoRA_Gen42_aec66194 | TES:0.439
+📁 Dosya: LoRA_Gen42_aec66194_aec66194.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: aec66194
+   Durum: ⚡ YAŞIYOR
+   Yaş: 47 maç
+   Nesil: 42
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.439
+   Darwin (Katkı): 0.282
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.776
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   independence: 0.87
+   social_intelligence: 0.83
+   risk_appetite: 0.82
+   will_to_live: 0.75
+
+💾 DOSYA:
+   LoRA_Gen42_aec66194_aec66194.pt
+
+================================================================================
+#15 | LoRA_7c3ef905 | TES:0.439
+📁 Dosya: LoRA_7c3ef905_7c3ef905.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 7c3ef905
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 46
+   Fitness: 0.526
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.439
+   Darwin (Katkı): 0.600
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.181
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.624
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.907
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 0.77
+   patience: 0.67
+   risk_appetite: 0.58
+   independence: 0.58
+   emotional_depth: 0.55
+
+💾 DOSYA:
+   LoRA_7c3ef905_7c3ef905.pt
+
+================================================================================
+#16 | LoRA_e6e4930d | TES:0.438
+📁 Dosya: LoRA_e6e4930d_e6e4930d.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: e6e4930d
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 41
+   Fitness: 0.495
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.438
+   Darwin (Katkı): 0.592
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.184
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.836
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.649
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   resilience: 0.91
+   ambition: 0.82
+   will_to_live: 0.63
+   stress_tolerance: 0.57
+
+💾 DOSYA:
+   LoRA_e6e4930d_e6e4930d.pt
+
+================================================================================
+#17 | LoRA_6c56ded3 | TES:0.437
+📁 Dosya: LoRA_6c56ded3_6c56ded3.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 6c56ded3
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 50
+   Fitness: 0.143
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.437
+   Darwin (Katkı): 0.241
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.592
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.120
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.634
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 0.65
+   empathy: 0.61
+   confidence_level: 0.58
+   contrarian_score: 0.56
+   impulsiveness: 0.56
+
+💾 DOSYA:
+   LoRA_6c56ded3_6c56ded3.pt
+
+================================================================================
+#18 | LoRA_Gen38_bd4e1fec | TES:0.437
+📁 Dosya: LoRA_Gen38_bd4e1fec_bd4e1fec.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: bd4e1fec
+   Durum: ⚡ YAŞIYOR
+   Yaş: 45 maç
+   Nesil: 38
+   Fitness: 0.468
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.437
+   Darwin (Katkı): 0.571
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.206
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.674
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.812
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.97
+   patience: 0.89
+   independence: 0.76
+   social_intelligence: 0.71
+   herd_tendency: 0.68
+
+💾 DOSYA:
+   LoRA_Gen38_bd4e1fec_bd4e1fec.pt
+
+================================================================================
+#19 | LoRA_Gen42_71ab7c22 | TES:0.436
+📁 Dosya: LoRA_Gen42_71ab7c22_71ab7c22.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 71ab7c22
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 42
+   Fitness: 0.521
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.436
+   Darwin (Katkı): 0.599
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.171
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.631
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.99
+   contrarian_score: 0.73
+   patience: 0.63
+   independence: 0.59
+   herd_tendency: 0.56
+
+💾 DOSYA:
+   LoRA_Gen42_71ab7c22_71ab7c22.pt
+
+================================================================================
+#20 | LoRA_Gen42_812f7f3e | TES:0.436
+📁 Dosya: LoRA_Gen42_812f7f3e_812f7f3e.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 812f7f3e
+   Durum: ⚡ YAŞIYOR
+   Yaş: 43 maç
+   Nesil: 42
+   Fitness: 0.507
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.436
+   Darwin (Katkı): 0.585
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.186
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.667
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.810
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   social_intelligence: 0.84
+   herd_tendency: 0.70
+   risk_appetite: 0.67
+   impulsiveness: 0.61
+   contrarian_score: 0.60
+
+💾 DOSYA:
+   LoRA_Gen42_812f7f3e_812f7f3e.pt
+
+================================================================================
+#21 | LoRA_Gen42_f80b5eca | TES:0.435
+📁 Dosya: LoRA_Gen42_f80b5eca_f80b5eca.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: f80b5eca
+   Durum: ⚡ YAŞIYOR
+   Yaş: 48 maç
+   Nesil: 42
+   Fitness: 0.515
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.594
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.174
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.934
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   independence: 0.97
+   stress_tolerance: 0.93
+   competitiveness: 0.87
+   patience: 0.72
+
+💾 DOSYA:
+   LoRA_Gen42_f80b5eca_f80b5eca.pt
+
+================================================================================
+#22 | LoRA_Gen38_d2e6ef9a | TES:0.435
+📁 Dosya: LoRA_Gen38_d2e6ef9a_d2e6ef9a.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: d2e6ef9a
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 38
+   Fitness: 0.520
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.704
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.77
+   herd_tendency: 0.76
+   independence: 0.67
+   impulsiveness: 0.58
+   social_intelligence: 0.53
+
+💾 DOSYA:
+   LoRA_Gen38_d2e6ef9a_d2e6ef9a.pt
+
+================================================================================
+#23 | LoRA_Gen39_0664bad3 | TES:0.435
+📁 Dosya: LoRA_Gen39_0664bad3_0664bad3.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 0664bad3
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 39
+   Fitness: 0.520
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.976
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Bağımsız Yalnız
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   stress_tolerance: 1.00
+   patience: 0.90
+   independence: 0.90
+   herd_tendency: 0.79
+   social_intelligence: 0.53
+
+💾 DOSYA:
+   LoRA_Gen39_0664bad3_0664bad3.pt
+
+================================================================================
+#24 | LoRA_Gen41_b5368d20 | TES:0.435
+📁 Dosya: LoRA_Gen41_b5368d20_b5368d20.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: b5368d20
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 41
+   Fitness: 0.520
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.893
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 0.95
+   patience: 0.79
+   contrarian_score: 0.76
+   herd_tendency: 0.73
+   social_intelligence: 0.70
+
+💾 DOSYA:
+   LoRA_Gen41_b5368d20_b5368d20.pt
+
+================================================================================
+#25 | LoRA_Gen39_f7aee28a | TES:0.435
+📁 Dosya: LoRA_Gen39_f7aee28a_f7aee28a.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: f7aee28a
+   Durum: ⚡ YAŞIYOR
+   Yaş: 40 maç
+   Nesil: 39
+   Fitness: 0.524
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.169
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.053
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.819
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   patience: 0.90
+   independence: 0.80
+   anger_tendency: 0.79
+   will_to_live: 0.68
+   social_intelligence: 0.68
+
+💾 DOSYA:
+   LoRA_Gen39_f7aee28a_f7aee28a.pt
+
+================================================================================
+#26 | LoRA_Gen36_31533f31 | TES:0.435
+📁 Dosya: LoRA_Gen36_31533f31_31533f31.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 31533f31
+   Durum: ⚡ YAŞIYOR
+   Yaş: 40 maç
+   Nesil: 36
+   Fitness: 0.524
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.169
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.815
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   independence: 0.86
+   resilience: 0.84
+   herd_tendency: 0.79
+   ambition: 0.79
+
+💾 DOSYA:
+   LoRA_Gen36_31533f31_31533f31.pt
+
+================================================================================
+#27 | LoRA_Gen40_3df7fa8d | TES:0.435
+📁 Dosya: LoRA_Gen40_3df7fa8d_3df7fa8d.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 3df7fa8d
+   Durum: ⚡ YAŞIYOR
+   Yaş: 41 maç
+   Nesil: 40
+   Fitness: 0.524
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.169
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.875
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.77
+   stress_tolerance: 0.73
+   independence: 0.58
+   social_intelligence: 0.56
+   impulsiveness: 0.56
+
+💾 DOSYA:
+   LoRA_Gen40_3df7fa8d_3df7fa8d.pt
+
+================================================================================
+#28 | LoRA_Gen42_38d22569 | TES:0.435
+📁 Dosya: LoRA_Gen42_38d22569_38d22569.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 38d22569
+   Durum: ⚡ YAŞIYOR
+   Yaş: 40 maç
+   Nesil: 42
+   Fitness: 0.524
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.435
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.169
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.632
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.702
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   patience: 0.93
+   independence: 0.86
+   anger_tendency: 0.85
+   will_to_live: 0.74
+   resilience: 0.72
+
+💾 DOSYA:
+   LoRA_Gen42_38d22569_38d22569.pt
+
+================================================================================
+#29 | LoRA_Gen36_21f45059 | TES:0.434
+📁 Dosya: LoRA_Gen36_21f45059_21f45059.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 21f45059
+   Durum: ⚡ YAŞIYOR
+   Yaş: 43 maç
+   Nesil: 36
+   Fitness: 0.523
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.597
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.916
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Dengeli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.95
+   confidence_level: 0.81
+   herd_tendency: 0.77
+   impulsiveness: 0.77
+   social_intelligence: 0.75
+
+💾 DOSYA:
+   LoRA_Gen36_21f45059_21f45059.pt
+
+================================================================================
+#30 | LoRA_Gen40_d3028683 | TES:0.434
+📁 Dosya: LoRA_Gen40_d3028683_d3028683.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: d3028683
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 40
+   Fitness: 0.511
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.590
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.176
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.813
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.818
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 1.00
+   independence: 0.99
+   anger_tendency: 0.90
+   patience: 0.86
+   contrarian_score: 0.84
+
+💾 DOSYA:
+   LoRA_Gen40_d3028683_d3028683.pt
+
+================================================================================
+#31 | LoRA_e93167a0 | TES:0.434
+📁 Dosya: LoRA_e93167a0_e93167a0.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: e93167a0
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 45
+   Fitness: 0.383
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.486
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.297
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.856
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 1.004
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Bağımsız Yalnız
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.78
+   ambition: 0.61
+   patience: 0.55
+   impulsiveness: 0.53
+   contrarian_score: 0.52
+
+💾 DOSYA:
+   LoRA_e93167a0_e93167a0.pt
+
+================================================================================
+#32 | LoRA_5f63dd4d | TES:0.434
+📁 Dosya: LoRA_5f63dd4d_5f63dd4d.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 5f63dd4d
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 49
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.598
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.833
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.631
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 0.86
+   stress_tolerance: 0.84
+   confidence_level: 0.67
+   risk_appetite: 0.65
+   impulsiveness: 0.60
+
+💾 DOSYA:
+   LoRA_5f63dd4d_5f63dd4d.pt
+
+================================================================================
+#33 | LoRA_Gen39_46cf8c7a | TES:0.434
+📁 Dosya: LoRA_Gen39_46cf8c7a_46cf8c7a.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 46cf8c7a
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 39
+   Fitness: 0.522
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.596
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.768
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.82
+   herd_tendency: 0.70
+   independence: 0.64
+   patience: 0.61
+   confidence_level: 0.61
+
+💾 DOSYA:
+   LoRA_Gen39_46cf8c7a_46cf8c7a.pt
+
+================================================================================
+#34 | LoRA_Gen41_51730dda | TES:0.434
+📁 Dosya: LoRA_Gen41_51730dda_51730dda.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 51730dda
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 41
+   Fitness: 0.522
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.596
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 1.093
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   social_intelligence: 0.98
+   patience: 0.96
+   confidence_level: 0.77
+   independence: 0.63
+   herd_tendency: 0.59
+
+💾 DOSYA:
+   LoRA_Gen41_51730dda_51730dda.pt
+
+================================================================================
+#35 | LoRA_Gen38_2a50101b | TES:0.434
+📁 Dosya: LoRA_Gen38_2a50101b_2a50101b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 2a50101b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 38
+   Fitness: 0.522
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.596
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.706
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   patience: 0.93
+   confidence_level: 0.92
+   contrarian_score: 0.90
+   independence: 0.89
+   herd_tendency: 0.64
+
+💾 DOSYA:
+   LoRA_Gen38_2a50101b_2a50101b.pt
+
+================================================================================
+#36 | LoRA_Gen42_964219d7 | TES:0.434
+📁 Dosya: LoRA_Gen42_964219d7_964219d7.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 964219d7
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 42
+   Fitness: 0.522
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.596
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.631
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.889
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   independence: 0.98
+   confidence_level: 0.91
+   will_to_live: 0.77
+   resilience: 0.71
+
+💾 DOSYA:
+   LoRA_Gen42_964219d7_964219d7.pt
+
+================================================================================
+#37 | LoRA_50303182 | TES:0.434
+📁 Dosya: LoRA_50303182_50303182.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 50303182
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 42
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.434
+   Darwin (Katkı): 0.596
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.842
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.704
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Bağımsız Yalnız
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   resilience: 1.00
+   ambition: 0.69
+   stress_tolerance: 0.63
+   herd_tendency: 0.56
+
+💾 DOSYA:
+   LoRA_50303182_50303182.pt
+
+================================================================================
+#38 | LoRA_e10573b7 | TES:0.433
+📁 Dosya: LoRA_e10573b7_e10573b7.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: e10573b7
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 43
+   Fitness: 0.540
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.433
+   Darwin (Katkı): 0.591
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.172
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.989
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.852
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sinirli Ateşli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 1.00
+   risk_appetite: 0.88
+   independence: 0.61
+   contrarian_score: 0.56
+   social_intelligence: 0.53
+
+💾 DOSYA:
+   LoRA_e10573b7_e10573b7.pt
+
+================================================================================
+#39 | LoRA_Gen41_2f8028d3 | TES:0.433
+📁 Dosya: LoRA_Gen41_2f8028d3_2f8028d3.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 2f8028d3
+   Durum: ⚡ YAŞIYOR
+   Yaş: 43 maç
+   Nesil: 41
+   Fitness: 0.540
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.433
+   Darwin (Katkı): 0.591
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.172
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.980
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 1.138
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Bağımsız Yalnız
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   resilience: 1.00
+   confidence_level: 1.00
+   independence: 0.87
+   contrarian_score: 0.76
+
+💾 DOSYA:
+   LoRA_Gen41_2f8028d3_2f8028d3.pt
+
+================================================================================
+#40 | LoRA_8ada6247 | TES:0.433
+📁 Dosya: LoRA_8ada6247_8ada6247.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 8ada6247
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 48
+   Fitness: 0.158
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.433
+   Darwin (Katkı): 0.261
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.557
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.522
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 1.196
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.74
+   patience: 0.65
+   ambition: 0.64
+   stress_tolerance: 0.59
+   independence: 0.57
+
+💾 DOSYA:
+   LoRA_8ada6247_8ada6247.pt
+
+================================================================================
+#41 | LoRA_61402fc9 | TES:0.433
+📁 Dosya: LoRA_61402fc9_61402fc9.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 61402fc9
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 42
+   Fitness: 0.437
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.433
+   Darwin (Katkı): 0.535
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.237
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.855
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.801
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.79
+   independence: 0.51
+   herd_tendency: 0.51
+   impulsiveness: 0.49
+   social_intelligence: 0.48
+
+💾 DOSYA:
+   LoRA_61402fc9_61402fc9.pt
+
+================================================================================
+#42 | LoRA_Gen43_9538a849 | TES:0.433
+📁 Dosya: LoRA_Gen43_9538a849_9538a849.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 9538a849
+   Durum: ⚡ YAŞIYOR
+   Yaş: 46 maç
+   Nesil: 43
+   Fitness: 0.509
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.433
+   Darwin (Katkı): 0.587
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.175
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.343
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.941
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.92
+   contrarian_score: 0.89
+   social_intelligence: 0.71
+   herd_tendency: 0.68
+   impulsiveness: 0.54
+
+💾 DOSYA:
+   LoRA_Gen43_9538a849_9538a849.pt
+
+================================================================================
+#43 | LoRA_Gen41_c5a70d73 | TES:0.432
+📁 Dosya: LoRA_Gen41_c5a70d73_c5a70d73.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: c5a70d73
+   Durum: ⚡ YAŞIYOR
+   Yaş: 41 maç
+   Nesil: 41
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.432
+   Darwin (Katkı): 0.592
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.844
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 1.192
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Dengeli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 1.00
+   anger_tendency: 1.00
+   ambition: 1.00
+   resilience: 1.00
+   patience: 0.93
+
+💾 DOSYA:
+   LoRA_Gen41_c5a70d73_c5a70d73.pt
+
+================================================================================
+#44 | LoRA_Gen47_75467959 | TES:0.432
+📁 Dosya: LoRA_Gen47_75467959_75467959.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 75467959
+   Durum: ⚡ YAŞIYOR
+   Yaş: 43 maç
+   Nesil: 47
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.432
+   Darwin (Katkı): 0.592
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.822
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   ambition: 1.00
+   resilience: 1.00
+   social_intelligence: 0.87
+   patience: 0.76
+
+💾 DOSYA:
+   LoRA_Gen47_75467959_75467959.pt
+
+================================================================================
+#45 | LoRA_Gen41_f1fee162 | TES:0.432
+📁 Dosya: LoRA_Gen41_f1fee162_f1fee162.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: f1fee162
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 41
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.432
+   Darwin (Katkı): 0.592
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.956
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.87
+   independence: 0.71
+   social_intelligence: 0.65
+   contrarian_score: 0.56
+   patience: 0.47
+
+💾 DOSYA:
+   LoRA_Gen41_f1fee162_f1fee162.pt
+
+================================================================================
+#46 | LoRA_a650357b | TES:0.431
+📁 Dosya: LoRA_a650357b_a650357b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: a650357b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 43
+   Fitness: 0.520
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.431
+   Darwin (Katkı): 0.588
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.359
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.726
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.96
+   patience: 0.80
+   herd_tendency: 0.60
+   risk_appetite: 0.49
+   social_intelligence: 0.47
+
+💾 DOSYA:
+   LoRA_a650357b_a650357b.pt
+
+================================================================================
+#47 | LoRA_ac7d40af | TES:0.431
+📁 Dosya: LoRA_ac7d40af_ac7d40af.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: ac7d40af
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 43
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.431
+   Darwin (Katkı): 0.258
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.456
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.776
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   stress_tolerance: 0.87
+   ambition: 0.71
+   independence: 0.61
+   social_intelligence: 0.51
+   contrarian_score: 0.46
+
+💾 DOSYA:
+   LoRA_ac7d40af_ac7d40af.pt
+
+================================================================================
+#48 | LoRA_Gen43_0b0a6628 | TES:0.431
+📁 Dosya: LoRA_Gen43_0b0a6628_0b0a6628.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 0b0a6628
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 43
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.431
+   Darwin (Katkı): 0.258
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.024
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.789
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.98
+   herd_tendency: 0.97
+   social_intelligence: 0.86
+   risk_appetite: 0.56
+   contrarian_score: 0.50
+
+💾 DOSYA:
+   LoRA_Gen43_0b0a6628_0b0a6628.pt
+
+================================================================================
+#49 | LoRA_ea361a6b | TES:0.431
+📁 Dosya: LoRA_ea361a6b_ea361a6b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: ea361a6b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 50
+   Fitness: 0.364
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.431
+   Darwin (Katkı): 0.535
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.229
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.650
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.959
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   ambition: 0.97
+   stress_tolerance: 0.96
+   anger_tendency: 0.75
+   independence: 0.67
+   resilience: 0.61
+
+💾 DOSYA:
+   LoRA_ea361a6b_ea361a6b.pt
+
+================================================================================
+#50 | LoRA_cfc924aa | TES:0.430
+📁 Dosya: LoRA_cfc924aa_cfc924aa.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: cfc924aa
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 45
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.430
+   Darwin (Katkı): 0.585
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.825
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.940
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   patience: 0.81
+   ambition: 0.70
+   contrarian_score: 0.61
+   resilience: 0.61
+
+💾 DOSYA:
+   LoRA_cfc924aa_cfc924aa.pt
+
+================================================================================
+#51 | LoRA_Gen39_3d86d848 | TES:0.430
+📁 Dosya: LoRA_Gen39_3d86d848_3d86d848.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 3d86d848
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 39
+   Fitness: 0.490
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.430
+   Darwin (Katkı): 0.568
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.186
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.366
+   Langevin Sıcaklık (T): 0.0100
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.683
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Dengeli Parçacık ⚖️
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   patience: 0.99
+   resilience: 0.78
+   independence: 0.69
+   will_to_live: 0.66
+
+💾 DOSYA:
+   LoRA_Gen39_3d86d848_3d86d848.pt
+
+================================================================================
+#52 | LoRA_7fdfdc8b | TES:0.429
+📁 Dosya: LoRA_7fdfdc8b_7fdfdc8b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 7fdfdc8b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 40
+   Fitness: 0.383
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.429
+   Darwin (Katkı): 0.481
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.286
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.855
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.289
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sinirli Ateşli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.96
+   risk_appetite: 0.96
+   patience: 0.74
+   independence: 0.57
+   social_intelligence: 0.49
+
+💾 DOSYA:
+   LoRA_7fdfdc8b_7fdfdc8b.pt
+
+================================================================================
+#53 | LoRA_Gen41_468a1a87 | TES:0.429
+📁 Dosya: LoRA_Gen41_468a1a87_468a1a87.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 468a1a87
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 41
+   Fitness: 0.422
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.429
+   Darwin (Katkı): 0.519
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.241
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.889
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.705
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.96
+   patience: 0.91
+   confidence_level: 0.91
+   herd_tendency: 0.87
+   social_intelligence: 0.70
+
+💾 DOSYA:
+   LoRA_Gen41_468a1a87_468a1a87.pt
+
+================================================================================
+#54 | LoRA_4c195016 | TES:0.429
+📁 Dosya: LoRA_4c195016_4c195016.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 4c195016
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 41
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.429
+   Darwin (Katkı): 0.252
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.778
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.731
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   resilience: 1.00
+   risk_appetite: 0.97
+   stress_tolerance: 0.60
+   independence: 0.57
+
+💾 DOSYA:
+   LoRA_4c195016_4c195016.pt
+
+================================================================================
+#55 | LoRA_Gen42_30fc85ce | TES:0.428
+📁 Dosya: LoRA_Gen42_30fc85ce_30fc85ce.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 30fc85ce
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 42
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.428
+   Darwin (Katkı): 0.249
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.971
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   patience: 0.92
+   independence: 0.86
+   herd_tendency: 0.70
+   resilience: 0.60
+
+💾 DOSYA:
+   LoRA_Gen42_30fc85ce_30fc85ce.pt
+
+================================================================================
+#56 | LoRA_Gen48_1c1be22a | TES:0.428
+📁 Dosya: LoRA_Gen48_1c1be22a_1c1be22a.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 1c1be22a
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 48
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.428
+   Darwin (Katkı): 0.249
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.880
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sinirli Ateşli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   social_intelligence: 0.84
+   independence: 0.69
+   resilience: 0.59
+   impulsiveness: 0.57
+
+💾 DOSYA:
+   LoRA_Gen48_1c1be22a_1c1be22a.pt
+
+================================================================================
+#57 | LoRA_3423ec6b | TES:0.426
+📁 Dosya: LoRA_3423ec6b_3423ec6b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 3423ec6b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 46
+   Fitness: 0.481
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.426
+   Darwin (Katkı): 0.572
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.170
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.947
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.636
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   risk_appetite: 0.79
+   confidence_level: 0.64
+   impulsiveness: 0.57
+   social_intelligence: 0.52
+   contrarian_score: 0.47
+
+💾 DOSYA:
+   LoRA_3423ec6b_3423ec6b.pt
+
+================================================================================
+#58 | LoRA_Gen43_b0ac026d | TES:0.426
+📁 Dosya: LoRA_Gen43_b0ac026d_b0ac026d.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: b0ac026d
+   Durum: ⚡ YAŞIYOR
+   Yaş: 40 maç
+   Nesil: 43
+   Fitness: 0.480
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.426
+   Darwin (Katkı): 0.572
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.950
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   ambition: 1.00
+   resilience: 1.00
+   social_intelligence: 0.85
+   herd_tendency: 0.85
+
+💾 DOSYA:
+   LoRA_Gen43_b0ac026d_b0ac026d.pt
+
+================================================================================
+#59 | LoRA_260f9e30 | TES:0.423
+📁 Dosya: LoRA_260f9e30_260f9e30.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 260f9e30
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 44
+   Fitness: 0.500
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.423
+   Darwin (Katkı): 0.566
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.167
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.853
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   ambition: 1.00
+   confidence_level: 1.00
+   resilience: 0.99
+   stress_tolerance: 0.82
+
+💾 DOSYA:
+   LoRA_260f9e30_260f9e30.pt
+
+================================================================================
+#60 | LoRA_Gen35_f9bcd13a | TES:0.423
+📁 Dosya: LoRA_Gen35_f9bcd13a_f9bcd13a.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: f9bcd13a
+   Durum: ⚡ YAŞIYOR
+   Yaş: 45 maç
+   Nesil: 35
+   Fitness: 0.180
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.423
+   Darwin (Katkı): 0.272
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.508
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.765
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.742
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   social_intelligence: 0.93
+   confidence_level: 0.89
+   independence: 0.82
+   herd_tendency: 0.72
+   contrarian_score: 0.52
+
+💾 DOSYA:
+   LoRA_Gen35_f9bcd13a_f9bcd13a.pt
+
+================================================================================
+#61 | LoRA_Gen42_ee7430b9 | TES:0.423
+📁 Dosya: LoRA_Gen42_ee7430b9_ee7430b9.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: ee7430b9
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 42
+   Fitness: 0.180
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.423
+   Darwin (Katkı): 0.272
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.508
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.765
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.872
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.98
+   patience: 0.71
+   herd_tendency: 0.54
+   independence: 0.52
+   stress_tolerance: 0.49
+
+💾 DOSYA:
+   LoRA_Gen42_ee7430b9_ee7430b9.pt
+
+================================================================================
+#62 | LoRA_Gen42_ac99d22b | TES:0.422
+📁 Dosya: LoRA_Gen42_ac99d22b_ac99d22b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: ac99d22b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 42 maç
+   Nesil: 42
+   Fitness: 0.180
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.422
+   Darwin (Katkı): 0.269
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.508
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.650
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sinirli Ateşli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.95
+   independence: 0.65
+   risk_appetite: 0.61
+   patience: 0.51
+   impulsiveness: 0.43
+
+💾 DOSYA:
+   LoRA_Gen42_ac99d22b_ac99d22b.pt
+
+================================================================================
+#63 | LoRA_Gen36_0734ed38 | TES:0.420
+📁 Dosya: LoRA_Gen36_0734ed38_0734ed38.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 0734ed38
+   Durum: ⚡ YAŞIYOR
+   Yaş: 43 maç
+   Nesil: 36
+   Fitness: 0.160
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.420
+   Darwin (Katkı): 0.228
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.552
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.908
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sinirli Ateşli
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   social_intelligence: 1.00
+   independence: 0.97
+   herd_tendency: 0.86
+   contrarian_score: 0.56
+   impulsiveness: 0.49
+
+💾 DOSYA:
+   LoRA_Gen36_0734ed38_0734ed38.pt
+
+================================================================================
+#64 | LoRA_551367f9 | TES:0.420
+📁 Dosya: LoRA_551367f9_551367f9.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 551367f9
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 43
+   Fitness: 0.460
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.420
+   Darwin (Katkı): 0.552
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.172
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 1.054
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   ambition: 0.90
+   confidence_level: 0.87
+   herd_tendency: 0.59
+   impulsiveness: 0.48
+   independence: 0.45
+
+💾 DOSYA:
+   LoRA_551367f9_551367f9.pt
+
+================================================================================
+#65 | LoRA_61a713bf | TES:0.419
+📁 Dosya: LoRA_61a713bf_61a713bf.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 61a713bf
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 42
+   Fitness: 0.475
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.419
+   Darwin (Katkı): 0.541
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.181
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
    Lazarus Lambda (Λ): 0.537
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
@@ -4269,45 +3117,93 @@ Toplam EINSTEIN⭐: 90
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: CONSISTENCY_GOD
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
-   confidence_level: 0.88
-   patience: 0.84
-   independence: 0.76
-   herd_tendency: 0.51
-   contrarian_score: 0.51
+   ambition: 1.00
+   confidence_level: 0.93
+   stress_tolerance: 0.57
+   risk_appetite: 0.55
+   impulsiveness: 0.54
 
 💾 DOSYA:
-   LoRA_Gen39_21b65134_21b65134.pt
+   LoRA_61a713bf_61a713bf.pt
 
 ================================================================================
-#90 | LoRA_Gen31_893b2cc4 | TES:0.401
-📁 Dosya: LoRA_Gen31_893b2cc4_893b2cc4.pt
+#66 | LoRA_be1f798e | TES:0.419
+📁 Dosya: LoRA_be1f798e_be1f798e.pt
 ================================================================================
 📊 TEMEL BİLGİLER:
-   ID: 893b2cc4
+   ID: be1f798e
    Durum: ⚡ YAŞIYOR
-   Yaş: 3 maç
-   Nesil: 31
-   Fitness: 0.462
+   Yaş: 50 maç
+   Nesil: 39
+   Fitness: 0.200
    Ebeveynler: 2 ebeveyn
    Çocuklar: 0 çocuk
 
 🔬 TES SKORLARI:
-   Toplam TES: 0.401
-   Darwin (Katkı): 0.498
+   Toplam TES: 0.419
+   Darwin (Katkı): 0.296
    Einstein (Sürpriz): 0.500
-   Newton (İstikrar): 0.172
+   Newton (İstikrar): 0.467
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.572
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.704
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   ambition: 0.81
+   impulsiveness: 0.51
+   herd_tendency: 0.49
+   contrarian_score: 0.48
+   independence: 0.44
+
+💾 DOSYA:
+   LoRA_be1f798e_be1f798e.pt
+
+================================================================================
+#67 | LoRA_78eecd8b | TES:0.417
+📁 Dosya: LoRA_78eecd8b_78eecd8b.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 78eecd8b
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 49
+   Fitness: 0.480
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.417
+   Darwin (Katkı): 0.548
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
    Tip: HYBRID(E-D)⚡
 
 ⚡ ENERJİ VE FİZİK:
-   Life Energy: 1.278
+   Life Energy: 1.158
    Langevin Sıcaklık (T): 0.0200
    Nosé-Hoover Sürtünme (ξ): 0.0000
-   Kinetik Enerji: 1.0000
-   Lazarus Lambda (Λ): 0.533
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.774
    Onsager-Machlup (S_OM): 0.000
    Ghost Potansiyel: 0.000
 
@@ -4317,16 +3213,352 @@ Toplam EINSTEIN⭐: 90
    Fizik Arketipi: Standart
 
 🎯 UZMANLIK VE İTİBAR:
-   Uzmanlık: Henüz yok
+   Uzmanlık: DERBY_MASTER
    İtibar Skoru: 0.000
 
 🎨 MİZAÇ (İlk 5 Özellik):
    anger_tendency: 1.00
-   resilience: 0.93
-   will_to_live: 0.91
-   herd_tendency: 0.90
-   contrarian_score: 0.87
+   ambition: 1.00
+   resilience: 1.00
+   risk_appetite: 0.92
+   patience: 0.91
 
 💾 DOSYA:
-   LoRA_Gen31_893b2cc4_893b2cc4.pt
+   LoRA_78eecd8b_78eecd8b.pt
+
+================================================================================
+#68 | LoRA_Gen41_a6c096c9 | TES:0.417
+📁 Dosya: LoRA_Gen41_a6c096c9_a6c096c9.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: a6c096c9
+   Durum: ⚡ YAŞIYOR
+   Yaş: 47 maç
+   Nesil: 41
+   Fitness: 0.480
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.417
+   Darwin (Katkı): 0.546
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.168
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.951
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Hırslı Savaşçı
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   patience: 0.87
+   risk_appetite: 0.84
+   confidence_level: 0.74
+   social_intelligence: 0.70
+   independence: 0.64
+
+💾 DOSYA:
+   LoRA_Gen41_a6c096c9_a6c096c9.pt
+
+================================================================================
+#69 | LoRA_bc14ba5e | TES:0.416
+📁 Dosya: LoRA_bc14ba5e_bc14ba5e.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: bc14ba5e
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 48
+   Fitness: 0.200
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.416
+   Darwin (Katkı): 0.289
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.467
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 1.0000
+   Lazarus Lambda (Λ): 0.949
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: CONSISTENCY_GOD
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   confidence_level: 0.81
+   impulsiveness: 0.55
+   risk_appetite: 0.53
+   herd_tendency: 0.53
+   social_intelligence: 0.48
+
+💾 DOSYA:
+   LoRA_bc14ba5e_bc14ba5e.pt
+
+================================================================================
+#70 | LoRA_Gen40_5535e864 | TES:0.400
+📁 Dosya: LoRA_Gen40_5535e864_5535e864.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 5535e864
+   Durum: ⚡ YAŞIYOR
+   Yaş: 44 maç
+   Nesil: 40
+   Fitness: 0.240
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.400
+   Darwin (Katkı): 0.306
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.392
+   Tip: EINSTEIN⭐
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.768
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   independence: 0.85
+   herd_tendency: 0.77
+   contrarian_score: 0.50
+   impulsiveness: 0.49
+   social_intelligence: 0.44
+
+💾 DOSYA:
+   LoRA_Gen40_5535e864_5535e864.pt
+
+================================================================================
+#71 | LoRA_Gen42_c291f467 | TES:0.400
+📁 Dosya: LoRA_Gen42_c291f467_c291f467.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: c291f467
+   Durum: ⚡ YAŞIYOR
+   Yaş: 40 maç
+   Nesil: 42
+   Fitness: 0.240
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.400
+   Darwin (Katkı): 0.306
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.392
+   Tip: EINSTEIN⭐
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 2.000
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.887
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sosyal Lider
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   resilience: 1.00
+   herd_tendency: 0.97
+   independence: 0.72
+   patience: 0.65
+
+💾 DOSYA:
+   LoRA_Gen42_c291f467_c291f467.pt
+
+================================================================================
+#72 | LoRA_dbec816f | TES:0.397
+📁 Dosya: LoRA_dbec816f_dbec816f.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: dbec816f
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 44
+   Fitness: 0.260
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.397
+   Darwin (Katkı): 0.326
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.359
+   Tip: EINSTEIN⭐
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.964
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.838
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   anger_tendency: 1.00
+   ambition: 0.75
+   contrarian_score: 0.58
+   empathy: 0.56
+   emotional_depth: 0.51
+
+💾 DOSYA:
+   LoRA_dbec816f_dbec816f.pt
+
+================================================================================
+#73 | LoRA_23491353 | TES:0.394
+📁 Dosya: LoRA_23491353_23491353.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 23491353
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 51
+   Fitness: 0.360
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.394
+   Darwin (Katkı): 0.426
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.232
+   Tip: HYBRID(E-D)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.881
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.663
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Sakin Bilge
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   stress_tolerance: 0.93
+   confidence_level: 0.72
+   independence: 0.62
+   social_intelligence: 0.53
+   impulsiveness: 0.52
+
+💾 DOSYA:
+   LoRA_23491353_23491353.pt
+
+================================================================================
+#74 | LoRA_2523e11c | TES:0.343
+📁 Dosya: LoRA_2523e11c_2523e11c.pt
+================================================================================
+📊 TEMEL BİLGİLER:
+   ID: 2523e11c
+   Durum: ⚡ YAŞIYOR
+   Yaş: 50 maç
+   Nesil: 52
+   Fitness: 0.000
+   Ebeveynler: 2 ebeveyn
+   Çocuklar: 0 çocuk
+
+🔬 TES SKORLARI:
+   Toplam TES: 0.343
+   Darwin (Katkı): 0.051
+   Einstein (Sürpriz): 0.500
+   Newton (İstikrar): 0.500
+   Tip: HYBRID(E-N)⚡
+
+⚡ ENERJİ VE FİZİK:
+   Life Energy: 1.475
+   Langevin Sıcaklık (T): 0.0200
+   Nosé-Hoover Sürtünme (ξ): 0.0000
+   Kinetik Enerji: 0.0000
+   Lazarus Lambda (Λ): 0.874
+   Onsager-Machlup (S_OM): 0.000
+   Ghost Potansiyel: 0.000
+
+🎭 ARKETİPLER:
+   Parçacık Arketipi: Yenilikçi Keşifçi 🔥
+   Duygu Arketipi: Duygusal Empatik
+   Fizik Arketipi: Standart
+
+🎯 UZMANLIK VE İTİBAR:
+   Uzmanlık: DERBY_MASTER
+   İtibar Skoru: 0.000
+
+🎨 MİZAÇ (İlk 5 Özellik):
+   stress_tolerance: 0.65
+   empathy: 0.60
+   patience: 0.60
+   anger_tendency: 0.58
+   impulsiveness: 0.57
+
+💾 DOSYA:
+   LoRA_2523e11c_2523e11c.pt
 

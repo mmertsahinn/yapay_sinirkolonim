@@ -42,20 +42,16 @@ from lora_system import (
     AdvancedMechanicsManager
 )
 
-# SpecializationSystem'i ayrı import et
-try:
-    from lora_system.specialization_system import SpecializationSystem
-except ImportError:
-    # Yoksa SpecializationTracker kullan
-    SpecializationSystem = SpecializationTracker
-    print("⚠️ SpecializationSystem bulunamadı, SpecializationTracker kullanılacak")
+# 🎯 ADVANCED CATEGORIZATION (NEW!)
+from lora_system.advanced_categorization import AdvancedCategorization
+from lora_system.social_network_visualizer import SocialNetworkVisualizer
 from lora_system.nature_entropy_system import (
     NatureEntropySystem, 
     GoallessDriftSystem,
     Goal,
     TraumaEvent
 )
-from lora_system.natural_triggers import NaturalTriggerSystem
+
 from lora_system.evolution_logger import EvolutionLogger
 from lora_system.lora_wallet import WalletManager
 from lora_system.match_results_logger import MatchResultsLogger
@@ -152,9 +148,8 @@ class EvolutionaryLearningSystem:
         print("\n🌍 Doğa + Entropi Sistemi başlatılıyor...")
         self.nature_system = NatureEntropySystem()
         
-        # 5) Natural Triggers
-        print("\n⚡ Doğal Tetikleyiciler başlatılıyor...")
-        self.trigger_system = NaturalTriggerSystem()
+        # 5) Natural Triggers (REMOVED - INTEGRATED INTO ADAPTIVE NATURE)
+        # self.trigger_system = NaturalTriggerSystem()
         
         # 6) Replay Buffer
         print("\n💾 Replay Buffer başlatılıyor...")
@@ -196,9 +191,29 @@ class EvolutionaryLearningSystem:
         # 10) Goalless Drift System
         self.goalless_system = GoallessDriftSystem()
         
-        # 11) Specialization Tracker
+        # 11) Specialization Tracker (Legacy support)
         print("\n🎯 Specialization Tracker başlatılıyor...")
         self.spec_tracker = SpecializationTracker()
+        
+        # 11.5) 🎯 ADVANCED CATEGORIZATION
+        print("\n🧠 Advanced Categorization System kısmi entegrasyon...")
+        self.advanced_categorization = AdvancedCategorization()
+
+        # 12) Parçacık Fiziği Motorları (Global instances)
+        print("\n🌊 Parçacık Fiziği Motorları atanıyor...")
+        self.langevin = langevin_dynamics
+        self.lazarus = lazarus_potential
+        self.onsager = onsager_machlup
+        self.social_visualizer = SocialNetworkVisualizer()
+        
+        # 🌐 SOSYAL AĞ VE MENTÖRLÜK (KRİTİK!)
+        print("\n🌐 Sosyal Öğrenme Ağı başlatılıyor...")
+        from lora_system.social_network import SocialNetwork
+        from lora_system.mentorship_inheritance import MentorshipInheritance
+        from lora_system.collective_intelligence import CollectiveIntelligence
+        self.social_network = SocialNetwork()
+        self.mentorship_system = MentorshipInheritance()
+        self.collective_intelligence = CollectiveIntelligence()
         
         # 12) Wallet Manager
         print("\n💼 LoRA Wallet Manager başlatılıyor...")
@@ -236,8 +251,8 @@ class EvolutionaryLearningSystem:
         
         # 16) 🌍 EVRİMLEŞEN DOĞA SİSTEMİ (Adaptive Nature!)
         print("\n🌍 Evrimleşen Doğa Sistemi başlatılıyor...")
-        from lora_system.adaptive_nature import AdaptiveNatureSystem
-        self.adaptive_nature = AdaptiveNatureSystem()
+        from lora_system.adaptive_nature import AdaptiveNature
+        self.adaptive_nature = AdaptiveNature()
         
         # 17) 📚 TARİHSEL ÖĞRENME SİSTEMİ
         print("\n📚 Tarihsel Öğrenme Sistemi başlatılıyor...")
@@ -248,6 +263,7 @@ class EvolutionaryLearningSystem:
         print("\n🛡️ Deneyim Bazlı Direnç Sistemi başlatılıyor...")
         from lora_system.experience_based_resistance import ExperienceBasedResistance
         self.experience_resistance = ExperienceBasedResistance()
+        # Legacy Hall Checker REMOVED
         
         # 19) 💕 ULTRA KAOTİK ÇİFTLEŞME
         print("\n💕 Ultra Kaotik Çiftleşme Sistemi başlatılıyor...")
@@ -320,9 +336,7 @@ class EvolutionaryLearningSystem:
         from lora_system.resurrection_debugger import ResurrectionDebugger
         self.resurrection_debugger = ResurrectionDebugger()
         
-        print("🔍 Hall Vacancy Checker...")
-        from lora_system.hall_vacancy_checker import HallVacancyChecker
-        self.hall_vacancy_checker = HallVacancyChecker()
+        # Legacy Hall Checker REMOVED
         
         print("📚 Comprehensive Population History...")
         from lora_system.comprehensive_population_history import ComprehensivePopulationHistory
@@ -347,6 +361,13 @@ class EvolutionaryLearningSystem:
         # 12) Particle Archetypes (YENİ!)
         from lora_system.particle_archetypes import ParticleArchetypes
         self.particle_arch = ParticleArchetypes()
+        
+        # 13) TES Triple Scoreboard (YENİ!)
+        from lora_system.tes_triple_scoreboard import TESTripleScoreboard
+        self.tes_triple_scoreboard = TESTripleScoreboard()
+        
+        # 🔗 Dependency Injection: Thermostat'ı Evolution Manager'a ver
+        self.evolution_manager.nature_thermostat = self.nature_thermostat
         
     def _calculate_expert_consensus(self, features: np.ndarray, base_proba: np.ndarray) -> np.ndarray:
         """
@@ -423,6 +444,108 @@ class EvolutionaryLearningSystem:
         final_input_proba = (base_proba * (1 - social_weight)) + (target_signal * social_weight)
         
         return final_input_proba
+
+    def load_state(self):
+        """💾 SİSTEM DURUMUNU YÜKLE (RESUME)"""
+        import os
+        print("\n" + "💾"*40)
+        print("SİSTEM DURUMU YÜKLENİYOR (RESUME)...")
+        print("💾"*40)
+        
+        try:
+            # 1. Popülasyonu yükle
+            if os.path.exists(self.paths['lora_population']):
+                population = joblib.load(self.paths['lora_population'])
+                self.evolution_manager.population = population
+                print(f"   ✅ Popülasyon yüklendi: {len(population)} LoRA")
+            else:
+                print("   ⚠️ Popülasyon dosyası bulunamadı!")
+
+            # 2. Match Count yükle (State pkl içinde olabilir veya ayrı)
+            state_path = "evolution_state.pkl"
+            if os.path.exists(state_path):
+                state = joblib.load(state_path)
+                self.evolution_manager.match_count = state.get('match_count', 0)
+                # Diğer state'leri de yükle (gerekirse)
+                print(f"   ✅ Match Count: {self.evolution_manager.match_count}")
+            else:
+                print("   ℹ️ State dosyası yok, maç sayısı 0'dan başlayabilir.")
+                
+            # 3. Collective Memory
+            if os.path.exists(self.paths['collective_memory']):
+                self.collective_memory.memory = joblib.load(self.paths['collective_memory'])
+                print(f"   ✅ Ortak Hafıza: {len(self.collective_memory.memory)} kayıt")
+
+            # 4. Hall of Fame / Mucizeler (Opsiyonel, zaten ayrı modülde ama burada da refresh edilebilir)
+            
+            print(f"{'='*80}\n")
+            
+        except Exception as e:
+            print(f"❌ YÜKLEME HATASI: {e}")
+            print("   ⚠️ Sıfırdan başlanıyor...")
+
+    def load_state(self):
+        """💾 SİSTEM DURUMUNU YÜKLE (RESUME)"""
+        import os
+        print("\n" + "💾"*40)
+        print("SİSTEM DURUMU YÜKLENİYOR (RESUME)...")
+        print("💾"*40)
+        
+        try:
+            # 1. Popülasyonu yükle
+            if os.path.exists(self.paths['lora_population']):
+                population = joblib.load(self.paths['lora_population'])
+                self.evolution_manager.population = population
+                print(f"   ✅ Popülasyon yüklendi: {len(population)} LoRA")
+            else:
+                print("   ⚠️ Popülasyon dosyası bulunamadı!")
+
+            # 2. Match Count yükle (State pkl içinde olabilir veya ayrı)
+            state_path = "evolution_state.pkl"
+            if os.path.exists(state_path):
+                state = joblib.load(state_path)
+                self.evolution_manager.match_count = state.get('match_count', 0)
+                # Diğer state'leri de yükle (gerekirse)
+                print(f"   ✅ Match Count: {self.evolution_manager.match_count}")
+            else:
+                print("   ℹ️ State dosyası yok, maç sayısı 0'dan başlayabilir.")
+                
+            # 3. Collective Memory
+            if os.path.exists(self.paths['collective_memory']):
+                self.collective_memory.memory = joblib.load(self.paths['collective_memory'])
+                print(f"   ✅ Ortak Hafıza: {len(self.collective_memory.memory)} kayıt")
+
+            # 4. Hall of Fame / Mucizeler (Opsiyonel, zaten ayrı modülde ama burada da refresh edilebilir)
+            
+            print(f"{'='*80}\n")
+            
+        except Exception as e:
+            print(f"❌ YÜKLEME HATASI: {e}")
+            print("   ⚠️ Sıfırdan başlanıyor...")
+
+    def _get_physics_snapshot(self, lora):
+        """O anki fizik durumunu yakala (Loglama için)"""
+        # Langevin
+        langevin_temp = getattr(lora, '_langevin_temp', self.langevin.T_base)
+        nose_hoover_xi = self.langevin.xi.get(lora.id, 0.0)
+        
+        # Lazarus
+        lazarus_lambda = getattr(lora, '_lazarus_lambda', 0.5)
+        
+        # Onsager
+        om_action = getattr(lora, '_om_action', 0.0)
+        
+        # Ghost
+        ghost_potential = getattr(lora, '_ghost_potential', 0.0)
+        
+        return {
+             'langevin_temp': langevin_temp,
+             'nose_hoover_xi': nose_hoover_xi,
+             'kinetic_energy': langevin_temp * 0.5, # Basit yaklasim
+             'om_action': om_action,
+             'lazarus_lambda': lazarus_lambda,
+             'ghost_potential': ghost_potential
+        }
 
     def run(self, csv_path: str, start_match: int = 0, max_matches: int = None, results_csv: str = None):
         print("🌡️ Nature's Thermostat...")
@@ -740,6 +863,11 @@ class EvolutionaryLearningSystem:
         score_fitness = None
         if actual_score is not None:
             score_fitness = score_predictor.calculate_score_fitness(predicted_score, actual_score)
+            
+        # Doğruluk kontrolü (correct)
+        correct = False
+        if actual_result:
+            correct = (final_prediction == actual_result)
         
         result = {
             'match_idx': match_idx,
@@ -751,9 +879,12 @@ class EvolutionaryLearningSystem:
             'lora_proba': lora_proba,
             'lora_info': lora_info,  # 🧠 Meta-LoRA bilgisi (attention weights)
             'final_prediction': final_prediction,
+            'predicted_winner': final_prediction,  # ✅ LOGGING İÇİN ALIAS
             'final_proba': final_proba,
             'confidence': confidence,
             'actual_result': actual_result,
+            'actual_winner': actual_result,  # ✅ LOGGING İÇİN ALIAS
+            'correct': correct,              # ✅ LOGGING İÇİN EKLENDİ!
             'population_size': len(population),
             # Skor bilgileri
             'home_xg': home_xg,
@@ -1329,24 +1460,37 @@ class EvolutionaryLearningSystem:
                 )
         
         # 📊 GENEL LOG DOSYASINA YAZ (match_results.log)
-        match_time = match_data.get('time', 'Bilinmiyor')
+        
+        # 16) TAHMİN RESULT LOGLA (Result logger)
+        # Değişkenleri Result'tan al
+        lora_info = result.get('lora_info', {})
+        correct = result.get('correct', False)
+        
+        # Context hazırla
+        nature_context = {
+            'temperature': self.nature_thermostat.temperature,
+            'chaos': self.evolution_manager.adaptive_nature.state['chaos'],
+            'active_bonds': len(self.evolution_manager.social_network.network.edges()) if hasattr(self.evolution_manager.social_network, 'network') else 0
+        }
+
         self.match_logger.log_match(
             match_idx=result['match_idx'],
-            home_team=result['home_team'],
-            away_team=result['away_team'],
-            match_date=result['date'],
-            match_time=match_time,  # ✅ SAAT!
-            predicted_winner=final_prediction,
-            predicted_score=result.get('predicted_score'),
-            actual_winner=actual_result,
-            actual_score=result.get('actual_score'),
-            winner_correct=correct,
-            score_fitness=result.get('score_fitness'),
-            confidence=result['confidence'],
-            population_size=population_size,
-            base_proba=base_proba.tolist() if hasattr(base_proba, 'tolist') else list(base_proba),
-            final_proba=final_proba.tolist() if hasattr(final_proba, 'tolist') else list(final_proba),
-            lora_thoughts=lora_thoughts  # ✅ LoRA DÜŞÜNCELERİ!
+            home_team=match_data['home_team'],
+            away_team=match_data['away_team'],
+            match_date=match_data['date'],
+            match_time=match_data.get('time', '00:00'),
+            predicted_winner=result['predicted_winner'],
+            predicted_score=result['predicted_score'],
+            actual_winner=result['actual_winner'],
+            actual_score=result['actual_score'],
+            winner_correct=result['correct'],
+            score_fitness=result.get('score_fitness', {}),
+            confidence=result.get('confidence', 0.0),
+            population_size=len(population),
+            base_proba=result.get('base_proba', None),
+            final_proba=result.get('final_proba', None),
+            lora_thoughts=lora_info.get('individual_predictions', []),
+            nature_context=nature_context  # ✅ EKLENDİ!
         )
         
         # 1) DOĞAYA ETKİ
@@ -1376,14 +1520,7 @@ class EvolutionaryLearningSystem:
         else:
             lazarus_avg = 0.5
         
-        nature_event = self.trigger_system.update_state(
-            self.nature_system.nature,
-            population_size,
-            match_was_success=correct,
-            mistake_severity=mistake_severity,
-            population_entropy=population_entropy,  # 🌊 YENİ!
-            lazarus_avg=lazarus_avg  # 🌊 YENİ!
-        )
+        nature_event = None  # Legacy trigger system removed
         
         # 3) DOĞA TEPKİSİ KONTROL
         if nature_event is None:
@@ -1412,8 +1549,9 @@ class EvolutionaryLearningSystem:
                 print(f"   Sebep: {brake_reason}")
                 print(f"   Doğa Enerjisi: {self.advanced_mechanics.get_nature_energy(result['match_idx'])*100:.0f}%")
         
-        # 🌊 DİNAMİK THRESHOLD'U NATURE SYSTEM'E AKTAR!
-        self.nature_system.dynamic_population_threshold = self.trigger_system.dynamic_population_threshold
+        # 🌊 DİNAMİK THRESHOLD: AdaptiveNature tarafından yönetilir (legacy removed)
+        # self.nature_system.dynamic_population_threshold = ...
+        pass
         
         # 5) ENTROPİ (SOĞUMA)
         entropy_effects = self.nature_system.apply_entropy(self.evolution_manager.population)
@@ -2232,25 +2370,25 @@ class EvolutionaryLearningSystem:
                 'alive': True  # ⭐ YAŞIYOR!
             }
         
-        # 10.5) UZMANLIK TESPİTİ VE EVRİMİ
-        match_features = SpecializationSystem.classify_match(match_data)
+        # 10.5) UZMANLIK TESPİTİ VE EVRİMİ (Advanced Categorization!)
+        # Artık Multi-Dimensional Categorization kullanıyoruz!
         
         for lora in population:
-            # Pattern stats güncelle
-            lora_correct = any(l[0] == lora for l in correct_loras)
-            SpecializationSystem.update_pattern_stats(lora, match_features, lora_correct)
+            lora_correct = any(l[0].id == lora.id for l in correct_loras)
             
-            # LoRA'ya uzmanlık tracking başlat (ilk maçta)
-            SpecializationSystem.initialize_lora_specialization(lora)
+            # Gelişmiş kategori güncellemesi (Dominant expertise otomatik set edilir)
+            weights = self.advanced_categorization.update_lora_expertise(
+                lora, 
+                match_data,  # raw match data yeterli, internal olarak extract eder
+                lora_correct
+            )
             
-            # Uzmanlık tespit et (her 20 maçta bir kontrol)
-            if result['match_idx'] % 20 == 0:
-                new_spec = SpecializationSystem.detect_specialization(lora, result['match_idx'])
-                
-                # Değiştiyse logla
-                if new_spec:
-                    old_spec = lora.specialization_history[-2].specialization if len(lora.specialization_history) > 1 else None
-                    self.logger.log_specialization_change(lora, old_spec, new_spec, result['match_idx'])
+            # Yeni uzmanlık (otomatik set edildiği için buradan okuyabiliriz)
+            new_spec = getattr(lora, 'specialization', None)
+            
+            # Loglama (Değişim varsa)
+            # Not: AdvancedCategorization içinde log mekanizması var ama burada da loglayabiliriz
+            # Şimdilik LivingLoRAsReporter ve diğer sistemler lora.specialization'ı kullanacak.
         
         # META-LoRA bilgisini al (başta tanımla!)
         lora_info = result.get('lora_info', {})  # ✅ Result'tan al!
@@ -2294,11 +2432,26 @@ class EvolutionaryLearningSystem:
                 if hasattr(sample_lora, 'social_bonds') and len(sample_lora.social_bonds) > 0:
                     self.logger.log_social_bonds(sample_lora, population, top_k=3)
         
+        # 🕸️ SOSYAL AĞ GÖRSELLEŞTİRME (Her 10 maçta)
+        if result['match_idx'] % 10 == 0:
+            self.social_visualizer.export_snapshot(
+                self.evolution_manager.social_network, 
+                population, 
+                result['match_idx']
+            )
+            # 🕸️ MENTOR AĞACI RAPORU
+            self.social_visualizer.export_mentor_tree(
+                self.evolution_manager.social_network, 
+                population, 
+                result['match_idx']
+            )
+        
         # ⏰ 16) AKILLI UYANMA KONTROLÜ! (5 Faktör!)
         # Popülasyon düşükse veya uzman eksikse uyandır!
         if result['match_idx'] % 10 == 0:
             # Son zamanda felaket oldu mu?
-            recent_disaster = (result['match_idx'] - self.trigger_system.thresholds.get('health_critical', type('obj', (), {'last_cross_match': -1000})).last_cross_match) < 20
+            # Son zamanda felaket oldu mu?
+            recent_disaster = False # Legacy trigger system removed
             
             awakened, wake_reason = self.advanced_mechanics.hibernation.intelligent_wake_up(
                 population,
@@ -2398,6 +2551,22 @@ class EvolutionaryLearningSystem:
             
             # Doğaya etkile!
             temp_effects = self.nature_thermostat.apply_temperature_effects(self.nature_system.nature)
+            
+            # 🌪️ SYNERGY: NATURE -> SOCIAL NETWORK
+            # Doğa çok sıcaksa (kaos), sosyal bağlar stres altına girer!
+            if self.nature_thermostat.temperature > 1.2:
+                stress_factor = (self.nature_thermostat.temperature - 1.0) * 0.1
+                # Tüm bağları zayıflat (Stres testi!)
+                total_bonds = len(self.evolution_manager.social_network.bonds)
+                weakened_count = 0
+                for key in list(self.evolution_manager.social_network.bonds.keys()):
+                    self.evolution_manager.social_network.bonds[key] -= stress_factor
+                    if self.evolution_manager.social_network.bonds[key] < 0:
+                        del self.evolution_manager.social_network.bonds[key]
+                    else:
+                        weakened_count += 1
+                if weakened_count > 0:
+                    print(f"   🌪️ DOĞA STRESİ: Yüksek sıcaklık sosyal bağları zayıflattı! (-{stress_factor:.3f})")
         
         # 17) DURUM YAZDIRMA + SCOREBOARD TEPKİLERİ (her 10 maçta)
         print(f"\n🔍 DEBUG: match_idx={result['match_idx']}, mod 10 = {result['match_idx'] % 10}")
@@ -2405,7 +2574,7 @@ class EvolutionaryLearningSystem:
             print(f"   ✅ 10. MAÇ TETİKLENDİ!")
             self.evolution_manager.print_status()
             self.nature_system.print_nature_status(population_size)
-            self.trigger_system.print_status()
+            # self.trigger_system.print_status()
             print(f"\n🌡️ DOĞA SICAKLIĞI: {self.nature_thermostat.temperature:.2f} ({temp_update['status']})")
             print(f"   Entropi: {pop_entropy:.3f} (Hedef: {self.nature_thermostat.target_entropy:.2f})")
             self.logger.log_top_loras(population, top_k=5)
@@ -2476,7 +2645,8 @@ class EvolutionaryLearningSystem:
                 )
                 print(f"   ✅ Einstein/Newton/Darwin/Potansiyel Hall güncellendi!")
                 
-                # 🆕 MUCİZE HALL TXT GÜNCELLE (50 maçta bir!)
+                # 🆕 MUCİZE HALL TXT GÜNCELLE
+                from lora_system.miracle_hall_manager import miracle_hall_manager
                 miracle_hall_manager.generate_miracle_hall_txt(match_count=result['match_idx'])
             
             # 📊 SCOREBOARD DEĞİŞİMLERİNE PSİKOLOJİK TEPKİ! (Akışkan!)
@@ -2550,8 +2720,11 @@ class EvolutionaryLearningSystem:
                     else:
                         death_detail = event_type
                     
+
+                    physics_data = self._get_physics_snapshot(lora)
                     self.logger.log_death(lora, reason=event_type, 
-                                        death_reason_detail=death_detail)
+                                        death_reason_detail=death_detail,
+                                        physics_data=physics_data)
             
             # Sağ kalan sendromunu uygula + BAĞIŞIKLIK KAZANDIR!
             guilt_count = 0
@@ -2758,23 +2931,7 @@ class EvolutionaryLearningSystem:
         print(f"   ✅ {len(self.evolution_manager.population)} LoRA'ya fizik özellikleri verildi!")
         print(f"{'='*80}\n")
         
-        # ============================================
-        # 🔍 HALL BOŞLUK KONTROLÜ! (Sistem başlangıcı!)
-        # ============================================
-        
-        print(f"\n{'='*80}")
-        print(f"🔍 BAŞLANGIÇ HALL BOŞLUK KONTROLÜ!")
-        print(f"{'='*80}")
-        
-        vacancy_report = self.hall_vacancy_checker.check_all_halls(self.evolution_manager.population, match_num=0)
-        
-        if len(vacancy_report['empty_halls']) > 0:
-            print(f"\n   ⚠️  BOŞ HALL'LER TESPİT EDİLDİ!")
-            print(f"   📁 Dinamik yerleşme sistemi 10 maç içinde dolduracak!")
-        
-        if len(vacancy_report['uncategorized_loras']) > 0:
-            print(f"\n   ⚠️  {len(vacancy_report['uncategorized_loras'])} LoRA KATEGORİSİZ!")
-            print(f"   🔄 İlk 10 maçta otomatik yerleştirilecekler!")
+
         
         print(f"{'='*80}\n")
         
@@ -3429,7 +3586,7 @@ class EvolutionaryLearningSystem:
             # ============================================
             self.evolution_manager.experience_resistance = self.experience_resistance
             self.evolution_manager.ultra_mating = self.ultra_mating
-            self.trigger_system.adaptive_nature = self.adaptive_nature
+
             print(f"   ✅ Sistemler birbirine bağlandı!")
             
             # Yaşamayanları da ekle (sadece yaşayanlar yüklendi)
@@ -3486,6 +3643,9 @@ def main():
     if model_exists:
         print("\n🏛️ KOLONİ BULUNDU! Kaydedilmiş durumdan devam ediliyor...")
         system.load_state()
+        # Resume için start'ı güncelle!
+        args.start = system.evolution_manager.match_count
+        print(f"   🔄 Kaldığı yerden devam ediyor: Maç #{args.start}")
     elif args.resume:
         print("\n⚠️ Resume istendi ama kayıt bulunamadı, yeni koloni başlatılıyor...")
     else:

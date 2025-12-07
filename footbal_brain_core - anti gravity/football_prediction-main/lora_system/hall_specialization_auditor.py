@@ -79,7 +79,8 @@ class HallSpecializationAuditor:
         
         # 1) TÜM LORA'LARI KONTROL ET
         all_lora_categories = self._categorize_all_loras(
-            population, all_loras_ever, miracle_system, match_idx
+            population, all_loras_ever, miracle_system, match_idx,
+            team_spec_manager, global_spec_manager
         )
         
         # 2) TES HALLs KONTROL
@@ -119,7 +120,9 @@ class HallSpecializationAuditor:
                               population: List,
                               all_loras_ever: Dict,
                               miracle_system,
-                              match_idx: int) -> Dict:
+                              match_idx: int,
+                              team_spec_manager,
+                              global_spec_manager) -> Dict:
         """
         Her LoRA'yı kategorilere ayır (DEBUG MODE!)
         """
@@ -162,7 +165,7 @@ class HallSpecializationAuditor:
                             lora_categories.append(f"SPEC:TEAM_{team_name}_{spec_type}")
             
             # Genel uzmanlıklar
-            for spec_type, predictions in global_spec_manager.global_stats.items():
+            for spec_type, predictions in global_spec_manager.all_match_stats.items():
                 lora_matches = [p for p in predictions if p[0] == lora.id]
                 if len(lora_matches) >= 20:
                     spec_count += 1

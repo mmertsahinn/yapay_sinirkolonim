@@ -1,0 +1,89 @@
+{
+  "total_validations": 1,
+  "last_validation": {
+    "match": 50,
+    "timestamp": "2025-12-07T00:40:02.934737",
+    "valid": false,
+    "errors": [
+      "POP\u00dcLASYON UYU\u015eMAZLI\u011eI! Aktif: 4, Registry'deki Ya\u015fayan: 23"
+    ],
+    "warnings": [
+      "19 LoRA registry'de ya\u015fayan ama pop\u00fclasyonda yok (hibernation veya ba\u015fka durumda olabilir)",
+      "Miracle Hall dizini bulunamad\u0131: en_iyi_loralar/\ud83c\udfc6_MUCIZELER"
+    ],
+    "stats": {
+      "population": {
+        "active_count": 4,
+        "alive_in_registry": 23,
+        "dead_in_registry": 0,
+        "total_registered": 23,
+        "hibernated_count": 19
+      },
+      "deaths": {
+        "total_deaths": 0,
+        "missing_death_match": 0,
+        "invalid_death_match": 0,
+        "missing_final_fitness": 0
+      },
+      "halls": {
+        "hall_counts": {
+          "Einstein": 74,
+          "Newton": 66,
+          "Darwin": 97,
+          "Miracle": 0,
+          "Potential": 0
+        },
+        "miracle_system_count": 0
+      },
+      "specializations": {
+        "team_count": 348,
+        "global_categories": 3,
+        "team_spec_active": 32
+      }
+    }
+  },
+  "history": [
+    {
+      "match": 50,
+      "timestamp": "2025-12-07T00:40:02.934737",
+      "valid": false,
+      "errors": [
+        "POP\u00dcLASYON UYU\u015eMAZLI\u011eI! Aktif: 4, Registry'deki Ya\u015fayan: 23"
+      ],
+      "warnings": [
+        "19 LoRA registry'de ya\u015fayan ama pop\u00fclasyonda yok (hibernation veya ba\u015fka durumda olabilir)",
+        "Miracle Hall dizini bulunamad\u0131: en_iyi_loralar/\ud83c\udfc6_MUCIZELER"
+      ],
+      "stats": {
+        "population": {
+          "active_count": 4,
+          "alive_in_registry": 23,
+          "dead_in_registry": 0,
+          "total_registered": 23,
+          "hibernated_count": 19
+        },
+        "deaths": {
+          "total_deaths": 0,
+          "missing_death_match": 0,
+          "invalid_death_match": 0,
+          "missing_final_fitness": 0
+        },
+        "halls": {
+          "hall_counts": {
+            "Einstein": 74,
+            "Newton": 66,
+            "Darwin": 97,
+            "Miracle": 0,
+            "Potential": 0
+          },
+          "miracle_system_count": 0
+        },
+        "specializations": {
+          "team_count": 348,
+          "global_categories": 3,
+          "team_spec_active": 32
+        }
+      }
+    }
+  ]
+}

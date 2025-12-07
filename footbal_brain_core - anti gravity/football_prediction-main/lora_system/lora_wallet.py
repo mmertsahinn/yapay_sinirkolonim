@@ -107,13 +107,13 @@ class LoRAWallet:
             f.write(f"🎯 Fitness: {self.lora.get_recent_fitness():.3f} | ")
             f.write(f"🧬 Gen: {self.lora.generation}\n")
             
-            # 🌊 PARÇACIK FİZİĞİ VERİLERİ!
-            f.write(f"\n🌊 PARÇACIK FİZİĞİ:\n")
+            # 🌊 PARÇACIK FİZİĞİ VERİLERİ (GÜNCEL!)
+            f.write(f"\n🌊 PARÇACIK FİZİĞİ RAPORU:\n")
             f.write(f"   ⚡ Life Energy: {getattr(self.lora, 'life_energy', 1.0):.3f}\n")
             f.write(f"   🌡️  Sıcaklık (T): {getattr(self.lora, '_langevin_temp', 0.01):.4f}\n")
             f.write(f"   🛑 Sürtünme (ξ): {getattr(self.lora, '_nose_hoover_xi', 0.0):.3f}\n")
             f.write(f"   💨 Kinetik Enerji: {getattr(self.lora, '_kinetic_energy', 0.0):.3f}\n")
-            f.write(f"   🌀 Onsager-Machlup (S_OM): {getattr(self.lora, '_om_action', 0.0):.3f}\n")
+            f.write(f"   🌀 Opsiyon (Action): {getattr(self.lora, '_om_action', 0.0):.3f}\n")
             f.write(f"   🧟 Lazarus Λ: {getattr(self.lora, '_lazarus_lambda', 0.5):.3f}\n")
             f.write(f"   👻 Ghost Potansiyel: {getattr(self.lora, '_ghost_potential', 0.0):.3f}\n")
             

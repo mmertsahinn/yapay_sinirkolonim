@@ -149,12 +149,13 @@ class EvolutionLogger:
         self._write_log(msg)
         self.all_events.append(event)
     
-    def log_death(self, lora, reason="low_fitness", lucky_survived=False, death_reason_detail=None):
+    def log_death(self, lora, reason="low_fitness", lucky_survived=False, death_reason_detail=None, physics_data=None):
         """
         LoRA ölümü logla
         
         reason: "low_fitness", "overpopulation", "forced"
         death_reason_detail: Detaylı ölüm sebebi
+        physics_data: (Opsiyonel) Dışarıdan gelen fizik verileri dictionary'si
         """
         # Dirilme geçmişi varsa etiketle
         resurrection_tag = ""
@@ -180,13 +181,21 @@ class EvolutionLogger:
         # ⚡ LIFE ENERGY
         life_energy = getattr(lora, 'life_energy', 0.0)
         
-        # 🌊 PARÇACIK FİZİĞİ VERİLERİ
-        langevin_temp = getattr(lora, '_langevin_temp', 0.01)
-        nose_hoover_xi = getattr(lora, '_nose_hoover_xi', 0.0)
-        kinetic_energy = getattr(lora, '_kinetic_energy', 0.0)
-        om_action = getattr(lora, '_om_action', 0.0)
-        lazarus_lambda = getattr(lora, '_lazarus_lambda', 0.5)
-        ghost_potential = getattr(lora, '_ghost_potential', 0.0)
+        # 🌊 PARÇACIK FİZİĞİ VERİLERİ (Öncelik: physics_data > lora attributes > default)
+        if physics_data:
+             langevin_temp = physics_data.get('langevin_temp', 0.01)
+             nose_hoover_xi = physics_data.get('nose_hoover_xi', 0.0)
+             kinetic_energy = physics_data.get('kinetic_energy', 0.0)
+             om_action = physics_data.get('om_action', 0.0)
+             lazarus_lambda = physics_data.get('lazarus_lambda', 0.5)
+             ghost_potential = physics_data.get('ghost_potential', 0.0)
+        else:
+             langevin_temp = getattr(lora, '_langevin_temp', 0.01)
+             nose_hoover_xi = getattr(lora, '_nose_hoover_xi', 0.0)
+             kinetic_energy = getattr(lora, '_kinetic_energy', 0.0)
+             om_action = getattr(lora, '_om_action', 0.0)
+             lazarus_lambda = getattr(lora, '_lazarus_lambda', 0.5)
+             ghost_potential = getattr(lora, '_ghost_potential', 0.0)
         
         event = {
             'match': self.match_count,
@@ -391,7 +400,13 @@ class EvolutionLogger:
         kinetic_energy = death_event.get('kinetic_energy', 0.0)
         om_action = death_event.get('om_action', 0.0)
         lazarus_lambda = death_event.get('lazarus_lambda', 0.5)
+        lazarus_lambda = death_event.get('lazarus_lambda', 0.5)
         ghost_potential = death_event.get('ghost_potential', 0.0)
+        
+        # Yaş hesapla
+        age_in_matches = death_event.get('age_in_matches', 0)
+        age_in_years = age_in_matches / 34.0  # 1 sezon = 34 maç kabulü
+
         
         new_row = [
             death_event.get('match', ''),
