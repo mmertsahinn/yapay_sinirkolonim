@@ -460,11 +460,13 @@ class ChaosEvolutionManager:
         
         lora.set_all_lora_params(params)
     
-    def spawn_random_lora(self, device='cpu') -> LoRAAdapter:
+    def spawn_random_lora(self, device='cpu', population: List = None, distiller=None) -> LoRAAdapter:
         """
         Spontane doğum: Hiçlikten bir LoRA doğar! 👽
         
         Alien LoRA'lar genelde FARKLI kişilik yapısına sahiptir!
+        
+        🎓 YENİ: Yeni doğan LoRA Master'dan öğrenir (Plan'dan!)
         """
         lora = LoRAAdapter(input_dim=78, hidden_dim=128, rank=16, alpha=16.0, device=device)  # __init__ içinde .to(device) çağrılıyor
         lora.name = f"LoRA_Alien_{lora.id}"
@@ -484,6 +486,20 @@ class ChaosEvolutionManager:
             'impulsiveness': random.uniform(0.6, 1.0),       # Dürtüsel
             'stress_tolerance': random.uniform(0.3, 0.8)
         }
+        
+        # 🎓 MASTER'DAN ÖĞREN! (Plan'dan!)
+        if distiller is not None and population is not None and len(population) > 0:
+            try:
+                taught = distiller.teach_newborn_lora(
+                    lora,
+                    population,
+                    device=device
+                )
+                if taught:
+                    lora._master_taught = True  # İşaretle
+            except Exception as e:
+                # Hata varsa sessizce devam et
+                pass
         
         return lora
     
@@ -549,7 +565,8 @@ class ChaosEvolutionManager:
             else:
                 dynamic_threshold = self.death_threshold
             
-            if fitness < dynamic_threshold and life_energy < 0.5:  # Hem fitness hem energy düşük!
+            # ⚡ ÖLÜM EŞİĞİ DÜŞÜRÜLDÜ (0.5 → 0.3) - Daha fazla şans!
+            if fitness < dynamic_threshold and life_energy < 0.3:  # Hem fitness hem energy düşük!
                 # Ölmesi lazım, ama şanslı kurtuluş!
                 if random.random() < self.lucky_survival_chance:
                     survivors.append(lora)
@@ -640,7 +657,13 @@ class ChaosEvolutionManager:
         fluid_alien_chance = self.base_mutation_chance * (1.0 + chaos_level * 5.0)
         
         if random.random() < fluid_alien_chance:
-            alien = self.spawn_random_lora(device=self.device)
+            # 🎓 Master'dan öğrenme için distiller gerekli (opsiyonel)
+            distiller = getattr(self, 'distiller', None)
+            alien = self.spawn_random_lora(
+                device=self.device, 
+                population=self.population,
+                distiller=distiller
+            )
             self.population.append(alien)
             events.append({
                 'type': 'spontaneous_birth',

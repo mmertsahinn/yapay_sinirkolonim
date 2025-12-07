@@ -140,7 +140,7 @@ class LoRAAdapter(nn.Module):
     def forward(self, x):
         """
         Forward pass
-        x: (batch_size, 63) tensor (60 features + 3 base_proba)
+        x: (batch_size, 78) tensor (60 features + 15 historical + 3 base_proba)
         returns: (batch_size, 3) probabilities
         """
         h1 = F.relu(self.fc1(x))
@@ -153,6 +153,28 @@ class LoRAAdapter(nn.Module):
         proba = F.softmax(logits, dim=-1)
         
         return proba
+    
+    def forward_logits(self, x):
+        """
+        Forward pass - logits döndürür (softmax ÖNCESİ)
+        
+        Knowledge Distillation ve loss hesaplama için kullanılır.
+        CrossEntropyLoss logits bekler, proba değil!
+        
+        Args:
+            x: Input tensor [batch_size, input_dim]
+            
+        Returns:
+            logits: [batch_size, 3] (softmax uygulanmamış, raw logits)
+        """
+        h1 = F.relu(self.fc1(x))
+        h1 = self.dropout(h1)
+        
+        h2 = F.relu(self.fc2(h1))
+        h2 = self.dropout(h2)
+        
+        logits = self.fc3(h2)  # Softmax YOK!
+        return logits
     
     def predict(self, features_np: np.ndarray, base_proba_np: np.ndarray, device='cpu'):
         """
@@ -647,8 +669,10 @@ class OnlineLoRALearner:
         
         # Forward + backward
         self.optimizer.zero_grad()
-        proba = self.lora(x_tensor)
-        loss = self.criterion(proba, y_tensor)
+        
+        # ✅ DÜZELTME: forward_logits() kullan (logits için)
+        logits = self.lora.forward_logits(x_tensor)  # Softmax ÖNCESİ logits!
+        loss = self.criterion(logits, y_tensor)  # CrossEntropyLoss logits bekler!
         loss.backward()
         self.optimizer.step()
         
@@ -657,6 +681,9 @@ class OnlineLoRALearner:
     def learn_batch(self, batch_data: List[Dict]):
         """
         Bir batch'ten öğren (yeni maç + buffer)
+        
+        DÜZELTME: forward_logits() kullanarak logits alıyoruz.
+        CrossEntropyLoss logits bekler, proba değil!
         """
         if len(batch_data) == 0:
             return 0.0
@@ -675,8 +702,11 @@ class OnlineLoRALearner:
         
         # Forward + backward
         self.optimizer.zero_grad()
-        proba = self.lora(x_batch)
-        loss = self.criterion(proba, y_batch)
+        
+        # ✅ DÜZELTME: forward_logits() kullan (logits için)
+        logits = self.lora.forward_logits(x_batch)  # Softmax ÖNCESİ logits!
+        loss = self.criterion(logits, y_batch)  # CrossEntropyLoss logits bekler!
+        
         loss.backward()
         self.optimizer.step()
         

@@ -150,10 +150,27 @@ class LazarusPotential:
                 else:
                     print(f"         🌟 'YÜKSEK - Efsane! Mutlaka dirilt!'")
         
+        # Fisher determinant değerini belirle
+        # ÖNEMLİ: det_F neden 0.0 olabilir?
+        # 1. K-FAC kullanıldığında: det_F hesaplanmaz, sadece logdet kullanılır (normal!)
+        #    → fisher_data.get('fisher_det', 0.0) = 0.0 (K-FAC logdet kullanır, det_F gerekmez)
+        # 2. Fallback'te: det_F = 1e-10 (default değer)
+        # 3. Fisher matrisi verilmişse: det_F = torch.det(...) hesaplanır
+        # 4. Hesaplanamazsa: det_F tanımlı değil, 0.0 döner
+        # 
+        # SONUÇ: fisher_det = 0.0 NORMALDİR! K-FAC kullanıldığında logdet kullanılır, det_F gerekmez.
+        # Asıl önemli olan fisher_score (log-scale) değeridir!
+        if 'det_F' in locals():
+            fisher_det_value = det_F
+        else:
+            # Fisher determinant hesaplanamadı (K-FAC kullanıldığında normal)
+            # K-FAC logdet kullanır, det_F hesaplanmaz (0.0 = K-FAC kullanıldı, NORMAL!)
+            fisher_det_value = 0.0
+        
         return {
             'lambda': lambda_value,
-            'fisher_det': det_F if 'det_F' in locals() else 0.0,
-            'fisher_term': fisher_score,  # Artık Log-Score dönüyor!
+            'fisher_det': fisher_det_value,  # Fisher determinant (0.0 = K-FAC kullanıldı [NORMAL!], 1e-10 = fallback default)
+            'fisher_term': fisher_score,  # Log-Scale Fisher Score (40-60 arası normal, 50 = iyi) - ASIL ÖNEMLİ OLAN BU!
             'entropy': entropy,
             'learning_capacity': fisher_score,
             'formula': f"Λ = ({fisher_score:.1f}-30)/20 × exp(-{self.beta}×{entropy:.2f}) = {lambda_value:.3f}"

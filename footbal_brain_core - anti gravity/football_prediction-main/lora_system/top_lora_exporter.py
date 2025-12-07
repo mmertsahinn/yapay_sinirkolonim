@@ -1,7 +1,8 @@
-⭐ EN İYİ LoRA'LAR EXPORTERı
+"""
+EN İYİ LoRA'LAR EXPORTERı
 ============================
 
-⚠️ ÖNEMLİ: Bu modül "MASTER_CONTEXT_RULES.md" kurallarına sıkı sıkıya bağlıdır.
+ÖNEMLİ: Bu modül "MASTER_CONTEXT_RULES.md" kurallarına sıkı sıkıya bağlıdır.
 Her klasör kendi bağlamında değerlendirilir.
 
 Her çalıştırmada:
@@ -112,11 +113,17 @@ class TopLoRAExporter:
         )
         
         # 4. EINSTEIN (Zeka Küpleri)
-        from lora_system.folder_specific_scorer import folder_specific_scorer
+        try:
+            from lora_system.folder_specific_scorer import folder_specific_scorer
+            einstein_sort_key = lambda x: folder_specific_scorer.calculate_score_for_folder(x['lora'], "EINSTEIN")
+        except ImportError:
+            # Fallback: Advanced score kullan
+            einstein_sort_key = lambda x: x['adv_score']
+        
         self._sync_category(
             category_key='einstein',
             loras=all_loras_list,
-            sort_key=lambda x: folder_specific_scorer.calculate_score_for_folder(x['lora'], "EINSTEIN"),
+            sort_key=einstein_sort_key,
             filter_func=lambda x: True,
             top_n=15,
             match_count=match_count,
@@ -138,7 +145,12 @@ class TopLoRAExporter:
         """
         H2H Klasörlerini Yönet
         """
-        from lora_system.folder_specific_scorer import folder_specific_scorer
+        try:
+            from lora_system.folder_specific_scorer import folder_specific_scorer
+        except ImportError:
+            # Fallback: H2H özelliği devre dışı
+            print("   ⚠️ folder_specific_scorer modülü bulunamadı, H2H klasörleri atlanıyor")
+            return
         
         # 1. Önemli H2H çiftlerini bul (En az 3 maç yapılmış)
         pairs = set()
@@ -238,7 +250,13 @@ class TopLoRAExporter:
             all_teams.add(info['away'])
             
         base_team_dir = self.dirs['teams']
-        from lora_system.folder_specific_scorer import folder_specific_scorer
+        try:
+            from lora_system.folder_specific_scorer import folder_specific_scorer
+            use_folder_scorer = True
+        except ImportError:
+            # Fallback: Advanced score kullan
+            use_folder_scorer = False
+            print("   ⚠️ folder_specific_scorer modülü bulunamadı, takım skorları için advanced score kullanılıyor")
         
         print(f"   🔍 DEEP SCAN: {len(all_teams)} takım için {len(loras)} LoRA taranıyor...")
         
@@ -254,10 +272,17 @@ class TopLoRAExporter:
                 expert_copy = expert.copy()
                 
                 # Bu LoRA'nın bu takımdaki skorunu hesapla
-                # (Folder scorer zaten maç sayısı azsa 0 veriyor)
-                local_score = folder_specific_scorer.calculate_score_for_folder(
-                    expert['lora'], team, match_count, collective_memory
-                )
+                if use_folder_scorer:
+                    local_score = folder_specific_scorer.calculate_score_for_folder(
+                        expert['lora'], team, match_count, collective_memory
+                    )
+                else:
+                    # Fallback: Advanced score kullan (specialization kontrolü ile)
+                    specialization = getattr(expert['lora'], 'specialization', None)
+                    if specialization and team.lower() in specialization.lower():
+                        local_score = expert['adv_score'] * 1.2  # Takım uzmanıysa bonus
+                    else:
+                        local_score = expert['adv_score'] * 0.8  # Değilse ceza
                 
                 # Sadece kayda değer olanları al (Eşik: 0.4)
                 # Çöp LoRA'larla listeyi doldurmayalım.

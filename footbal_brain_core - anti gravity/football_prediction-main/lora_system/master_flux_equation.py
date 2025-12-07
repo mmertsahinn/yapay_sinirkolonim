@@ -26,13 +26,15 @@ class MasterFluxEquation:
     """
     
     def __init__(self):
-        # Lambda parametreleri
-        self.λ_einstein = 1.0
-        self.λ_newton = 0.5
-        self.λ_social = 0.1  # Sosyal bağ bonusu
-        self.λ_trauma = 0.2  # Travma cezası
+        # Lambda parametreleri (⚡ OPTİMİZE EDİLDİ - LoRA ömrü uzatıldı!)
+        self.λ_einstein = 1.5  # ⬆️ 1.0 → 1.5 (Başarılı sürprizler daha fazla enerji verir)
+        self.λ_newton = 0.3   # ⬇️ 0.5 → 0.3 (Öğrenme maliyeti azaltıldı)
+        self.λ_social = 0.2    # ⬆️ 0.1 → 0.2 (Sosyal bağlar daha değerli)
+        self.λ_trauma = 0.2    # Travma cezası (aynı)
+        self.λ_success = 0.15  # 🆕 Başarı bonusu (doğru tahminler için)
+        self.λ_age = 0.01      # 🆕 Yaş bonusu (uzun yaşayan LoRA'lar için)
         
-        print("🌊 Master Flux Equation başlatıldı")
+        print("🌊 Master Flux Equation başlatıldı (⚡ Enerji Optimize Edildi!)")
     
     def calculate_darwin_term(self, lora, population: List) -> float:
         """
@@ -228,6 +230,27 @@ class MasterFluxEquation:
             trauma_count = len([t for t in lora.trauma_history[-10:] if getattr(t, 'severity', 0) > 0.3])
             trauma_penalty = trauma_count * 0.05 * self.λ_trauma
             dE -= trauma_penalty
+        
+        # ⚡ BAŞARI BONUSU (Doğru tahminler için ekstra enerji!)
+        if correct:
+            # Güven seviyesine göre bonus (yüksek güven = daha fazla bonus)
+            confidence = np.max(lora_proba) if isinstance(lora_proba, np.ndarray) else 0.5
+            success_bonus = self.λ_success * confidence
+            dE += success_bonus
+        
+        # ⚡ YAŞ BONUSU (Uzun yaşayan LoRA'lar için ekstra enerji!)
+        age = 0
+        if hasattr(lora, 'birth_match') and hasattr(self, 'match_count'):
+            age = getattr(self, 'match_count', 0) - lora.birth_match
+        elif hasattr(lora, 'match_history'):
+            # Alternatif: match_history uzunluğu
+            age = len(lora.match_history)
+        
+        if age > 0:
+            # Her 10 maçta bir küçük bonus (yaşlı LoRA'lar korunur)
+            # Max 0.1 bonus (10 maç = 0.01, 20 maç = 0.02, ... 100 maç = 0.1)
+            age_bonus = min((age // 10) * self.λ_age, 0.1)
+            dE += age_bonus
         
         # 🛡️ ÖLÜMSÜZLÜK KORUMASI! (Çoklu uzman LoRA'lar korunur!)
         if dE < 0 and top_5_cache is not None:  # Sadece enerji kaybında

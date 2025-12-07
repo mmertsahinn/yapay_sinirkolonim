@@ -43,7 +43,8 @@ class LifeEnergySystem:
         """
         temp = lora.temperament
         
-        base_energy = 1.0
+        # ⚡ BAŞLANGIÇ ENERJİSİ ARTIRILDI (1.0 → 1.5)
+        base_energy = 1.5  # ⬆️ Daha uzun ömür için!
         
         # Mizaç bonusu
         will_bonus = temp.get('will_to_live', 0.5) * 0.3

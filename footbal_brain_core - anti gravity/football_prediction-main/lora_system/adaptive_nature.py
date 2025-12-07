@@ -29,6 +29,12 @@ class AdaptiveNature:
         
         self.learning_rate = 0.05
         self.history_window = [] # Store recent actions and their effects
+        
+        # 🌍 EVRİMLEŞEN DOĞA ÖZELLİKLERİ
+        self.nature_version = 1  # Doğa versiyonu (V1, V2, V3...)
+        self.evolution_history = []  # Evrim geçmişi
+        self.lora_immunity = {}  # LoRA bağışıklık kayıtları {lora_id: {event_type: immunity_level}}
+        self.nature_memory = {}  # Doğa hafızası (olaylar, başarı oranları)
 
     def assess_colony_health(self, population: List[Any], avg_success_rate: float) -> float:
         """
@@ -74,26 +80,27 @@ class AdaptiveNature:
         
     def decide_nature_action(self) -> str:
         """
-        Decides on an action based on current state and learned weights.
+        🌍 ÖĞRENEN DOĞA: Deterministik karar (rastgele değil!)
+        
+        Mantık:
+        - En yüksek skorlu aksiyonu seç (öğrenen ağırlıklar + durum)
+        - Rastgele değil, deterministik ama öğrenen!
         """
-        # Probabilities influenced by Anger
         anger = self.state['anger']
+        health = self.state['health']
         
-        probs = {}
-        probs['mercy'] = self.action_weights['mercy'] * (1.0 - anger)
-        probs['minor_disaster'] = self.action_weights['minor_disaster'] * anger
-        probs['major_disaster'] = self.action_weights['major_disaster'] * (anger ** 2) # Only at very high anger
-        probs['resource_boom'] = self.action_weights['resource_boom'] * (1.0 - anger)
+        # Her aksiyonun skorunu hesapla (öğrenen ağırlıklar + durum)
+        scores = {}
+        scores['mercy'] = self.action_weights['mercy'] * (1.0 - anger) * health
+        scores['minor_disaster'] = self.action_weights['minor_disaster'] * anger * (1.0 - health)
+        scores['major_disaster'] = self.action_weights['major_disaster'] * (anger ** 2) * (1.0 - health)
+        scores['resource_boom'] = self.action_weights['resource_boom'] * (1.0 - anger) * health
         
-        # Normalize
-        total = sum(probs.values())
-        if total == 0:
-            return 'mercy'
-            
-        keys = list(probs.keys())
-        values = [p/total for p in probs.values()]
+        # En yüksek skorlu aksiyonu seç (DETERMİNİSTİK!)
+        if not scores or max(scores.values()) <= 0:
+            return 'mercy'  # Varsayılan
         
-        chosen_action = np.random.choice(keys, p=values)
+        chosen_action = max(scores, key=scores.get)
         return chosen_action
 
     def learn_from_result(self, action: str, old_health: float, new_health: float):

@@ -225,6 +225,33 @@ class EvolvableLoRAAdapter(LoRAAdapter):
         
         return proba
     
+    def forward_logits(self, x):
+        """
+        Forward pass - logits döndürür (softmax ÖNCESİ)
+        
+        Knowledge Distillation ve loss hesaplama için kullanılır.
+        CrossEntropyLoss logits bekler, proba değil!
+        
+        Args:
+            x: Input tensor [batch_size, input_dim]
+            
+        Returns:
+            logits: [batch_size, 3] (softmax uygulanmamış, raw logits)
+        """
+        # Apply thinking pattern to input
+        if self.enable_neuroevolution:
+            x = self.thinking_system.get_thinking_strategy(x)
+        
+        # Normal forward pass (base class'tan)
+        h1 = F.relu(self.fc1(x))
+        h1 = self.dropout(h1)
+        
+        h2 = F.relu(self.fc2(h1))
+        h2 = self.dropout(h2)
+        
+        logits = self.fc3(h2)  # Softmax YOK!
+        return logits
+    
     def evolve(self, fitness: float = None, match_count: int = None, recent_performance: List[float] = None):
         """
         LoRA'yı evril

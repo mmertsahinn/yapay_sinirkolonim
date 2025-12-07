@@ -131,39 +131,113 @@ class NatureEntropySystem:
         # Kaos azalır
         self.nature.chaos_index = max(0.0, self.nature.chaos_index - healing * 0.3)
     
-    def check_nature_response(self, population_size: int = 20) -> Optional[Dict]:
+    def check_nature_response(self, population_size: int = 20, adaptive_nature=None) -> Optional[Dict]:
         """
-        Her maçta: Doğa bir şey yapacak mı?
+        🌍 ÖĞRENEN DOĞA: Zarar bazlı deterministik karar!
+        
+        Mantık:
+        - Zarar YOKSA → Doğa hiçbir şey yapmaz (olasılık yok!)
+        - Zarar VARSA → AdaptiveNature'ın öğrenen ağırlıklarına göre karar verir
         
         Args:
             population_size: Mevcut LoRA sayısı
+            adaptive_nature: AdaptiveNature instance (öğrenen doğa)
         
         Returns:
-            None veya olay dict'i
+            None (zarar yoksa) veya olay dict'i (zarar varsa + AdaptiveNature kararı)
         """
         self.match_count += 1
         
-        # 1) KARA VEBA (Doğanın öfkesine + nüfus fazlasına bağlı, RASTGELE!)
-        kara_veba_prob = self._calculate_kara_veba_probability(population_size)
+        # 1) ZARAR SEVİYESİNİ HESAPLA (Deterministik!)
+        damage_level = self._calculate_damage_level()
         
-        if random.random() < kara_veba_prob:
+        # 2) ZARAR YOKSA → HİÇBİR ŞEY YAPMA!
+        if damage_level <= 0.0:
+            return None  # Doğa zarar görmemiş, tepki vermez!
+        
+        # 3) ZARAR VARSA → ADAPTIVE NATURE KARAR VERİR (Öğrenen!)
+        if adaptive_nature is None:
+            # AdaptiveNature yoksa eski sisteme dön (fallback)
+            return self._fallback_probability_based_response(population_size)
+        
+        # AdaptiveNature'ın state'ini senkronize et
+        adaptive_nature.state['anger'] = self.nature.anger
+        adaptive_nature.state['chaos'] = self.nature.chaos_index
+        adaptive_nature.state['health'] = self.nature.health
+        
+        # Öğrenen doğa karar verir (mercy, minor_disaster, major_disaster, resource_boom)
+        action = adaptive_nature.decide_nature_action()
+        
+        # 4) KARARA GÖRE FELAKET TETİKLE
+        if action == 'mercy':
+            # Merhamet → Hiçbir şey yapma veya çok küçük uyarı
+            if damage_level > 0.7:  # Çok yüksek zarar varsa bile merhamet göstermez
+                return self._trigger_mini_tremor()  # Sadece küçük uyarı
+            return None  # Zarar düşükse hiçbir şey yapma
+        
+        elif action == 'minor_disaster':
+            # Küçük felaket → Deprem veya Mini Tremor
+            if self.nature.chaos_index > 0.5:
+                return self._trigger_quake()
+            else:
+                return self._trigger_mini_tremor()
+        
+        elif action == 'major_disaster':
+            # Büyük felaket → Kara Veba (sadece çok yüksek zararda!)
+            if damage_level > 0.6 and self.nature.anger > 0.7:
+                return self._trigger_kara_veba()
+            else:
+                # Zarar yüksek ama henüz Kara Veba seviyesinde değil → Deprem
+                return self._trigger_quake()
+        
+        elif action == 'resource_boom':
+            # Kaynak patlaması → Doğa iyileşir, felaket yok!
+            # (Bu durumda zarar azalır, felaket tetiklenmez)
+            return None
+        
+        # Fallback (olması gerekmez ama güvenlik için)
+        return None
+    
+    def _calculate_damage_level(self) -> float:
+        """
+        Zarar seviyesini hesapla (0.0 - 1.0)
+        
+        Zarar = Öfke + (1 - Sağlık) + Hata oranı
+        """
+        # Öfke bileşeni (0-1)
+        anger_component = self.nature.anger
+        
+        # Sağlık bileşeni (sağlık düşükse zarar yüksek)
+        health_component = 1.0 - self.nature.health
+        
+        # Hata oranı (toplam hata / (hata + başarı))
+        total_events = self.nature.total_lora_mistakes + self.nature.total_lora_success
+        if total_events > 0:
+            mistake_ratio = self.nature.total_lora_mistakes / total_events
+        else:
+            mistake_ratio = 0.0
+        
+        # Ağırlıklı toplam
+        damage_level = (
+            anger_component * 0.4 +      # Öfke %40
+            health_component * 0.3 +     # Sağlık %30
+            mistake_ratio * 0.3           # Hata oranı %30
+        )
+        
+        return min(1.0, max(0.0, damage_level))
+    
+    def _fallback_probability_based_response(self, population_size: int) -> Optional[Dict]:
+        """
+        Fallback: AdaptiveNature yoksa eski olasılık bazlı sistemi kullan
+        (Geçici çözüm, idealde AdaptiveNature her zaman olmalı)
+        """
+        # Eski sistem (sadece fallback için)
+        if self.nature.anger > 0.8 and self.nature.health < 0.3:
             return self._trigger_kara_veba()
-        
-        # 2) DEPREM / SALLANTI (Kaosa bağlı)
-        quake_prob = self.nature.chaos_index * 0.05  # Max %5
-        
-        if random.random() < quake_prob:
+        elif self.nature.chaos_index > 0.6:
             return self._trigger_quake()
-        
-        # 3) MİNİ TREMOR (Her zaman küçük bir gürültü olabilir)
-        tremor_prob = 0.10  # %10 sürekli gürültü
-        
-        if random.random() < tremor_prob:
+        elif self.nature.anger > 0.3:
             return self._trigger_mini_tremor()
-        
-        # 4) 🌊 ESKİ SABİT OVERPOPULATION KONTROLÜ KALDIRILDI!
-        # Artık natural_triggers.py'deki TAM AKIŞKAN sistem kullanılıyor!
-        # Sabit "population_size > 80" gibi kurallar YOK!
         
         return None
     
@@ -306,40 +380,51 @@ class NatureEntropySystem:
         }
         
         for lora in lora_population:
-            # 1) Pattern çekimleri azalır (SOĞUMA)
+            # 1) ENTROPİ: Pattern çekimleri azalır (SOĞUMA)
+            # Her maç pattern_attractions %0.2 azalır (attraction_decay_rate = 0.998)
+            # Zamanla LoRA'lar belirli pattern'lere olan ilgilerini kaybeder
             if hasattr(lora, 'pattern_attractions') and lora.pattern_attractions:
                 for pattern in lora.pattern_attractions:
                     old_value = lora.pattern_attractions[pattern]
                     lora.pattern_attractions[pattern] *= self.attraction_decay_rate
                     
+                    # Eşik altına düştüyse kayıt et
                     if old_value > 0.1 and lora.pattern_attractions[pattern] < 0.1:
                         entropy_effects['attractions_decayed'] += 1
             
-            # 2) Sosyal bağlar zayıflar (SOĞUMA)
+            # 2) ENTROPİ: Sosyal bağlar zayıflar (SOĞUMA)
+            # Her maç sosyal bağlar %0.2 azalır
+            # Zamanla LoRA'lar arası ilişkiler zayıflar, bazıları kopar
             if hasattr(lora, 'social_bonds') and lora.social_bonds:
                 bonds_to_remove = []
                 for other_lora_id, bond_strength in lora.social_bonds.items():
-                    # Her maç %0.2 azalma
+                    # Her maç %0.2 azalma (attraction_decay_rate = 0.998)
                     new_strength = bond_strength * self.attraction_decay_rate
                     lora.social_bonds[other_lora_id] = new_strength
                     
-                    # Çok zayıfladıysa kırılır
+                    # Çok zayıfladıysa (0.05 altı) bağ kırılır
                     if new_strength < 0.05:
                         bonds_to_remove.append(other_lora_id)
                         entropy_effects['bonds_broken'] += 1
                 
+                # Kırılan bağları temizle
                 for bond_id in bonds_to_remove:
                     del lora.social_bonds[bond_id]
             
-            # 3) Hedef hevesi azalır
+            # 3) ENTROPİ: Hedef hevesi azalır (SOĞUMA)
+            # Her maç main_goal.heves %0.1 azalır (goal_enthusiasm_decay = 0.999)
+            # Zamanla LoRA'lar hedeflerine olan bağlılıklarını kaybeder
             if hasattr(lora, 'main_goal') and lora.main_goal:
                 old_heves = lora.main_goal.heves
                 lora.main_goal.heves *= self.goal_enthusiasm_decay
                 
+                # Heves 0.3'ün altına düştüyse kayıt et
                 if old_heves > 0.3 and lora.main_goal.heves < 0.3:
                     entropy_effects['goals_lost_enthusiasm'] += 1
             
-            # 4) Hafıza (travma) soluklaşır
+            # 4) ENTROPİ: Hafıza (travma) soluklaşır (SOĞUMA)
+            # Her maç travma severity'si %0.5 azalır (memory_decay_rate = 0.995)
+            # Zamanla travmatik anılar unutulur, etkileri azalır
             for trauma in lora.trauma_history:
                 # Trauma hem dict hem TraumaEvent objesi olabilir
                 if isinstance(trauma, dict):

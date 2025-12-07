@@ -42,6 +42,21 @@ from lora_system import (
     AdvancedMechanicsManager
 )
 
+# 🧬 DEEP LEARNING & SIEVE (NEW!)
+from lora_system.deep_learning_optimization import (
+    DeepKnowledgeDistiller, 
+    CollectiveDeepLearner,
+    get_deep_knowledge_distiller,
+    get_collective_deep_learner
+)
+from lora_system.butterfly_effect import ButterflyEffect
+from lora_system.background_sieve import (
+    BackgroundSieve,
+    get_background_sieve
+)
+from lora_system.tribe_trainer import TribeTrainer
+from lora_system.evolution_core import LoRAEvolutionCore
+
 # 🎯 ADVANCED CATEGORIZATION (NEW!)
 from lora_system.advanced_categorization import AdvancedCategorization
 from lora_system.social_network_visualizer import SocialNetworkVisualizer
@@ -194,6 +209,27 @@ class EvolutionaryLearningSystem:
         # 11) Specialization Tracker (Legacy support)
         print("\n🎯 Specialization Tracker başlatılıyor...")
         self.spec_tracker = SpecializationTracker()
+        
+        # 11.2) 🕸️ Arka Plan Elek Sistemi
+        print("\n🕸️ Arka Plan Elek Sistemi (Sieve) başlatılıyor...")
+        self.background_sieve = BackgroundSieve(buffer_size=50)
+        
+        # 11.2.5) 🧬 Evolution Core (football_brain_core'dan)
+        print("\n🧬 Evolution Core (3 Seviyeli Hata Çözüm) başlatılıyor...")
+        self.evolution_core = LoRAEvolutionCore()
+        
+        # 11.2.6) 🦋 Kelebek Etkisi (Plan'dan!)
+        print("\n🦋 Kelebek Etkisi (Kaotik Determinizm Kırıcı) başlatılıyor...")
+        self.butterfly_effect = ButterflyEffect(noise_strength=0.01, propagation_depth=1)
+        
+        # 11.3) 🧬 Deep Learning Optimization
+        print("\n🧬 Deep Learning Optimization (Distillation) başlatılıyor...")
+        self.distiller = DeepKnowledgeDistiller(device=self.device)
+        self.collective_learner = CollectiveDeepLearner(device=self.device)
+        
+        # 11.2.7) 🔥 Tribe Trainer (Kabile Bazlı Toplu Eğitim) - distiller hazır olduğu için burada
+        print("\n🔥 Tribe Trainer (Kabile Eğitimi) başlatılıyor...")
+        self.tribe_trainer = TribeTrainer(distiller=self.distiller, device=self.device)
         
         # 11.5) 🎯 ADVANCED CATEGORIZATION
         print("\n🧠 Advanced Categorization System kısmi entegrasyon...")
@@ -1522,9 +1558,13 @@ class EvolutionaryLearningSystem:
         
         nature_event = None  # Legacy trigger system removed
         
-        # 3) DOĞA TEPKİSİ KONTROL
+        # 3) DOĞA TEPKİSİ KONTROL (🌍 ÖĞRENEN DOĞA - ZARAR BAZLI!)
         if nature_event is None:
-            nature_event = self.nature_system.check_nature_response(population_size)
+            # AdaptiveNature ile zarar bazlı deterministik karar!
+            nature_event = self.nature_system.check_nature_response(
+                population_size, 
+                adaptive_nature=self.adaptive_nature  # Öğrenen doğa!
+            )
         
         # 4) DOĞA OLAYI VARSA UYGULA (FREN KONTROLÜ)
         if nature_event:
@@ -1553,10 +1593,15 @@ class EvolutionaryLearningSystem:
         # self.nature_system.dynamic_population_threshold = ...
         pass
         
-        # 5) ENTROPİ (SOĞUMA)
+        # 5) ENTROPİ (SOĞUMA) - Her şey zamanla soğur, dağılır, unutulur
+        # Pattern çekimleri azalır, sosyal bağlar zayıflar, hedefler unutulur
         entropy_effects = self.nature_system.apply_entropy(self.evolution_manager.population)
         
-        # 6) HER LoRA ÖĞRENME
+        if entropy_effects.get('attractions_decayed', 0) > 0 or entropy_effects.get('bonds_broken', 0) > 0:
+            if result['match_idx'] % 20 == 0:  # Her 20 maçta bir log
+                print(f"   🌡️ Entropi etkileri: {entropy_effects.get('attractions_decayed', 0)} çekim soğudu, {entropy_effects.get('bonds_broken', 0)} bağ kırıldı")
+        
+        # 6) HER LoRA ÖĞRENME - Her LoRA bu maçtan kendi öğrenmesini yapar
         population = self.evolution_manager.population
         
         print(f"\n📚 ÖĞRENME SÜRECİ:")
@@ -1668,6 +1713,27 @@ class EvolutionaryLearningSystem:
             
             learner = OnlineLoRALearner(lora, learning_rate=lora_lr, device=self.device)
             
+            # 🧬 KNOWLEDGE DISTILLATION (ÇAĞ ATLAMA!)
+            # Eğer LoRA yeni ve başarısızsa, bir "Master"dan ders alsın
+            distillation_loss = 0.0
+            if lora.get_recent_fitness() < 0.6 and len(lora.match_history) < 50:
+                teacher = self.distiller.find_best_teacher(population, lora)
+                if teacher:
+                    # Distillation step
+                    # Not: Bu, learner.learn_batch'den önce veya sonra yapılabilir
+                    # Burada direkt optimizer step çağrılıyor, dikkat!
+                    try:
+                        distillation_loss = self.distiller.distill_knowledge(
+                            lora, teacher, 
+                            features, base_proba, actual_idx, 
+                            learner.optimizer
+                        )
+                    except Exception as dist_err:
+                        # Distillation hatası varsa sessizce devam et
+                        if result['match_idx'] % 50 == 0:  # Sadece ara sıra log
+                            print(f"      ⚠️ Distillation hatası ({lora.name[:20]}): {dist_err}")
+                        distillation_loss = 0.0
+            
             # 🔍 DEBUG: Parametre değişimini ölç (Öğrenme Kanıtı!)
             # Önceki parametrelerin kopyasını al
             old_params = {}
@@ -1677,6 +1743,30 @@ class EvolutionaryLearningSystem:
             
             # Öğrenme adımı
             loss = learner.learn_batch(batch)
+            
+            # 🕸️ SIEVE KAYDI (Davranış analizi)
+            lora_pred_vector = lora.predict(features, base_proba, self.device)
+            self.background_sieve.record_behavior(
+                lora.id, 
+                lora_pred_vector, 
+                lora_correct, 
+                abs(1.0 - lora_confidence) if not lora_correct else 0.0
+            )
+            
+            # 🧬 EVOLUTION CORE: Hataları Error Inbox'a topla
+            if not lora_correct:
+                lora_predictions = [(
+                    lora,
+                    lora_prediction,
+                    lora_confidence,
+                    lora_pred_vector
+                )]
+                actual_results = {result.get('match_idx', 0): actual_result}
+                self.evolution_core.collect_errors_to_inbox(
+                    lora_predictions,
+                    actual_results,
+                    result.get('match_idx', 0)
+                )
             
             # 🔍 DEBUG: Parametre değişimini hesapla
             param_change = 0.0
@@ -1689,6 +1779,33 @@ class EvolutionaryLearningSystem:
             
             lora._last_param_change = param_change  # Kaydet
             lora._last_loss = loss
+            
+            # 🦋 KELEBEK ETKİSİ: Parametre değiştiyse komşulara noise injection!
+            if param_change > 0.001:  # Önemli bir değişim varsa
+                try:
+                    social_network = getattr(self, 'social_network', None)
+                    if social_network is None:
+                        # Advanced social network'ü dene
+                        from lora_system.advanced_social_network import get_advanced_social_network
+                        social_network = get_advanced_social_network()
+                    
+                    butterfly_result = self.butterfly_effect.apply_butterfly_effect(
+                        lora,
+                        social_network,
+                        population,
+                        change_magnitude=param_change
+                    )
+                    
+                    # Öğrenme tetikleme (komşuları öğrenmeye teşvik et)
+                    if butterfly_result['noise_injected']:
+                        self.butterfly_effect.apply_learning_trigger(
+                            lora,
+                            social_network,
+                            population
+                        )
+                except Exception as e:
+                    # Hata varsa sessizce devam et
+                    pass
             
             # Total loss (Match + Ancestor respect!)
             total_loss = loss + ancestor_loss
@@ -1772,6 +1889,9 @@ class EvolutionaryLearningSystem:
             # Darwin + Einstein + Newton!
             # 🛡️ ÖLÜMSÜZLÜK KORUMASINI UYGULA!
             top_5_cache = getattr(self.team_spec_manager, 'top_5_cache', None)
+            
+            # ⚡ Yaş bonusu için match_count'u geçir
+            self.master_flux.match_count = self.evolution_manager.match_count
             
             energy_update = self.master_flux.update_life_energy(
                 lora,
@@ -2080,6 +2200,33 @@ class EvolutionaryLearningSystem:
         if len(lora_thoughts) > 3:
             print(f"   ... ve {len(lora_thoughts)-3} LoRA daha hesaplandı")
         
+        # 🕸️ SIEVE ANALİZİ ÇALIŞTIR (Her 10 maçta)
+        match_idx = result.get('match_idx', 0)
+        if match_idx % 10 == 0:
+            try:
+                self.background_sieve.run_sieve(population, current_match=match_idx)
+                
+                # Tribe dağılımını göster
+                tribe_dist = self.background_sieve.get_tribe_distribution(population)
+                if tribe_dist:
+                    print(f"\n🕸️ SIEVE TRIBES (Maç #{match_idx}):")
+                    for tribe, count in sorted(tribe_dist.items(), key=lambda x: x[1], reverse=True)[:5]:
+                        print(f"   • {tribe}: {count} LoRA")
+                
+                # 🔥 KABİLE EĞİTİMİ (Her 10 maçta bir)
+                try:
+                    tribes = self.background_sieve.get_tribes(population)
+                    if tribes and hasattr(self, 'buffer'):
+                        self.tribe_trainer.train_tribes(tribes, self.buffer)
+                except Exception as tribe_err:
+                    # Tribe eğitimi hatası varsa sessizce devam et
+                    if match_idx % 50 == 0:  # Sadece ara sıra log
+                        print(f"      ⚠️ Tribe eğitimi hatası: {tribe_err}")
+            except Exception as sieve_err:
+                # Sieve hatası varsa sessizce devam et
+                if match_idx % 50 == 0:  # Sadece ara sıra log
+                    print(f"      ⚠️ Sieve hatası: {sieve_err}")
+        
         # 🔍 DİNAMİK UZMANLIK GÜNCELLEMESİ (AKIŞKAN!)
         # Feature kombinasyonlarını analiz et (Kodlanmış pattern YOK!)
         match_feature_combos = self.dynamic_spec.analyze_match_features(match_data)
@@ -2100,6 +2247,24 @@ class EvolutionaryLearningSystem:
                     # UZMANLIK DEĞİŞTİ! (Dinamik keşif!)
                     lora.specialization = new_spec
                     self.logger.log_specialization_change(lora, old_spec, new_spec, result['match_idx'])
+        
+        # 🧬 KOLEKTİF ÖĞRENME (Sürü zekası)
+        # Eğer sürü (çoğunluk) yanıldıysa, herkes bu hatadan payına düşeni alır
+        global_error_magnitude = len(wrong_loras) / len(population) if population else 0
+        if global_error_magnitude > 0.5:
+            try:
+                # features ve base_proba numpy array olmalı
+                features_np = np.array(features, dtype=np.float32) if not isinstance(features, np.ndarray) else features.astype(np.float32)
+                base_proba_np = np.array(base_proba, dtype=np.float32) if not isinstance(base_proba, np.ndarray) else base_proba.astype(np.float32)
+                
+                self.collective_learner.collective_backprop(
+                    population, features_np, base_proba_np, actual_idx, global_error_magnitude
+                )
+            except Exception as coll_err:
+                # Collective learning hatası varsa sessizce devam et
+                match_idx = result.get('match_idx', 0)
+                if match_idx % 50 == 0:  # Sadece ara sıra log
+                    print(f"      ⚠️ Collective learning hatası: {coll_err}")
         
         # CÜZDAN GÜNCELLEMELERİ (arka planda)
         predictions_dict = {}
@@ -2786,12 +2951,44 @@ class EvolutionaryLearningSystem:
             
             print(f"   👥 TOPLAM HAYATTA: {len(survivors)} aktif + {len(self.advanced_mechanics.hibernation.hibernated_loras)} uyuyan")
             
-            # 🌍 DOĞA GÖZLEMLER: Bu olay ne kadar etkili oldu?
+            # 🌍 DOĞA ÖĞRENİR: Bu aksiyonun sonucunu değerlendir!
             initial_population = len(population) + len(self.advanced_mechanics.hibernation.hibernated_loras)
             final_population = len(survivors) + len(self.advanced_mechanics.hibernation.hibernated_loras)
             death_rate = (initial_population - final_population) / initial_population if initial_population > 0 else 0
             
-            # Doğa öğrenir!
+            # Önceki sağlık (aksiyon öncesi)
+            old_health = self.adaptive_nature.state.get('health', 1.0)
+            
+            # Yeni sağlık hesapla (aksiyon sonrası)
+            # Ölüm oranı düşükse → Sağlık iyileşir (doğa etkili oldu)
+            # Ölüm oranı çok yüksekse → Sağlık kötüleşir (aşırıya kaçtı)
+            if death_rate < 0.1:
+                # Çok az ölüm → Doğa çok agresif olmuş, sağlık kötüleşir
+                new_health = old_health - 0.05
+            elif death_rate > 0.7:
+                # Çok fazla ölüm → Doğa çok agresif olmuş, sağlık kötüleşir
+                new_health = old_health - 0.1
+            else:
+                # Orta seviye ölüm → Doğa dengeli davranmış, sağlık iyileşir
+                new_health = old_health + 0.05
+            
+            new_health = max(0.0, min(1.0, new_health))
+            self.adaptive_nature.state['health'] = new_health
+            
+            # Aksiyon türünü belirle (event_type'dan)
+            action_map = {
+                'kara_veba': 'major_disaster',
+                'mass_extinction': 'major_disaster',
+                'overpopulation_purge': 'major_disaster',
+                'quake': 'minor_disaster',
+                'mini_tremor': 'minor_disaster'
+            }
+            action = action_map.get(event_type, 'minor_disaster')
+            
+            # Doğa öğrenir! (Reinforcement Learning)
+            self.adaptive_nature.learn_from_result(action, old_health, new_health)
+            
+            # Bağışıklık kontrolü
             immunity_detected = self.adaptive_nature.observe_lora_immunity(
                 survivors,
                 event_type,
@@ -2869,6 +3066,48 @@ class EvolutionaryLearningSystem:
         
         # 📊 BAŞLANGIÇ POPÜLASYONU KAYDET
         initial_population = len(self.evolution_manager.population)
+        
+        # 🛡️ POPÜLASYON KONTROLÜ: Eğer 0 ise DİRİLTME SİSTEMİNİ kullan!
+        if initial_population == 0:
+            print(f"\n{'💀'*40}")
+            print(f"💀 POPÜLASYON BOŞ! Otomatik diriltme başlatılıyor...")
+            print(f"{'💀'*40}")
+            
+            from lora_system.resurrection_system_v2 import ResurrectionSystemV2
+            res_system = ResurrectionSystemV2()
+            
+            current_alive = len(self.evolution_manager.population)
+            target_pop = self.config['population'].get('start_population', 50)
+            
+            print(f"   ⚡ Diriltme hedefi: {target_pop} LoRA")
+            
+            resurrected, stats = res_system.resurrect_to_50(
+                current_population=current_alive,
+                target=target_pop,
+                export_dir="en_iyi_loralar",
+                miracle_dir="mucizeler",
+                device=self.device,
+                population=self.evolution_manager.population,
+                distiller=self.distiller
+            )
+            
+            if resurrected:
+                self.evolution_manager.population.extend(resurrected)
+                initial_population = len(self.evolution_manager.population)
+                print(f"   ✅ {initial_population} LoRA dirildi!")
+            else:
+                # Diriltme başarısız olduysa, yeni popülasyon oluştur
+                print(f"   ⚠️ Diriltme başarısız, yeni popülasyon oluşturuluyor...")
+                self.evolution_manager.initialize_population(
+                    target_pop,
+                    input_dim=78,
+                    hidden_dim=128,
+                    device=self.device
+                )
+                initial_population = len(self.evolution_manager.population)
+                print(f"   ✅ {initial_population} yeni LoRA oluşturuldu!")
+            
+            print(f"{'💀'*40}\n")
         
         print(f"\n{'='*80}")
         print(f"🚀 EVRİMSEL ÖĞRENME BAŞLIYOR!")
@@ -3254,10 +3493,10 @@ class EvolutionaryLearningSystem:
                 for lora_id, info in self.all_loras_ever.items()
             },
             'adaptive_nature': {  # 🌍 EVRİMLEŞEN DOĞA!
-                'version': self.adaptive_nature.nature_version,
-                'evolution_history': self.adaptive_nature.evolution_history,
-                'lora_immunity': self.adaptive_nature.lora_immunity,
-                'nature_memory': self.adaptive_nature.nature_memory
+                'version': getattr(self.adaptive_nature, 'nature_version', 1),  # Default: 1
+                'evolution_history': getattr(self.adaptive_nature, 'evolution_history', []),
+                'lora_immunity': getattr(self.adaptive_nature, 'lora_immunity', {}),
+                'nature_memory': getattr(self.adaptive_nature, 'nature_memory', {})
             },
             'experience_resistance': {  # 🛡️ DENEYİM DİRENCİ!
                 'lora_resistances': self.experience_resistance.lora_resistances
@@ -3514,7 +3753,11 @@ class EvolutionaryLearningSystem:
             # 🌍 EVRİMLEŞEN DOĞAYI YÜKLE!
             if 'adaptive_nature' in checkpoint:
                 adaptive_data = checkpoint['adaptive_nature']
-                self.adaptive_nature.nature_version = adaptive_data.get('version', 1)
+                # nature_version attribute'u yoksa ekle
+                if not hasattr(self.adaptive_nature, 'nature_version'):
+                    self.adaptive_nature.nature_version = adaptive_data.get('version', 1)
+                else:
+                    self.adaptive_nature.nature_version = adaptive_data.get('version', 1)
                 self.adaptive_nature.evolution_history = adaptive_data.get('evolution_history', [])
                 self.adaptive_nature.lora_immunity = adaptive_data.get('lora_immunity', {})
                 self.adaptive_nature.nature_memory = adaptive_data.get('nature_memory', {})
@@ -3667,7 +3910,9 @@ def main():
             target=250,  # 🌊 BÜYÜK HEDEF!
             export_dir="en_iyi_loralar",
             miracle_dir="mucizeler",
-            device=system.device  # 🔧 DEVICE PARAMETRES İNİ GEÇTIK!
+            device=system.device,  # 🔧 DEVICE PARAMETRES İNİ GEÇTIK!
+            population=system.evolution_manager.population,
+            distiller=system.distiller
         )
         
         if resurrected:

@@ -28,7 +28,9 @@ class ResurrectionSystemV2:
                         target: int = 250,  # 🌊 BÜYÜK BAŞLANGIÇ!
                         export_dir: str = "en_iyi_loralar",
                         miracle_dir: str = "mucizeler",
-                        device='cpu') -> tuple:
+                        device='cpu',
+                        population: List = None,
+                        distiller=None) -> tuple:
         """
         Hedef popülasyona tamamla (5 aşamalı)
         
@@ -294,7 +296,10 @@ class ResurrectionSystemV2:
             
             for i, (arch_key, arch_data) in enumerate(balanced_archetypes[:balanced_count], 1):
                 # Dengeli karakter spawn et (SPAWN_TYPE = 'balanced')
-                lora = self._spawn_random_lora(device, arch_key, arch_data, spawn_type='balanced')
+                lora = self._spawn_random_lora(
+                    device, arch_key, arch_data, spawn_type='balanced',
+                    population=population, distiller=distiller
+                )
                 all_resurrected.append(lora)
                 stats['balanced_spawned'] += 1
                 remaining -= 1
@@ -332,7 +337,10 @@ class ResurrectionSystemV2:
             
             for i, (arch_key, arch_data) in enumerate(archetypes, 1):
                 # Arketip bazlı uç karakter spawn et (SPAWN_TYPE = 'extreme')
-                lora = self._spawn_random_lora(device, arch_key, arch_data, spawn_type='extreme')
+                lora = self._spawn_random_lora(
+                    device, arch_key, arch_data, spawn_type='extreme',
+                    population=population, distiller=distiller
+                )
                 all_resurrected.append(lora)
                 stats['extreme_spawned'] += 1
                 remaining -= 1
@@ -364,7 +372,10 @@ class ResurrectionSystemV2:
             
             for i in range(remaining):
                 # GERÇEK ALIEN: Hiçbir arketip yok!
-                lora = self._spawn_random_lora(device, spawn_type='alien')
+                lora = self._spawn_random_lora(
+                    device, spawn_type='alien',
+                    population=population, distiller=distiller
+                )
                 all_resurrected.append(lora)
                 stats['alien_spawned'] += 1  # Alien ayrı sayılır!
                 
@@ -445,14 +456,19 @@ class ResurrectionSystemV2:
         
         return lora
     
-    def _spawn_random_lora(self, device='cpu', archetype_key=None, archetype_data=None, spawn_type='alien'):
+    def _spawn_random_lora(self, device='cpu', archetype_key=None, archetype_data=None, spawn_type='alien', 
+                          population: List = None, distiller=None):
         """
         LoRA spawn et (ARKETİP BAZLI veya ALIEN!)
+        
+        🎓 YENİ: Yeni doğan LoRA Master'dan öğrenir (Plan'dan!)
         
         Args:
             archetype_key: Arketip anahtarı (örn: "zen_master")
             archetype_data: Arketip verisi (emoji, temperament, vs)
             spawn_type: 'balanced', 'extreme', veya 'alien'
+            population: Mevcut popülasyon (Master bulmak için)
+            distiller: DeepKnowledgeDistiller instance (Master öğretmek için)
         """
         from .lora_adapter import LoRAAdapter
         import random
@@ -510,6 +526,20 @@ class ResurrectionSystemV2:
         lora.generation = 0
         lora.birth_match = 0
         lora.parents = []
+        
+        # 🎓 MASTER'DAN ÖĞREN! (Plan'dan!)
+        if distiller is not None and population is not None and len(population) > 0:
+            try:
+                taught = distiller.teach_newborn_lora(
+                    lora,
+                    population,
+                    device=device
+                )
+                if taught:
+                    lora._master_taught = True  # İşaretle
+            except Exception as e:
+                # Hata varsa sessizce devam et
+                pass
         
         return lora
 
