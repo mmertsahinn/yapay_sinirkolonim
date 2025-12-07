@@ -45,6 +45,7 @@ from lora_system import (
 # 🧬 DEEP LEARNING & SIEVE (NEW!)
 from lora_system.deep_learning_optimization import DeepKnowledgeDistiller, CollectiveDeepLearner
 from lora_system.background_sieve import BackgroundSieve
+from lora_system.butterfly_effect import ButterflyEffect
 
 # 🎯 ADVANCED CATEGORIZATION (NEW!)
 from lora_system.advanced_categorization import AdvancedCategorization
@@ -228,6 +229,10 @@ class EvolutionaryLearningSystem:
         self.mentorship_system = MentorshipInheritance()
         self.collective_intelligence = CollectiveIntelligence()
         
+        # 11.4) 🦋 Kelebek Etkisi
+        print("\n🦋 Kelebek Etkisi Modülü başlatılıyor...")
+        self.butterfly_effect = ButterflyEffect(self.social_network)
+
         # 12) Wallet Manager
         print("\n💼 LoRA Wallet Manager başlatılıyor...")
         self.wallet_manager = WalletManager(wallet_dir="lora_wallets")
@@ -1749,6 +1754,13 @@ class EvolutionaryLearningSystem:
                 is_trauma=(loss > 2.0) # Travma eşiği
             )
             
+            # 🦋 KELEBEK ETKİSİ TETİKLEME (Her öğrenme adımında şans eseri veya olay bazlı)
+            # Eğer büyük bir kayıp (travma) veya büyük bir değişim varsa tetikle
+            if loss > 1.5 or lora._last_param_change > 0.5:
+                # Olay büyüklüğü: Loss veya değişim miktarı ile orantılı
+                magnitude = min(1.0, (loss / 5.0) + (lora._last_param_change / 2.0))
+                self.butterfly_effect.trigger_effect(lora, magnitude, population)
+
             # 🌊 LANGEVIN DYNAMICS: Stokastik parametre güncellemesi!
             # Öğrenme sonrası parametrelere fiziksel gürültü ekle!
             try:
